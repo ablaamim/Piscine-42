@@ -1,6 +1,0 @@
-# Ex00
-# Ecrire un email a norminet@42.fr
-
-# Objective de l'email : Le chat le plus formidable au monde alaamimi je vous flatte un peu.
-
-# Contenu : Mes remerciements aux staffs, maitres du monde.
