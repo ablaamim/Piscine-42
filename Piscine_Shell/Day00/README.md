@@ -13,5 +13,5 @@
 |  07  |GiT Ignore							|	ex07/		|git_ignore.sh	    |
 |  08  |dif									|	ex08/		|b					|
 |  09  |clean								|	ex09/		|clean				|
-|  10  |Illusions, not tricks, Michael...	|	ex11/		|ft_magic			|
+|  10  |Illusions, not tricks, Michael...	|	ex10/		|ft_magic			|
 
