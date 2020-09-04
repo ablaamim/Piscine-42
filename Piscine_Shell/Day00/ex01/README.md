@@ -8,6 +8,6 @@ You can also use echo command and redirection to redirect the character z inside
 
 Example:
 
-$ echo A > a
+$ echo "A" > a
 
 ### [back](https://github.com/Alaamimi/1337-piscine/tree/master/Piscine_Shell/Day00/ex01)
