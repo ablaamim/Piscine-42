@@ -1,8 +1,10 @@
+------------------------------------------------------------------------------------------------
 # Ex03
-# Titre : Owi, encore...
-# Objective : Creer des fichiers, dossiers et raccourcis ainsi l'utilisation d'outil d'archivage.
-#fichiers :
+# Title : Owi, encore...
+# Objective : Create files, folder and a hardlink.
+# Used files:
 
+------------------------------------------------------------------------------------------------
 #!/bin/bash
 
 mkdir test0 test2 && touch test1 test3 test4 test5
