@@ -1,3 +1,5 @@
+### [back](https://github.com/Alaamimi/1337-piscine/tree/master/Piscine_Shell/Day00/ex02)
+
 ------------------------------------------
 #### Objective:
 ```
@@ -9,34 +11,35 @@ $
 
 ------------------------------------------
 #### Make file size = 40
-When we create the file `testDay00` we can use fallocate command followed by the -l 
-flag to allocate the bite size.
-Example:
+After creating file testDay00 with the command touch, you should resize it,
+the efficient way to do so is by using fallocate with -l flag.
+You can do same thing using multiple commands, like dd (Copy and convert),
+also there is a simple way to just do so, using vim editor, just open file 
+using vim editor, and fill it with characters/symbols.
+Example using fallocate:
 ```
-$ fallocate -l 1337 alaamimi
+$ fallocate -l 40 testDay00
+ls -l
+total 1
+-rw-r--r-- 1 vlad vlad   40 sept.  4 07:53 testDay00
+
+Example using dd:
+
+$ dd if=/dev/zero of=testDay00 bs=40 count=1
+1+0 enregistrements lus
+1+0 enregistrements écrits
+35 bytes copied, 0.000495593 s, 70.6 kB/s
 ------------------------------------------
-#### Change the timestamp (Except ctime/Change time)
+#### Change the timestamp
 Using the command [TOUCH](https://linux.die.net/man/1/touch):
 ```
-$ touch -a -m -t 202406012342 file_name.ext
+$ touch -amt 202406012342 file_name
 ```
 Where:
 ```
--a = accessed.
--m = modified.
--t = timestamp - use [[CC]YY]MMDDhhmm[.ss] time format.
-```
-To verify they are all the same: `$ stat testDay00`
-
->We cannot change the ctime by ordinary means. This is by design: the ctime
-is always updated to the current when you change any of the file's metadata,
-and there is no way to impose a different ctime. To change the ctime of a file,
-you need to do one of the following:
-> 1. Set the system time to the ctime you want to impose, then touch the file,
-then reset the system time.
-> 2. Modify the kernel to add an interface to change the ctime.
-> 3. Access the disk image directly (e.g. with `debugfs`) and twiddle the bits
-on the disk (don't do it while the filesystem is mounted).
+-a = accessed
+-m = modified
+-t = timestamp - use [[CC]YY]MMDDhhmm[.ss] time format
 
 ------------------------------------------
 #### Change file permissions with [CHMOD](https://en.wikipedia.org/wiki/Chmod)
@@ -95,3 +98,4 @@ For more detail read `man` entry of `chmod`:
 $ man chmod
 ```
 ------------------------------------------
+### [back](https://github.com/Alaamimi/1337-piscine/tree/master/Piscine_Shell/Day00/ex02)
