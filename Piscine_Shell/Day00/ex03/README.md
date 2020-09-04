@@ -50,7 +50,7 @@ fact that they share the same `date-stamp`
 And as a review of the difference between __hard__** and __soft__** links we can
 review this image:
 
-![linktypes]"Hard Link vs Soft Link")
+![linktypes](https://github.com/Alaamimi/1337-piscine/blob/master/Piscine_Shell/Day00/ressources/hard-link_vs_soft-link.jpg "Hard Link vs Soft Link")
 
 Here is how we get to that picture:
 1. Create a name `myfile.txt` in the file system that points to a new inode
@@ -79,7 +79,7 @@ touch -h -a -m -t 201806012220.00 test6
 ------------------------------------------
 #### Change the FILE SIZE + timestamp + permissions
 Go here for the __previous__**
-[answer](https://github.com/idevHive/42/blob/master/Piscines/C/Day00/answers/ex01/README.md)
+[answer](https://github.com/Alaamimi/1337-piscine/blob/master/Piscine_Shell/Day00/ex02/notes.md)
 > But is better to leave it to the end, and for now focus on how to create all
 the folders and files accordingly with the requirements and come back to it
 latter.
