@@ -8,6 +8,16 @@ process is necessary in order to find solutions to different problems that once 
 impossible. People learn in groups with other
 students, without teachers. It can be done, and it works.
 
+## How to compile?
+
+We use gcc command on the terminal, with specific flags.
+
+# Expemple:
+
+$> gcc "filename.c" -o "executable.exe" -Wall -Wextra -Werror
+
+#### IF YOU WANT TO LEARN START FROM THE BOTTOM. 
+#### GOOD LUCK.
                                __
                              .d$$b
                            .' TO$;\
