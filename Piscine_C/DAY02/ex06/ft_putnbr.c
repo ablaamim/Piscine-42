@@ -29,26 +29,26 @@ void	ft_putchar(char c)
 
 void	ft_putnbr(int nb)
 {
-	long number;
+	long nbr;
 
-	number = nb;
-	if (number >= 0 && number < 10)
+	nbr = nb;
+	if (nbr >= 0 && nbr < 10)
 	{
-		ft_putchar(number);
+		ft_putchar(nbr);
 	}
-	if (number < 0)
+	if (nbr < 0)
 	{
 		ft_putchar('-');
-		number = -number;
+		nbr = -nbr;
 	}
-	if (number >= 10)
+	if (nbr >= 10)
 	{
-		ft_putnbr(number / 10);
-		ft_putnbr(number % 10);
+		ft_putnbr(nbr / 10);
+		ft_putnbr(nbr % 10);
 	}
 	else
 	{
-		ft_putchar(number + '0');
+		ft_putchar(nbr + '0');
 	}
 }
 
