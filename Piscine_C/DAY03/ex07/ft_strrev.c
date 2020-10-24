@@ -20,7 +20,7 @@
 ------------------------------------------------------*/
 
 #include <stdio.h>
-
+#include <stdlib.h>
 char	*ft_strrev(char *str)
 {
 	int	len;
@@ -53,5 +53,5 @@ int	main(void)
 	printf("%s / ", str);
 	ft_strrev(str);
 	printf("%s", str);
-	return (0);
+	return (EXIT_SUCCESS);
 }

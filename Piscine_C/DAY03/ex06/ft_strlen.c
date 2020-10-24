@@ -20,6 +20,7 @@
 ------------------------------------------------------*/
 
 #include <stdio.h>
+#include <stdlib.h>
 
 int	ft_strlen(char *str)
 {
@@ -39,5 +40,5 @@ int	main(void)
 	
 	str = "abcdefg";
 	printf("%d", ft_strlen(str));
-	return (0);
+	return (EXIT_SUCCESS);
 }

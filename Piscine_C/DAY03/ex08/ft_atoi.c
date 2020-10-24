@@ -20,7 +20,7 @@
 ------------------------------------------------------*/
 
 #include <stdio.h>
-
+#include <stdlib.h>
 int	ft_atoi(char *str)
 {
 	int	i;
@@ -54,5 +54,5 @@ int	main(void)
 	char str[] = "    -2147483648"; //min int value
 
 	printf("%d", ft_atoi(str));
-	return (0);
+	return (EXIT_SUCCESS);
 }
