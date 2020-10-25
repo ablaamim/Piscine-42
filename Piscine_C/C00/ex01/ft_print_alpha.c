@@ -18,49 +18,28 @@
 -        _/  -"  /.'         /:/;                     -
 -     ._.'-'`-'  ")/         /;/;                     -
 ------------------------------------------------------*/
-
 #include <unistd.h>
 #include <stdlib.h>
 
 void	ft_putchar(char c)
 {
-	write(1 , &c, 1);
+	write(1, &c, 1);
 }
 
-void	ft_putnbr(int nb)
+void	ft_print_alphabet()
 {
-	long nbr;
+	char tab[27];
 
-	nbr = nb;
-	if (nbr >= 0 && nbr < 10)
+	tab[0] = 96;
+	while (tab[0]++ < 122)
 	{
-		ft_putchar(nbr);
-	}
-	if (nbr < 0)
-	{
-		ft_putchar('-');
-		nbr = -nbr;
-	}
-	if (nbr >= 10)
-	{
-		ft_putnbr(nbr / 10);
-		ft_putnbr(nbr % 10);
-	}
-	else
-	{
-		ft_putchar(nbr + '0');
+		ft_putchar(tab[0]);
 	}
 }
 
-int	main(int argc, char **argv)
+int	main(void)
 {
-	(void)argc;
-	(void)argv;
-	ft_putnbr(12345);
-	ft_putchar('\n');
-	ft_putnbr(-122);
-	ft_putchar('\n');
-	ft_putnbr(2147483647);
-	ft_putchar('\n');
+	ft_print_alphabet();
+	ft_putchar(10);
 	return (EXIT_SUCCESS);
 }

@@ -18,36 +18,19 @@
 -        _/  -"  /.'         /:/;                     -
 -     ._.'-'`-'  ")/         /;/;                     -
 ------------------------------------------------------*/
-/* Preprocessor directives && libraries*/
-#include <unistd.h>
-#include <stdlib.h> /* Forbiden lib :D */
-/* Print a character on the standard output using write function*/
+#include <unistd.h> /*Preprocessor directive, to include "write"*/
+#include <stdlib.h> /*Preprocessor directive, to use EXIT_SUCCESS Function*/
+
+/*void because the function does not return any value, char is the type of the
+ declared variable c*/
 void	ft_putchar(char c)
 {
-	write(1 , &c, 1); /* write to a file descriptor, consult man 2 write*/
-	/* First parameter is a FD*/
-	/* Second paramater is a buff*/
-	/* Third parameter is bitesize*/
+	write(1, &c, 1); /*System call, read man 2 write*/
 }
-/* Prototyping a function to print alphabets on the stdout from a to z */
-void	ft_print_alphabet(void)
-{
-	char alph; /* Declaration*/
 
-	alph = 97; /* Assignment of a starting value*/
-	while(alph <= 122) /* Loop with a final value instruction to stop it*/
-	{
-		ft_putchar(alph);
-		alph++; /* Increment the value of alph till it last value*/
-	}
-}
-/* Main program, first to be pushed on the stack*/
-int	main(int argc, char **argv)
+int	main()
 {
-	(void)argc; /*Number of arguments*/
-	(void)argv; /*arguments*/
-	ft_print_alphabet(); /*Function call*/
-	ft_putchar('\n'); /*Add a new line*/
-	return (EXIT_SUCCESS); /* End of instructions, better use 0, this is a
-	forbiden function */
+	ft_putchar('@');
+	ft_putchar(12); /*Print a newline*/
+	return(EXIT_SUCCESS); /*End of instructions*/
 }
