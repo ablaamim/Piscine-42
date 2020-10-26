@@ -18,7 +18,7 @@ also there is a simple way to just do so, using vim editor, just open file
 using vim editor, and fill it with characters/symbols.
 Example using fallocate:
 ```
-$ fallocate -l 40 testDay00
+$ fallocate -l 40 testShell00
 ls -l
 total 1
 -rw-r--r-- 1 vlad vlad   40 sept.  4 07:53 testDay00
@@ -85,13 +85,13 @@ So 7 is the combination of permissions 4+2+1 (read, write, and execute),
 |  #  |       Permission        | bin | rwx |
 |:---:|:-----------------------:|:---:|:---:|
 |  7  | read, write and execute | 111 | rwx |
-|  6  | read and write			| 110 | rw- |
-|  5  | read and execute		| 101 | r-x |
-|  4  | read only				| 100 | r-- |
-|  3  | write and execute		| 011 | -wx |
-|  2  | write only				| 010 | -w- |
-|  1  | execute only			| 001 | --x |
-|  0  | none					| 000 | --- |
+|  6  | read and write	        | 110 | rw- |
+|  5  | read and execute	| 101 | r-x |
+|  4  | read only		| 100 | r-- |
+|  3  | write and execute	| 011 | -wx |
+|  2  | write only		| 010 | -w- |
+|  1  | execute only		| 001 | --x |
+|  0  | none			| 000 | --- |
 
 For more detail read `man` entry of `chmod`:
 ```
