@@ -19,27 +19,35 @@
 -     ._.'-'`-'  ")/         /;/;                     -
 ------------------------------------------------------*/
 
-#include <stdio.h>
+#include <unistd.h>
 #include <stdlib.h>
 
-void	ft_div_mod(int a, int b, int *div, int *mod)
+void	ft_putchar(char c)
 {
-	*div = a / b;
-	*mod = a % b;
+	write(1, &c, 1);
 }
 
-int	main(void)
+void	ft_putnbr(int nb)
 {
-	int a;
-	int b;
-	int div;
-	int mod;
+	long nbr;
 
-	a = 42;
-	b = 9;
-	div = 0;
-	mod = 0;	
-	ft_div_mod(a, b, &div, &mod);
-	printf("%d" " " "%d", div, mod);
-	return (EXIT_SUCCESS);
+	nbr = nb;
+	if(nbr < 0)
+	{
+		nbr = -nbr;
+		ft_putchar('-');
+	}
+	if(nbr > 9)
+	{
+		ft_putnbr(nbr / 10);
+		ft_putnbr(nbr % 10);
+	}
+	else
+	ft_putchar(nbr + 48);
+}
+
+int	main()
+{
+	ft_putnbr(-4);
+	return(EXIT_SUCCESS);
 }
