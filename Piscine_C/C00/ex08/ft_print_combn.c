@@ -22,9 +22,9 @@
 #include <unistd.h>
 #include <stdlib.h>
 
-void	ft_putchar(char c)
+void    ft_putchar(char c)
 {
-	write(1, &c, 1);
+    write(1, &c, 1);
 }
 
 void	print_array(int *tab, int size)
@@ -59,10 +59,7 @@ void	ft_print_combn(int n)
 
 	i = -1;
 	if (n <= 0 || n >= 10)
-	{
-		write(1, "Segment fault", 13);
-		return;
-	}
+		return ;
 	while (++i < n)
 		tab[i] = i;
 	while (tab[0] <= 10 - n)
@@ -81,7 +78,6 @@ void	ft_print_combn(int n)
 		}
 	}
 }
-
 int	main(void)
 {
 	ft_print_combn(2);

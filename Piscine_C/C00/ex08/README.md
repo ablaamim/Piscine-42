@@ -1,4 +1,4 @@
-## ft_print_combn.c
+# ft_print_combn.c
 
 //Devil whispers: itterative problem solving and mind stretching problem, it takes time to master but it worths the pain.
 
@@ -10,9 +10,9 @@ Function prototype:
 
 void ft_print_combn(int n);
 
-## Examples: 
+#Examples: 
 
-# Note : The greater the number is, the slower the compilation goes, thats why i optimized my code very well.
+Note : The greater the number is, the slower the compilation goes, thats why i optimized my code very well.
 
 n = 1: 
 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
