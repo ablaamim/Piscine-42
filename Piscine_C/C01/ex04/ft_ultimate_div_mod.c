@@ -46,25 +46,28 @@ void	ft_putnbr(int nb)
 		ft_putchar(nbr + 48);
 }
 
-void	ft_div_mod(int a, int b, int *div, int *mod)
+void	ft_ultimate_div_mod(int *a, int *b)
 {
-	*div = a / b;
-	*mod = a % b;
+	int div;
+	int mod;
+
+	div = *a / *b;
+	mod = *a % *b;
+	*a = div;
+	*b = mod;
 }
 
 int	main(void)
 {
 	int a;
 	int b;
-	int div;
-	int mod;
 
 	a = 10;
 	b = 3;
-	ft_div_mod(a, b, &div, &mod);
-	ft_putnbr(div);
+	ft_ultimate_div_mod(&a, &b);
+	ft_putnbr(a);
 	ft_putchar(10);
-	ft_putnbr(mod);
+	ft_putnbr(b);
 	ft_putchar(10);
 	return(EXIT_SUCCESS);
 }

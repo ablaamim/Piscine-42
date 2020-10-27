@@ -32,12 +32,12 @@ void	ft_putnbr(int nb)
 	long nbr;
 
 	nbr = nb;
-	if(nbr < 0)
+	if (nbr < 0)
 	{
 		nbr = -nbr;
 		ft_putchar('-');
 	}
-	if(nbr > 9)
+	if (nbr > 9)
 	{
 		ft_putnbr(nbr / 10);
 		ft_putnbr(nbr % 10);
