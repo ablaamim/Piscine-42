@@ -101,4 +101,3 @@ link using options such as this (from `man chmod`):
 rather than the file that the link points to.
 
 ------------------------------------------
-### [back](https://github.com/Alaamimi/1337-piscine/tree/master/Piscine_Shell/Day00/ex03)

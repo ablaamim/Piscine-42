@@ -23,6 +23,5 @@ For those looking for more go to my [sources](https://unix.stackexchange.com/que
 here.
 
 ------------------------------------------
-### [back](https://github.com/Alaamimi/1337-piscine/tree/master/Piscine_Shell/Day00/ex05)
 
 

@@ -10,4 +10,3 @@ Example:
 
 $ echo "A" > a
 
-### [back](https://github.com/Alaamimi/1337-piscine/tree/master/Piscine_Shell/Day00/ex01)

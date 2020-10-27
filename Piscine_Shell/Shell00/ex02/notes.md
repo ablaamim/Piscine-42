@@ -97,5 +97,3 @@ For more detail read `man` entry of `chmod`:
 ```
 $ man chmod
 ```
-------------------------------------------
-### [back](https://github.com/Alaamimi/1337-piscine/tree/master/Piscine_Shell/Day00/ex02)
