@@ -1,34 +1,50 @@
+/*-----------------------------------------------------
+-                               __                    -
+-                             .d$$b                   -
+-                           .' TO$;\                  -
+-                          /  : TP._;                 -
+-                         / _.;  :Tb|                 -
+-                        /   /   ;j$j                 -
+-                    _.-"       d$$$$                 -
+-                  .' ..       d$$$$;                 -
+-                 /  /P'      d$$$$P. |\              -
+-                /   "      .d$$$P' |\^"l             -
+-              .'           `T$P^"""""  :             -
+-          ._.'      _.'                ;             -
+-       `-.-".-'-' ._.       _.-"    .-"              -
+-     `.-" _____  ._              .-"                 -
+-    -(.g$$$$$$$b.              .'                    -
+-      ""^^T$$$P^)            .(:                     -
+-        _/  -"  /.'         /:/;                     -
+-     ._.'-'`-'  ")/         /;/;                     -
+------------------------------------------------------*/
+
 #include <stdlib.h>
 #include <unistd.h>
-#include <stdio.h>
 
-void	ft_pustr(char *str)
+void	ft_putstr(char *str)
 {
-	while (*str != '\0')
+	while(*str != '\0')
 		write(1, &(*str++), 1);
 }
 
 char	*ft_strcpy(char *dest, char *src)
 {
-	int i;
-
-	i = 0;
-	while(src[i] != '\0')
+	while(*src != '\0')
 	{
-		dest[i] = src[i];
-		i++;
+		*dest++ = *src++;
 	}
-	dest[i] = '\0';
+	*dest = '\0';
 	return(dest);
 }
 
 int	main(void)
 {
-	char src[] = "1337\n";
-	char dest[] = "Where to copy string\n";
-	ft_pustr(src);
-	ft_pustr(dest);
+	char src[] = "testing\n";
+	char dest[] = "Copied into string block\n";
+	ft_putstr(src);
+	ft_putstr(dest);
 	ft_strcpy(dest, src);
-	ft_pustr(dest);
-	return(EXIT_SUCCESS);
+	ft_putstr(dest);
+	return (EXIT_SUCCESS);
 }
