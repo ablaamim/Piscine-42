@@ -30,7 +30,7 @@ void	ft_putstr(char *str)
 
 char	*ft_strcpy(char *dest, char *src)
 {
-	while(*src != '\0')
+	while(*src)
 	{
 		*dest++ = *src++;
 	}
@@ -41,9 +41,7 @@ char	*ft_strcpy(char *dest, char *src)
 int	main(void)
 {
 	char src[] = "testing\n";
-	char dest[] = "Copied into string block\n";
-	ft_putstr(src);
-	ft_putstr(dest);
+	char dest[256];
 	ft_strcpy(dest, src);
 	ft_putstr(dest);
 	return (EXIT_SUCCESS);

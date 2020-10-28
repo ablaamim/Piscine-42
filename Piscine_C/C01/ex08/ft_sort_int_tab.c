@@ -95,7 +95,7 @@ void	affich_tab(int *tab, int size)
 }
 int	main(void)
 {
-int tab[] = {5, 4, 3, 2, 1, 0};
+	int tab[] = {5, 4, 3, 2, 1, 0};
 	int tab2[] = {256, 156, 1654, 215, 15681, 145, 51845, 15};
 	int size;
 	int size2;
