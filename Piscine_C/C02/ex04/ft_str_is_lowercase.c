@@ -18,13 +18,12 @@
 -        _/  -"  /.'         /:/;                     -
 -     ._.'-'`-'  ")/         /;/;                     -
 ------------------------------------------------------*/
-/*No more mains for now, i will respect the norm un less its a program*/
 
-int	ft_str_is_alpha(char *str)
+int	ft_str_is_lowercase(char *str)
 {
 	while (*str)
 	{
-		if (!((*str >= 'A' && *str <= 'Z') || (*str >= 'a' && *str <= 'z')))
+		if (*str < 'a' || *str > 'z')
 			return (0);
 		str++;
 	}
