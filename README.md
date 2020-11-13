@@ -14,7 +14,7 @@ students, without teachers. It can be done, and it works.
 
 We use gcc command on the terminal, with specific flags.
 
-<IMG SRC="https://upload.wikimedia.org/wikipedia/commons/a/af/GNU_Compiler_Collection_logo.svg" WIDTH=800>
+<IMG SRC="https://upload.wikimedia.org/wikipedia/commons/a/af/GNU_Compiler_Collection_logo.svg" WIDTH=300>
 # Expemple:
 
 $> gcc "filename.c" -o "executable.exe" -Wall -Wextra -Werror
