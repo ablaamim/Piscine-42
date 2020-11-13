@@ -1,6 +1,7 @@
 ### 1337 School
 <IMG SRC="https://1337.ma/static/b8296aebbcc7fb3ce15ae9e4a66d82fa/25252/cluster.jpg" WIDTH="600">
-## Piscine 2020 new subjects
+
+### Piscine 2020 new subjects
 
 This project is a programming bootcamp at 1337 school, it lasts roughly 
 4 weeks, working 7 days a week, day and night.
@@ -10,7 +11,7 @@ process is necessary in order to find solutions to different problems that
 once thought impossible. People learn in groups with other
 students, without teachers. It can be done, and it works.
 
-## How to compile?
+### How to compile?
 
 We use gcc command on the terminal, with specific flags.
 
