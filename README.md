@@ -20,11 +20,11 @@ We use gcc command on the terminal, with specific flags.
 $> gcc "filename.c" -o "executable.exe" -Wall -Wextra -Werror
 
 #### IF YOU WANT TO LEARN START FROM THE BOTTOM. 
-## AND NEVER FORGET TO READ THR FUCKING MANUAL ;)
+## AND NEVER FORGET TO READ THE FUCKING MANUAL ;)
 
 <IMG SRC="https://postcoitum429456745.files.wordpress.com/2018/10/mao_rtfm_vectorize_by_cmenghi.png" WIDTH="400">
 
-#### GOOD LUCK
+#### GOOD LUCK.
                                __
                              .d$$b
                            .' TO$;\
