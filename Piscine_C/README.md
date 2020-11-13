@@ -1,8 +1,8 @@
-# C POOL TOOLKIT
+### C POOL TOOLKIT
 
 <IMG SRC="https://64.media.tumblr.com/ab95eba62064b6ca1622dbcf4fb50a63/tumblr_otjmkidZks1us7drco1_500.jpg" WIDTH="400">
 
-# QUICK AND DIRTY GUIDE TO C
+### QUICK AND DIRTY GUIDE TO C
 
 https://courses.cs.washington.edu/courses/cse351/16wi/sections/1/Cheatsheet-c.pdf
 
