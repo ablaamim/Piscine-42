@@ -1,7 +1,8 @@
-### 1337 School
+## 1337 School
+
 <IMG SRC="https://1337.ma/static/b8296aebbcc7fb3ce15ae9e4a66d82fa/25252/cluster.jpg" WIDTH="600">
 
-### Piscine 2020 new subjects
+## Piscine 2020 new subjects
 
 This project is a programming bootcamp at 1337 school, it lasts roughly 
 4 weeks, working 7 days a week, day and night.
@@ -11,22 +12,22 @@ process is necessary in order to find solutions to different problems that
 once thought impossible. People learn in groups with other
 students, without teachers. It can be done, and it works.
 
-### How to compile?
+## How to compile?
 
 We use gcc command on the terminal, with specific flags.
 
 <IMG SRC="https://upload.wikimedia.org/wikipedia/commons/a/af/GNU_Compiler_Collection_logo.svg" WIDTH="300">
 
-# Expemple:
+## Expemple:
 
 $> gcc "filename.c" -o "executable.exe" -Wall -Wextra -Werror
 
-#### IF YOU WANT TO LEARN START FROM THE BOTTOM. 
+## IF YOU WANT TO LEARN START FROM THE BOTTOM. 
 ## AND NEVER FORGET TO READ THE FUCKING MANUAL ;)
 
 <IMG SRC="https://postcoitum429456745.files.wordpress.com/2018/10/mao_rtfm_vectorize_by_cmenghi.png" WIDTH="400">
 
-#### GOOD LUCK.
+## GOOD LUCK.
                                __
                              .d$$b
                            .' TO$;\
