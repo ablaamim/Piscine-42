@@ -21,9 +21,9 @@ I will only list the main ones
 |double|8|Used for computer graphics, more precised than float but takes more memory
 |unsigned|.|Apply to char, short, int and long, means than it cannot have negative values
 
-### ft_putchar
+### ft_putchar using system calls
 
-*A minimalist c program that will puzzle beginners, write it in a file named a.c and create a.out with ```gcc a.c && ./a.out```*
+*A minimal c program that will puzzle beginners, write it in a file named ft_putchar.c and create a.out with ```gcc ft_putchar.c && ./a.out```*
 
 The following program will print a char by making use of [write](http://man7.org/linux/man-pages/man2/write.2.html)
 
@@ -44,6 +44,3 @@ int	main(void) {
 	return 0;
 }
 ```
-
-Once you understand well how to print a character, you should try to return the length of many together 
-(it is called a [string](https://en.wikipedia.org/wiki/String_(computer_science)))
