@@ -1,6 +1,6 @@
 ### 1337 School
 <IMG SRC="https://1337.ma/static/b8296aebbcc7fb3ce15ae9e4a66d82fa/25252/cluster.jpg" WIDTH="600">
-## Piscine 2020 new subjects:
+## Piscine 2020 new subjects
 
 This project is a programming bootcamp at 1337 school, it lasts roughly 
 4 weeks, working 7 days a week, day and night.
