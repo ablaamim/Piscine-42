@@ -20,7 +20,7 @@ We use gcc command on the terminal, with specific flags.
 
 ## Expemple:
 
-$> gcc "filename.c" -o "executable.exe" -Wall -Wextra -Werror
+```$> gcc "filename.c" -o "executable.exe" -Wall -Wextra -Werror```
 
 ## IF YOU WANT TO LEARN START FROM THE BOTTOM. 
 ## AND NEVER FORGET TO READ THE FUCKING MANUAL ;)
