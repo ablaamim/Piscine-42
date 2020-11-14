@@ -1,36 +1,16 @@
-/*-----------------------------------------------------
--                               __                    -
--                             .d$$b                   -
--                           .' TO$;\                  -
--                          /  : TP._;                 -
--                         / _.;  :Tb|                 -
--                        /   /   ;j$j                 -
--                    _.-"       d$$$$                 -
--                  .' ..       d$$$$;                 -
--                 /  /P'      d$$$$P. |\              -
--                /   "      .d$$$P' |\^"l             -
--              .'           `T$P^"""""  :             -
--          ._.'      _.'                ;             -
--       `-.-".-'-' ._.       _.-"    .-"              -
--     `.-" _____  ._              .-"                 -
--    -(.g$$$$$$$b.              .'                    -
--      ""^^T$$$P^)            .(:                     -
--        _/  -"  /.'         /:/;                     -
--     ._.'-'`-'  ")/         /;/;                     -
-------------------------------------------------------*/
-#include <unistd.h> /*Preprocessor directive, to include "write"*/
-#include <stdlib.h> /*Preprocessor directive, to use EXIT_SUCCESS Function*/
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_putchar.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: alaamimi <alaamimi@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2020/11/15 00:31:35 by alaamimi          #+#    #+#             */
+/*   Updated: 2020/11/15 00:32:13 by root             ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-void	ft_putchar(char c) /*void is the type of returned value*/
+void	ft_putchar(char c)
 {
-	write(1, &c, 1); /*System call, read man 2 write*/
+	write(1, &c, 1);
 }
-
-int	main() /*Entry point of a c program*/
-{
-	ft_putchar('@'); /*Print an @ in the stdout*/
-	ft_putchar(10); /*Print a newline*/
-	return(EXIT_SUCCESS); /*End of instructions*/
-}
-/*This function prints characters in the stdout one by one following 
-  ascii mapping, so in the main ft_putchar calls write to output chars*/
