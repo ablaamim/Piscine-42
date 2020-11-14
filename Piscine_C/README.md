@@ -1,14 +1,15 @@
-### C POOL TOOLKIT
+### C POOL TOOLKIT:
 
 <IMG SRC="https://64.media.tumblr.com/ab95eba62064b6ca1622dbcf4fb50a63/tumblr_otjmkidZks1us7drco1_500.jpg" WIDTH="400">
 
-### QUICK AND DIRTY GUIDE TO C
+### QUICK AND DIRTY GUIDE TO C:
 
-https://courses.cs.washington.edu/courses/cse351/16wi/sections/1/Cheatsheet-c.pdf
+Here is a where to start besides the intranet videos which are far way too important to watch.
+-----> https://courses.cs.washington.edu/courses/cse351/16wi/sections/1/Cheatsheet-c.pdf
 
-### C Data Types
+### C Data Types:
 
-I will only list the main ones
+I will only list the main ones!
 
 |Data Type|Bytes|Description|
 |-|-|-|
@@ -21,7 +22,7 @@ I will only list the main ones
 |double|8|Used for computer graphics, more precised than float but takes more memory
 |unsigned|.|Apply to char, short, int and long, means than it cannot have negative values
 
-### ft_putchar using system calls
+### Ft_putchar using system calls
 
 *A minimal c program that will puzzle beginners, write it in a file named ft_putchar.c and create a.out with ```gcc ft_putchar.c && ./a.out```*
 
@@ -44,6 +45,6 @@ int	main(void) {
 	return 0;
 }
 ```
-### ASCII TABLE
+### ASCII TABLE IS IMPORTANT FOR THIS C00 PROJECT
 
 <IMG SRC="https://pascal.developpez.com/cours/cyberzoide/images/ascii.gif" WIDTH="800">
