@@ -44,3 +44,6 @@ int	main(void) {
 	return 0;
 }
 ```
+### ASCII
+
+<IMG SRC="https://pascal.developpez.com/cours/cyberzoide/images/ascii.gif" WIDTH="500">
