@@ -21,17 +21,14 @@
 #include <unistd.h> /*Preprocessor directive, to include "write"*/
 #include <stdlib.h> /*Preprocessor directive, to use EXIT_SUCCESS Function*/
 
-/*void because the function does not return any value, char is the type of the
- declared variable in parameters*/
-
-void	ft_putchar(char c)
+void	ft_putchar(char c) /*void is the type of returned value*/
 {
 	write(1, &c, 1); /*System call, read man 2 write*/
 }
 
-int	main()
+int	main() /*Entry point of a c program*/
 {
-	ft_putchar('@');
+	ft_putchar('@'); /*Print an @ in the stdout*/
 	ft_putchar(10); /*Print a newline*/
 	return(EXIT_SUCCESS); /*End of instructions*/
 }
