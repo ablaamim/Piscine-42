@@ -22,7 +22,8 @@
 #include <stdlib.h> /*Preprocessor directive, to use EXIT_SUCCESS Function*/
 
 /*void because the function does not return any value, char is the type of the
- declared variable c*/
+ declared variable in parameters*/
+
 void	ft_putchar(char c)
 {
 	write(1, &c, 1); /*System call, read man 2 write*/
@@ -31,6 +32,8 @@ void	ft_putchar(char c)
 int	main()
 {
 	ft_putchar('@');
-	ft_putchar(12); /*Print a newline*/
+	ft_putchar(10); /*Print a newline*/
 	return(EXIT_SUCCESS); /*End of instructions*/
 }
+/*This function prints characters in the stdout one by one following 
+  ascii mapping, so in the main ft_putchar calls write to output chars*/
