@@ -44,6 +44,6 @@ int	main(void) {
 	return 0;
 }
 ```
-### ASCII
+### ASCII TABLE
 
 <IMG SRC="https://pascal.developpez.com/cours/cyberzoide/images/ascii.gif" WIDTH="800">
