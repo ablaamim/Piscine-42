@@ -28,12 +28,12 @@ void	ft_putchar(char c)
 
 void	ft_print_alphabet()
 {
-	char tab[27];
+	char ltr;
 
-	tab[0] = 96;
-	while (tab[0]++ < 122)
+	ltr = 96;
+	while (ltr++ < 122)
 	{
-		ft_putchar(tab[0]);
+		ft_putchar(ltr);
 	}
 }
 
