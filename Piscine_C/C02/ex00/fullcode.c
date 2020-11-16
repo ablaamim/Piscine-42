@@ -41,7 +41,8 @@ char	*ft_strcpy(char *dest, char *src)
 int	main(void)
 {
 	char src[] = "testing\n";
-	char dest[256];
+	char dest[] = "qqqq             qqqq\n";
+	ft_putstr(dest);
 	ft_strcpy(dest, src);
 	ft_putstr(dest);
 	return (EXIT_SUCCESS);
