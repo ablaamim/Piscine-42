@@ -9,7 +9,7 @@ Here is a where to start besides the intranet videos which are far way too impor
 
 ### C Data Types:
 
-I will only list the main ones!
+I will only list the important ones!
 
 |Data Type|Bytes|Description|
 |-|-|-|
@@ -45,6 +45,6 @@ int	main(void) {
 	return 0;
 }
 ```
-### ASCII TABLE IS IMPORTANT FOR THIS C00 PROJECT
+### ASCII TABLE IS IMPORTANT FOR THIS PROJECT!
 
 <IMG SRC="https://pascal.developpez.com/cours/cyberzoide/images/ascii.gif" WIDTH="800">
