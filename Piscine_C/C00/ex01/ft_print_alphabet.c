@@ -6,7 +6,7 @@
 /*   By: alaamimi <alaamimi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/15 06:05:55 by alaamimi          #+#    #+#             */
-/*   Updated: 2020/11/15 06:28:01 by alaamimi         ###   ########.fr       */
+/*   Updated: 2021/01/17 10:23:51 by alaamimi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,9 +19,10 @@ void	ft_print_alphabet(void)
 {
 	char ltr;
 
-	ltr = 96;
-	while(ltr++ < 122)
+	ltr = 97;
+	while(ltr <= 122)
 	{
 		ft_putchar(ltr);
+		ltr++;
 	}
 }
