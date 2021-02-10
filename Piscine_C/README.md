@@ -5,7 +5,7 @@
 ### QUICK AND DIRTY GUIDE TO C:
 
 Here is a where to start, besides the intranet are important to watch..
------> https://courses.cs.washington.edu/courses/cse351/16wi/sections/1/Cheatsheet-c.pdf
+[LINK](https://courses.cs.washington.edu/courses/cse351/16wi/sections/1/Cheatsheet-c.pdf)
 
 ### C Data Types:
 
