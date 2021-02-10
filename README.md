@@ -1,8 +1,8 @@
-## 1337 School
+## 1337 School (42 Network) :
 
 <IMG SRC="https://1337.ma/static/b8296aebbcc7fb3ce15ae9e4a66d82fa/25252/cluster.jpg" WIDTH="600">
 
-## Piscine 2020 new subjects
+## Piscine 2020 new subjects :
 
 This project is a programming bootcamp at 1337 school, it lasts roughly 
 4 weeks, working 7 days a week, day and night.
@@ -18,7 +18,7 @@ We use gcc command on the terminal, with specific flags.
 
 <IMG SRC="https://upload.wikimedia.org/wikipedia/commons/a/af/GNU_Compiler_Collection_logo.svg" WIDTH="300">
 
-## Expemple:
+## Example:
 
 ```$> gcc "filename.c" -o "executable.exe" -Wall -Wextra -Werror```
 
@@ -26,24 +26,4 @@ We use gcc command on the terminal, with specific flags.
 ## AND NEVER FORGET TO READ THE FUCKING MANUAL ;)
 
 <IMG SRC="https://postcoitum429456745.files.wordpress.com/2018/10/mao_rtfm_vectorize_by_cmenghi.png" WIDTH="400">
-
-## GOOD LUCK.
-                               __
-                             .d$$b
-                           .' TO$;\
-                          /  : TP._;
-                         / _.;  :Tb|
-                        /   /   ;j$j
-                    _.-"       d$$$$
-                  .' ..       d$$$$;
-                 /  /P'      d$$$$P. |\
-                /   "      .d$$$P' |\^"l
-              .'           `T$P^"""""  :
-          ._.'      _.'                ;
-       `-.-".-'-' ._.       _.-"    .-"
-     `.-" _____  ._              .-"
-    -(.g$$$$$$$b.              .'
-      ""^^T$$$P^)            .(:
-        _/  -"  /.'         /:/;
-     ._.'-'`-'  ")/         /;/
 
