@@ -9,7 +9,7 @@ Here is a where to start, besides the intranet are important to watch..
 
 ### C Data Types:
 
-I will only list the important ones!
+> I will only list the important ones!
 
 |Data Type|Bytes|Description|
 |-|-|-|

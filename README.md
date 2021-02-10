@@ -14,7 +14,7 @@ students, without teachers. It can be done, and it works.
 
 ## How to compile?
 
-We use gcc command on the terminal, with specific flags.
+> We use gcc command on the terminal, with specific flags.
 
 <IMG SRC="https://upload.wikimedia.org/wikipedia/commons/a/af/GNU_Compiler_Collection_logo.svg" WIDTH="300">
 
@@ -22,8 +22,8 @@ We use gcc command on the terminal, with specific flags.
 
 ```$> gcc "filename.c" -o "executable.exe" -Wall -Wextra -Werror```
 
-## IF YOU WANT TO LEARN START FROM THE BOTTOM. 
-## AND NEVER FORGET TO READ THE FUCKING MANUAL ;)
+> IF YOU WANT TO LEARN START FROM THE BOTTOM. 
+> AND NEVER FORGET TO READ THE FUCKING MANUAL ;)
 
 <IMG SRC="https://postcoitum429456745.files.wordpress.com/2018/10/mao_rtfm_vectorize_by_cmenghi.png" WIDTH="400">
 
