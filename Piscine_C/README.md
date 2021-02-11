@@ -7,7 +7,7 @@
 > Here is a where to start, besides the intranet are important to watch..
 [LINK](https://courses.cs.washington.edu/courses/cse351/16wi/sections/1/Cheatsheet-c.pdf)
 
-### C Data Types:
+### C Data Types :
 
 > I will only list the important ones!
 
