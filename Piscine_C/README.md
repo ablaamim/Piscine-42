@@ -22,7 +22,7 @@ Here is a where to start, besides the intranet are important to watch..
 |double|8|Used for computer graphics, more precised than float but takes more memory
 |unsigned|.|Apply to char, short, int and long, means than it cannot have negative values
 
-### Ft_putchar using system calls
+> Ft_putchar using system calls
 
 *A minimal c program that will puzzle beginners, write it in a file named ft_putchar.c and create a.out with ```gcc ft_putchar.c && ./a.out```*
 
