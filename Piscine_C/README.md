@@ -45,6 +45,6 @@ int	main(void) {
 	return 0;
 }
 ```
-### ASCII TABLE IS IMPORTANT FOR THIS PROJECT!
+> ASCII TABLE IS IMPORTANT FOR THIS PROJECT!
 
-<IMG SRC="https://pascal.developpez.com/cours/cyberzoide/images/ascii.gif" WIDTH="800">
+<IMG SRC="https://pascal.developpez.com/cours/cyberzoide/images/ascii.gif">
