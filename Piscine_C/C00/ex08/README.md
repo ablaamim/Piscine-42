@@ -1,8 +1,8 @@
-# ft_print_combn.c
+# :dart: ft_print_combn.c
 
-//Devil whispers: itterative problem solving and mind stretching problem, it takes time to master but it worths the pain.
+The devil whispers: itterative problem solving and mind stretching problem, it takes time to master but it worths the pain.
 
-# Goal:
+# :books: Goal:
 
 Algorithm exercice, the purpose is to print all combinaisons possibles with n numbers while (0 < n < 10).
 
@@ -10,7 +10,7 @@ Function prototype:
 
 void ft_print_combn(int n);
 
-#Examples: 
+# Examples: 
 
 Note : The greater the number is, the slower the compilation goes, thats why i optimized my code very well.
 
