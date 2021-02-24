@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   fullcode.c                                         :+:      :+:    :+:   */
+/*   ft_print_numbers.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: alaamimi <alaamimi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/02/24 19:09:52 by alaamimi          #+#    #+#             */
-/*   Updated: 2021/02/24 19:11:17 by alaamimi         ###   ########.fr       */
+/*   Created: 2021/02/24 19:16:17 by alaamimi          #+#    #+#             */
+/*   Updated: 2021/02/24 19:16:28 by alaamimi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,21 +18,21 @@ void	ft_putchar(char c)
 	write(1, &c, 1);
 }
 
-void	ft_print_reverse_alphabet(void)
+void	ft_print_numbers()
 {
-	char ltr;
+	char nbr;
 
-	ltr = 'z';
-	while(ltr >= 'a')
+	nbr = '0';
+	while(nbr <= '9')
 	{
-		ft_putchar(ltr);
-		ltr--;
+		ft_putchar(nbr);
+		nbr++;
 	}
 }
 
-int	main()
+int	main(void)
 {
-	ft_print_reverse_alphabet();
+	ft_print_numbers();
 		ft_putchar('\n');
 	return(EXIT_SUCCESS);
 }

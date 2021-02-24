@@ -6,7 +6,7 @@
 /*   By: alaamimi <alaamimi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/01/02 20:25:22 by alaamimi          #+#    #+#             */
-/*   Updated: 2021/01/17 10:22:59 by alaamimi         ###   ########.fr       */
+/*   Updated: 2021/02/24 19:14:29 by alaamimi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,6 +33,6 @@ void	ft_print_alphabet() /*Function to print alphabets in the stdout*/
 int	main(void)
 {
 	ft_print_alphabet();
-	ft_putchar(10);
-	return (EXIT_SUCCESS);
+		ft_putchar('\n');
+	return (EXIT_SUCCESS); /*This forbiden*/
 }
