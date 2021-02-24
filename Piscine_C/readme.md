@@ -1,19 +1,23 @@
-### :dart: table of content :
+### :dart: Table of content :
 
 | Projct | PDF | Solutions |
 |---     |---  |---        |
 | C00	| [C00 PDF](https://github.com/Alaamimi/Piscine-42/blob/master/Piscine_C/C00/c00.pdf) | [9 Problems](https://github.com/Alaamimi/Piscine-42/tree/master/Piscine_C/C00) |
 | C01 | [C01 PDF](https://github.com/Alaamimi/Piscine-42/blob/master/Piscine_C/C01/c01.pdf) | [9 Problems](https://github.com/Alaamimi/Piscine-42/tree/master/Piscine_C/C01) |
 | C02 | [C02 PDF](https://github.com/Alaamimi/Piscine-42/blob/master/Piscine_C/C02/c02.pdf) | [13 Problems](https://github.com/Alaamimi/Piscine-42/tree/master/Piscine_C/C02) |
+| C03 | [C03 PDF](https://github.com/Alaamimi/Piscine-42/blob/master/Piscine_C/C03/c03.pdf) | [6 Problems](https://github.com/Alaamimi/Piscine-42/tree/master/Piscine_C/C03) |
+| C04 | [C04 PDF](https://github.com/Alaamimi/Piscine-42/tree/master/Piscine_C/C04) | [6 Problems](https://github.com/Alaamimi/Piscine-42/blob/master/Piscine_C/C04/c04.pdf) |
+| C05 | [C05 PDF](https://github.com/Alaamimi/Piscine-42/blob/master/Piscine_C/C05/c05.pdf) | [9 Problems](https://github.com/Alaamimi/Piscine-42/tree/master/Piscine_C/C05) |
+| C06 | [C06 PDF](https://github.com/Alaamimi/Piscine-42/blob/master/Piscine_C/C06/c06.pdf) | [4 Problems](https://github.com/Alaamimi/Piscine-42/tree/master/Piscine_C/C06) |
+| C07 | [C07 PDF]() | [ Problems]() |
 
 ### :books: C POOL TOOLKIT :
 
-<IMG SRC="https://64.media.tumblr.com/ab95eba62064b6ca1622dbcf4fb50a63/tumblr_otjmkidZks1us7drco1_500.jpg" WIDTH="400">
+<IMG SRC="https://64.media.tumblr.com/ab95eba62064b6ca1622dbcf4fb50a63/tumblr_otjmkidZks1us7drco1_500.jpg" WIDTH="700">
 
 ### :information_source: QUICK AND DIRTY GUIDE TO C :
 
-> Here is a where to start, besides the intranet are important to watch..
-[LINK](https://courses.cs.washington.edu/courses/cse351/16wi/sections/1/Cheatsheet-c.pdf)
+:wrench: [Feed this to yourself](https://courses.cs.washington.edu/courses/cse351/16wi/sections/1/Cheatsheet-c.pdf)
 
 ### :information_source: C Data Types :
 
