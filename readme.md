@@ -34,5 +34,5 @@ students, without teachers. It can be done, and it works.
 
 > AND NEVER FORGET TO READ THE FUCKING MANUAL ;)
 
-<img src="https://postcoitum429456745.files.wordpress.com/2018/10/mao_rtfm_vectorize_by_cmenghi.png" width="900">
+<img src="https://postcoitum429456745.files.wordpress.com/2018/10/mao_rtfm_vectorize_by_cmenghi.png" width="700">
 
