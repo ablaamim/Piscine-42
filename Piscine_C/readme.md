@@ -17,11 +17,11 @@
 
 <IMG SRC="https://64.media.tumblr.com/ab95eba62064b6ca1622dbcf4fb50a63/tumblr_otjmkidZks1us7drco1_500.jpg" WIDTH="500">
 
-### :information_source: QUICK AND DIRTY GUIDE TO C :
+#### :information_source: QUICK AND DIRTY GUIDE TO C :
 
 :wrench: [Feed this to yourself](https://courses.cs.washington.edu/courses/cse351/16wi/sections/1/Cheatsheet-c.pdf)
 
-### :information_source: C Data Types :
+#### :information_source: C Data Types :
 
 > I will only list the important ones!
 
@@ -36,7 +36,7 @@
 |double|8|Used for computer graphics, more precised than float but takes more memory
 |unsigned|.|Apply to char, short, int and long, means than it cannot have negative values
 
-### :floppy_disk: Ft_putchar using system calls :
+#### :floppy_disk: Ft_putchar using system calls :
 
 > *A minimal c program that will puzzle beginners, write it in a file named ft_putchar.c and create a.out with ```gcc ft_putchar.c && ./a.out```*
 
@@ -59,6 +59,6 @@ int	main(void) {
 	return 0;
 }
 ```
-### :books: ASCII TABLE IS IMPORTANT FOR THIS PROJECT, BETTER UNDERSTAND IT WELL!
+#### :books: ASCII TABLE IS IMPORTANT FOR THIS PROJECT, BETTER UNDERSTAND IT WELL!
 
 <IMG SRC="https://pascal.developpez.com/cours/cyberzoide/images/ascii.gif">
