@@ -16,16 +16,16 @@ students, without teachers. It can be done, and it works.
 
 <img src="http://memes.ucoz.com/_nw/41/85352863.jpg" width="900">
 
-:tv:[Shell && Git videos](https://www.youtube.com/playlist?list=PLVQYiy6xNUxxhvwi0PGmXb5isUdVwmsg8)
-:tv:[Piscine c ressources](https://www.youtube.com/watch?v=U7jUVw1-cew&list=PLJq0wyQXdXmXxjCHKe_N1MuG9gEGsXYXH&ab_channel=jyloup85)
+:tv: [Shell && Git videos](https://www.youtube.com/playlist?list=PLVQYiy6xNUxxhvwi0PGmXb5isUdVwmsg8)
+:tv: [Piscine c ressources](https://www.youtube.com/watch?v=U7jUVw1-cew&list=PLJq0wyQXdXmXxjCHKe_N1MuG9gEGsXYXH&ab_channel=jyloup85)
 
 ## :floppy_disk: How to compile?
 
-> We use gcc command on the terminal, with specific flags.
+> We use gcc command with specific flags.
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/a/af/GNU_Compiler_Collection_logo.svg" width="300">
 
-## Example:
+> Example:
 
 ```$> gcc "filename.c" -o "executable.exe" -Wall -Wextra -Werror```
 
