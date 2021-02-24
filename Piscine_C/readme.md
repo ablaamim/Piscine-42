@@ -1,13 +1,19 @@
+### :dart: table of content :
+
+| Projct | PDF | Solutions |
+|---     |---  |---        |
+| C00	| [C00 PDF](https://github.com/Alaamimi/Piscine-42/blob/master/Piscine_C/C00/c00.pdf) | [11 Problems](https://github.com/Alaamimi/Piscine-42/tree/master/Piscine_C/C00) |
+
 ### :books: C POOL TOOLKIT :
 
 <IMG SRC="https://64.media.tumblr.com/ab95eba62064b6ca1622dbcf4fb50a63/tumblr_otjmkidZks1us7drco1_500.jpg" WIDTH="400">
 
-### :books: QUICK AND DIRTY GUIDE TO C :
+### :information_source: QUICK AND DIRTY GUIDE TO C :
 
 > Here is a where to start, besides the intranet are important to watch..
 [LINK](https://courses.cs.washington.edu/courses/cse351/16wi/sections/1/Cheatsheet-c.pdf)
 
-### :books: C Data Types :
+### :information_source: C Data Types :
 
 > I will only list the important ones!
 
