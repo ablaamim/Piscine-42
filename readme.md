@@ -28,11 +28,11 @@ students, without teachers. It can be done, and it works.
 
 ## :floppy_disk: How to compile?
 
-> We use gcc command on the terminal, with specific flags.
+> We use gcc command with specific flags.
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/a/af/GNU_Compiler_Collection_logo.svg" width="300">
 
-## Example:
+> Example:
 
 ```$> gcc "filename.c" -o "executable.exe" -Wall -Wextra -Werror```
 
