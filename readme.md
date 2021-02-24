@@ -1,6 +1,6 @@
 ## 1337 School (42 Network) :
 
-<img src="https://1337.ma/static/b8296aebbcc7fb3ce15ae9e4a66d82fa/25252/cluster.jpg" width="900">
+<img src="https://1337.ma/static/b8296aebbcc7fb3ce15ae9e4a66d82fa/25252/cluster.jpg" width="700">
 
 ## :books: Piscine 2021 new subjects :
 
@@ -14,18 +14,19 @@ students, without teachers. It can be done, and it works.
 
 ## Sauce of videos needed :
 
-<img src="http://memes.ucoz.com/_nw/41/85352863.jpg" width="900">
+<img src="http://memes.ucoz.com/_nw/41/85352863.jpg" width="700">
 
-:tv: [Shell && Git videos](https://www.youtube.com/playlist?list=PLVQYiy6xNUxxhvwi0PGmXb5isUdVwmsg8)
-:tv: [Piscine c ressources](https://www.youtube.com/watch?v=U7jUVw1-cew&list=PLJq0wyQXdXmXxjCHKe_N1MuG9gEGsXYXH&ab_channel=jyloup85)
+:tv:[Shell && Git videos](https://www.youtube.com/playlist?list=PLVQYiy6xNUxxhvwi0PGmXb5isUdVwmsg8)
+
+:tv:[Piscine c ressources](https://www.youtube.com/watch?v=U7jUVw1-cew&list=PLJq0wyQXdXmXxjCHKe_N1MuG9gEGsXYXH&ab_channel=jyloup85)
 
 ## :floppy_disk: How to compile?
 
-> We use gcc command with specific flags.
+> We use gcc command on the terminal, with specific flags.
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/a/af/GNU_Compiler_Collection_logo.svg" width="300">
 
-> Example:
+## Example:
 
 ```$> gcc "filename.c" -o "executable.exe" -Wall -Wextra -Werror```
 
