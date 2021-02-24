@@ -2,7 +2,9 @@
 
 | Projct | PDF | Solutions |
 |---     |---  |---        |
-| C00	| [C00 PDF](https://github.com/Alaamimi/Piscine-42/blob/master/Piscine_C/C00/c00.pdf) | [11 Problems](https://github.com/Alaamimi/Piscine-42/tree/master/Piscine_C/C00) |
+| C00	| [C00 PDF](https://github.com/Alaamimi/Piscine-42/blob/master/Piscine_C/C00/c00.pdf) | [9 Problems](https://github.com/Alaamimi/Piscine-42/tree/master/Piscine_C/C00) |
+| C01 | [C01 PDF](https://github.com/Alaamimi/Piscine-42/blob/master/Piscine_C/C01/c01.pdf) | [9 Problems](https://github.com/Alaamimi/Piscine-42/tree/master/Piscine_C/C01) |
+| C02 | [C02 PDF](https://github.com/Alaamimi/Piscine-42/blob/master/Piscine_C/C02/c02.pdf) | [13 Problems](https://github.com/Alaamimi/Piscine-42/tree/master/Piscine_C/C02) |
 
 ### :books: C POOL TOOLKIT :
 
