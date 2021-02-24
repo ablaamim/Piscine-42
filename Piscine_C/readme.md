@@ -15,7 +15,7 @@
 
 ### :books: C POOL TOOLKIT :
 
-<IMG SRC="https://64.media.tumblr.com/ab95eba62064b6ca1622dbcf4fb50a63/tumblr_otjmkidZks1us7drco1_500.jpg" WIDTH="700">
+<IMG SRC="https://64.media.tumblr.com/ab95eba62064b6ca1622dbcf4fb50a63/tumblr_otjmkidZks1us7drco1_500.jpg" WIDTH="500">
 
 ### :information_source: QUICK AND DIRTY GUIDE TO C :
 
