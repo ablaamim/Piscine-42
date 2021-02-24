@@ -2,17 +2,17 @@
 
 <IMG SRC="https://1337.ma/static/b8296aebbcc7fb3ce15ae9e4a66d82fa/25252/cluster.jpg" WIDTH="600">
 
-## Piscine 2020 new subjects :
+## :books: Piscine 2020 new subjects :
 
 This project is a programming bootcamp at 1337 school, it lasts roughly 
-4 weeks, working 7 days a week, day and night.
-These bootcamps cover the basics so there's no need to have any experience at
+4 weeks, working 7 days a week, day and night. (error 404 sleep will never be found)
+These bootcamp covers the basics of programming so there's no need to have any experience at
 all. People will try and will fail, over and over again. This trial-and-error
 process is necessary in order to find solutions to different problems that 
 once thought impossible. People learn in groups with other
 students, without teachers. It can be done, and it works.
 
-## How to compile?
+## :floppy_disk: How to compile?
 
 > We use gcc command on the terminal, with specific flags.
 
