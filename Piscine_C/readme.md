@@ -59,6 +59,6 @@ int	main(void) {
 	return 0;
 }
 ```
-#### :books: Ascii table is prettty useful for this project!
+#### :books: Ascii table is prettty useful for this project !
 
-<IMG SRC="https://pascal.developpez.com/cours/cyberzoide/images/ascii.gif" width = "500">
+<IMG SRC="https://pascal.developpez.com/cours/cyberzoide/images/ascii.gif" width = "700">
