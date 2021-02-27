@@ -1,6 +1,6 @@
 ### :dart: Table of content :
 
-| Projct | PDF | Solutions |
+| Project | PDF | Solutions |
 |---     |---  |---        |
 | C00 | [C00 PDF](https://github.com/Alaamimi/Piscine-42/blob/master/Piscine_C/C00/c00.pdf) | [9 Problems](https://github.com/Alaamimi/Piscine-42/tree/master/Piscine_C/C00) |
 | C01 | [C01 PDF](https://github.com/Alaamimi/Piscine-42/blob/master/Piscine_C/C01/c01.pdf) | [9 Problems](https://github.com/Alaamimi/Piscine-42/tree/master/Piscine_C/C01) |
@@ -13,11 +13,11 @@
 | C08 | [C08 PDF](https://github.com/Alaamimi/Piscine-42/blob/master/Piscine_C/C08/c08.pdf) | [6 Problems]() |
 | C09 | [C09 PDF](https://github.com/Alaamimi/Piscine-42/blob/master/Piscine_C/C09/c09.pdf) | [3 Problems]() |
 
-### :books: C POOL TOOLKIT :
+### :books: C pool toolkit :
 
 <IMG SRC="https://64.media.tumblr.com/ab95eba62064b6ca1622dbcf4fb50a63/tumblr_otjmkidZks1us7drco1_500.jpg" WIDTH="500">
 
-#### :information_source: QUICK AND DIRTY GUIDE TO C :
+#### :information_source: Quick and dirty guide to C :
 
 :wrench: [Feed this to yourself](https://courses.cs.washington.edu/courses/cse351/16wi/sections/1/Cheatsheet-c.pdf)
 
@@ -59,6 +59,6 @@ int	main(void) {
 	return 0;
 }
 ```
-#### :books: ASCII TABLE IS IMPORTANT FOR THIS PROJECT, BETTER UNDERSTAND IT WELL!
+#### :books: Ascii table is prettty useful for this project!
 
-<IMG SRC="https://pascal.developpez.com/cours/cyberzoide/images/ascii.gif">
+<IMG SRC="https://pascal.developpez.com/cours/cyberzoide/images/ascii.gif" width = "500">
