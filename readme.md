@@ -56,7 +56,7 @@ Title | How Interesting | Author
 
 > We use gcc command with specific flags.
 
-> GCC = Gnue Compiler Collection.
+> GCC = Gnu Compiler Collection.
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/a/af/GNU_Compiler_Collection_logo.svg" width="300">
 
