@@ -2,7 +2,7 @@
 
 <img src="https://1337.ma/static/b8296aebbcc7fb3ce15ae9e4a66d82fa/25252/cluster.jpg" width="600">
 
-## :biooks: Piscine 2021 new subjects :
+## :books: Piscine 2021 new subjects :
 
 This project is a programming bootcamp at 1337 school, it lasts roughly 
 4 weeks, working 7 days a week, day and night. (error 404 sleep will never be found)
