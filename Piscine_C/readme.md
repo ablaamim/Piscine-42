@@ -17,6 +17,10 @@
 
 <IMG SRC="https://64.media.tumblr.com/ab95eba62064b6ca1622dbcf4fb50a63/tumblr_otjmkidZks1us7drco1_500.jpg" WIDTH="500">
 
+> But wait budd !
+
+![alt Text](https://gfycat.com/fr/admiredhilariousarmednylonshrimp)
+
 #### :information_source: Quick and dirty guide to C :
 
 :wrench: [Feed this to yourself](https://courses.cs.washington.edu/courses/cse351/16wi/sections/1/Cheatsheet-c.pdf)
