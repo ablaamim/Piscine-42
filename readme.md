@@ -24,11 +24,13 @@ students, without teachers. It can be done, and it works.
 
 > :tv:[Piscine c ressources](https://www.youtube.com/watch?v=U7jUVw1-cew&list=PLJq0wyQXdXmXxjCHKe_N1MuG9gEGsXYXH&ab_channel=jyloup85)
 
-> :tv: [Lecture (basics)](https://www.youtube.com/watch?v=e9Eds2Rc_x8&t=331s&ab_channel=CS50)
+> :tv:[Lecture (basics)](https://www.youtube.com/watch?v=e9Eds2Rc_x8&t=331s&ab_channel=CS50)
 
-> :tv: [Arrays](https://www.youtube.com/watch?v=8PrOp9t0PyQ&ab_channel=CS50)
+> :tv:[Arrays](https://www.youtube.com/watch?v=8PrOp9t0PyQ&ab_channel=CS50)
 
-> :tv: [memory](https://www.youtube.com/watch?v=cF6YkH-8vFk&ab_channel=CS50)
+> :tv:[Memory](https://www.youtube.com/watch?v=cF6YkH-8vFk&ab_channel=CS50)
+
+> :tv:[Pointers](https://www.youtube.com/watch?v=XISnO2YhnsY&ab_channel=CS50)
 
 ## :wrench: C Knowledge :
 
