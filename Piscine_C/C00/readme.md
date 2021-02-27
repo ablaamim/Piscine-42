@@ -78,8 +78,8 @@ void	ft_print_alphabet(void)
 {
 	char ltr;
 
-	ltr = 'a';
-	while (ltr >= 'a' && ltr <= 'z')
+	ltr = 'a'; // ltr = 97;
+	while (ltr <= 'z') // while (ltr <= 122)
 	{
 		ft_putchar(ltr);
 		ltr++;
@@ -103,7 +103,7 @@ int	main(void)
 > $> abcd...z
 ```
 
-## Exercise 07 : ft_print_numbers
+## Exercise 03 : ft_print_numbers
 
 1. :dart: Task :
 
@@ -132,7 +132,7 @@ void	ft_print_numbers(void)
 }
 ```
 
-## Exercise 08: ft_is_negative
+## Exercise 04: ft_is_negative
 
 1. :dart: Task :
 
