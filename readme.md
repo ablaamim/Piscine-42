@@ -1,8 +1,8 @@
-## 1337 School (42 Network) :
+## :information_source: 1337 School (42 Network) :
 
-<img src="https://1337.ma/static/b8296aebbcc7fb3ce15ae9e4a66d82fa/25252/cluster.jpg" width="700">
+<img src="https://1337.ma/static/b8296aebbcc7fb3ce15ae9e4a66d82fa/25252/cluster.jpg" width="600">
 
-## :books: Piscine 2021 new subjects :
+## :biooks: Piscine 2021 new subjects :
 
 This project is a programming bootcamp at 1337 school, it lasts roughly 
 4 weeks, working 7 days a week, day and night. (error 404 sleep will never be found)
@@ -14,21 +14,21 @@ students, without teachers. It can be done, and it works.
 
 > If you're going through hell, keep going. ― Winston Churchill
 
-keep this in mind!
+> keep this in mind!
 
 ## :eyes: Sauce of videos needed :
 
-<img src="http://memes.ucoz.com/_nw/41/85352863.jpg" width="700">
+<img src="http://memes.ucoz.com/_nw/41/85352863.jpg" width="600">
 
-:tv:[Shell && Git videos](https://www.youtube.com/playlist?list=PLVQYiy6xNUxxhvwi0PGmXb5isUdVwmsg8)
+> :tv:[Shell && Git videos](https://www.youtube.com/playlist?list=PLVQYiy6xNUxxhvwi0PGmXb5isUdVwmsg8)
 
-:tv:[Piscine c ressources](https://www.youtube.com/watch?v=U7jUVw1-cew&list=PLJq0wyQXdXmXxjCHKe_N1MuG9gEGsXYXH&ab_channel=jyloup85)
+> :tv:[Piscine c ressources](https://www.youtube.com/watch?v=U7jUVw1-cew&list=PLJq0wyQXdXmXxjCHKe_N1MuG9gEGsXYXH&ab_channel=jyloup85)
 
-:tv: [Lecture (basics)](https://www.youtube.com/watch?v=e9Eds2Rc_x8&t=331s&ab_channel=CS50)
+> :tv: [Lecture (basics)](https://www.youtube.com/watch?v=e9Eds2Rc_x8&t=331s&ab_channel=CS50)
 
-:tv: [Arrays](https://www.youtube.com/watch?v=8PrOp9t0PyQ&ab_channel=CS50)
+> :tv: [Arrays](https://www.youtube.com/watch?v=8PrOp9t0PyQ&ab_channel=CS50)
 
-:tv: [memory](https://www.youtube.com/watch?v=cF6YkH-8vFk&ab_channel=CS50)
+> :tv: [memory](https://www.youtube.com/watch?v=cF6YkH-8vFk&ab_channel=CS50)
 
 ## :wrench: C Knowledge :
 
@@ -56,15 +56,16 @@ Title | How Interesting | Author
 
 > We use gcc command with specific flags.
 
+> GCC = Gnue Compiler Collection.
+
 <img src="https://upload.wikimedia.org/wikipedia/commons/a/af/GNU_Compiler_Collection_logo.svg" width="300">
 
 > Example:
 
 ```$> gcc "filename.c" -o "executable.exe" -Wall -Wextra -Werror```
 
-> IF YOU WANT TO LEARN START FROM THE BOTTOM. 
 
-> AND NEVER FORGET TO READ THE FUCKING MANUAL ;)
+> Don't you dare to forget reading manuals, read them religiously. ;)
 
 <img src="https://postcoitum429456745.files.wordpress.com/2018/10/mao_rtfm_vectorize_by_cmenghi.png" width="700">
 
