@@ -24,7 +24,7 @@
 
 #### :information_source: Quick and dirty guide to C :
 
-:wrench: [Feed this to yourself along with the coffee](https://courses.cs.washington.edu/courses/cse351/16wi/sections/1/Cheatsheet-c.pdf)
+:wrench: [Feed this to yourself along with the coffee.](https://courses.cs.washington.edu/courses/cse351/16wi/sections/1/Cheatsheet-c.pdf)
 
 #### :information_source: C Data Types :
 
