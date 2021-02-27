@@ -32,6 +32,8 @@ students, without teachers. It can be done, and it works.
 
 > :tv:[Pointers](https://www.youtube.com/watch?v=XISnO2YhnsY&ab_channel=CS50)
 
+> :tv:[Linked Lists](https://www.youtube.com/watch?v=zQI3FyWm144&t=784s&ab_channel=CS50)
+
 ## :wrench: C Knowledge :
 
 > **C is [quirky](https://en.wiktionary.org/wiki/quirky), flawed, and an enormous success** ― *[Dennis Ritchie, Creator of the C language](https://en.wikipedia.org/wiki/Dennis_Ritchie)*
