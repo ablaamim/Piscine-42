@@ -111,7 +111,7 @@ int	main(void)
 > abcd...z
 ```
 
-## Exercise 04 : ft_print_reverse_alphabet
+## Exercise 02 : ft_print_reverse_alphabet
 
 1. :dart: task :
 ```
