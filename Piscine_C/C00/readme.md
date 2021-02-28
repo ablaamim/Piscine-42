@@ -217,10 +217,12 @@ int	main(void)
 
 > Create a function that displays ’N’ or ’P’ depending on the integer’s sign entered as a parameter. If n is negative, display ’N’. If n is positive or null, display ’P’.
 
----
+
 2. :dart: Function:
 
 ```c
+void	ft_putchar(char c);
+
 void	ft_is_negative(int n)
 {
 	if (n < 0)
@@ -228,4 +230,118 @@ void	ft_is_negative(int n)
 	else
 		ft_putchar('P');
 }
+```
+
+3. :wrench: :beetle: Test && Debug :
+```c
+int	main()
+{
+	write(1, "-----\n", 6);
+	ft_is_negative(42);
+		ft_putchar('\n');
+	write(1, "-----\n", 6);
+	ft_is_negative(-42);
+		ft_putchar('\n');
+	write(1, "-----\n", 6);
+	return(EXIT_SUCCESS);
+}
+```
+4. :8ball: Expected output :
+```c
+> $> ft_is_negative.c -o ft_is_negative -Wall -Wextra -Werror && ./ft_is_negative
+
+> -----
+
+> P //42
+
+> -----
+
+> N //-42
+
+> -----
+```
+
+## Exercise 05 : ft_print_comb
+
+1. :dart: Task :
+```c
+•Create a function that displays all dierent combinations of three dierent digits in
+ascending order, listed by ascending order - yes, repetition is voluntary.
+
+• 987 isn’t there because 789 already is.
+
+• 999 isn’t there because the digit 9 is present more than once.
+
+• Here’s how it should be prototyped :
+
+void	ft_print_comb(void);
+```
+
+2. :dart: Function :
+```c
+void	ft_putchar(char c);
+
+void	ft_print_comb(void)
+{
+	char i;
+	char j;
+	char k;
+
+	i = '0' - 1;
+	while (i < '7')
+	{
+		i++;
+		j = i;
+		while(j < '8')
+		{
+			j++;
+			k = j;
+			while(k < '9')
+			{
+				k++;
+				ft_putchar(i);
+				ft_putchar(j);
+				ft_putchar(k);
+				if (i != '7')
+				{
+					ft_putchar(',');
+					ft_putchar(' ');
+				}
+			}
+		}
+	}
+}
+
+```
+
+3. :wrench: :beetle: test && Debug :
+```c
+int main(void)
+{
+	write(1, "-----\n", 6);
+	write(1, "single check :\n", 16);
+	ft_print_comb();
+		ft_putchar('\n');
+	write(1, "-----\n", 6);
+	write(1, "Multiple check :\n", 16);
+		ft_putchar('\n');
+	ft_print_comb();
+		write(1, ", ", 2);
+	ft_print_comb();
+		ft_putchar('\n');
+	write(1, "-----\n", 6);
+	return (0);
+}
+```
+
+3. :8ball: Expected output :
+```c
+$>gcc ft_print_comb.c -o ft_print_comb -Wall -Wextra -Werrror && ./ft_print_comb  
+-----
+single check :
+012, 013, 014, 015, 016, 017, 018, 019, 023, 024, 025, 026, 027, 028, 029, 034, 035, 036, 037, 038, 039, 045, 046, 047, 048, 049, 056, 057, 058, 059, 067, 068, 069, 078, 079, 089, 123, 124, 125, 126, 127, 128, 129, 134, 135, 136, 137, 138, 139, 145, 146, 147, 148, 149, 156, 157, 158, 159, 167, 168, 169, 178, 179, 189, 234, 235, 236, 237, 238, 239, 245, 246, 247, 248, 249, 256, 257, 258, 259, 267, 268, 269, 278, 279, 289, 345, 346, 347, 348, 349, 356, 357, 358, 359, 367, 368, 369, 378, 379, 389, 456, 457, 458, 459, 467, 468, 469, 478, 479, 489, 567, 568, 569, 578, 579, 589, 678, 679, 689, 789
+-----
+Multiple check :
+012, 013, 014, 015, 016, 017, 018, 019, 023, 024, 025, 026, 027, 028, 029, 034, 035, 036, 037, 038, 039, 045, 046, 047, 048, 049, 056, 057, 058, 059, 067, 068, 069, 078, 079, 089, 123, 124, 125, 126, 127, 128, 129, 134, 135, 136, 137, 138, 139, 145, 146, 147, 148, 149, 156, 157, 158, 159, 167, 168, 169, 178, 179, 189, 234, 235, 236, 237, 238, 239, 245, 246, 247, 248, 249, 256, 257, 258, 259, 267, 268, 269, 278, 279, 289, 345, 346, 347, 348, 349, 356, 357, 358, 359, 367, 368, 369, 378, 379, 389, 456, 457, 458, 459, 467, 468, 469, 478, 479, 489, 567, 568, 569, 578, 579, 589, 678, 679, 689, 789, 012, 013, 014, 015, 016, 017, 018, 019, 023, 024, 025, 026, 027, 028, 029, 034, 035, 036, 037, 038, 039, 045, 046, 047, 048, 049, 056, 057, 058, 059, 067, 068, 069, 078, 079, 089, 123, 124, 125, 126, 127, 128, 129, 134, 135, 136, 137, 138, 139, 145, 146, 147, 148, 149, 156, 157, 158, 159, 167, 168, 169, 178, 179, 189, 234, 235, 236, 237, 238, 239, 245, 246, 247, 248, 249, 256, 257, 258, 259, 267, 268, 269, 278, 279, 289, 345, 346, 347, 348, 349, 356, 357, 358, 359, 367, 368, 369, 378, 379, 389, 456, 457, 458, 459, 467, 468, 469, 478, 479, 489, 567, 568, 569, 578, 579, 589, 678, 679, 689, 789
+-----
 ```
