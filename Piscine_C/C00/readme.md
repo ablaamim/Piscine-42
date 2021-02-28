@@ -171,7 +171,6 @@ int	main(void)
 4. :8ball: Expected output :
 ```c
 $>gcc ft_print_reverse_alphabet.c -o ft_print_reverse_alphabet -Wall -Wextra -Werror && ./ft_print_reverse_alphabet
-
 zyx...a
 ```
 ## Exercise 03 : ft_print_numbers
