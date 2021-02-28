@@ -7,6 +7,7 @@
 | ex02 | ft_print_reverse_alphabet |
 | ex03 | ft_print_numbers |
 | ex04 | ft_is_negative |
+| ex05 | ft_print_comb |
 
 
 ## Exercise 00 : ft_putchar 
@@ -265,7 +266,7 @@ int	main()
 
 1. :dart: Task :
 ```c
-•Create a function that displays all dierent combinations of three dierent digits in
+• Create a function that displays all dierent combinations of three dierent digits in
 ascending order, listed by ascending order - yes, repetition is voluntary.
 
 • 987 isn’t there because 789 already is.
