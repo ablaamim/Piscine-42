@@ -129,8 +129,7 @@ int	main(void)
 
 ```c
 > $>gcc ft_print_alphabet.c -o ft_print_alphabet -Wall -Wextra -Werror && ./ft_print_alphabet
-
-> abcd...z
+abcd...z
 ```
 
 ## Exercise 02 : ft_print_reverse_alphabet
@@ -173,7 +172,7 @@ int	main(void)
 ```c
 > $>gcc ft_print_reverse_alphabet.c -o ft_print_reverse_alphabet -Wall -Wextra -Werror && ./ft_print_reverse_alphabet
 
-> zyx...a
+zyx...a
 ```
 ## Exercise 03 : ft_print_numbers
 
@@ -217,8 +216,7 @@ int	main(void)
 5. :8ball: Expected output :
 ```c
 > $>gcc ft_print_numbers.c -o ft_print_numbers -Wall -Wextra -Werror && ./ft_print_numbers
-
-> 012...9
+012...9
 ```
 
 ## Exercise 04: ft_is_negative
@@ -259,16 +257,11 @@ int	main()
 4. :8ball: Expected output :
 ```c
 > $> ft_is_negative.c -o ft_is_negative -Wall -Wextra -Werror && ./ft_is_negative
-
-> -----
-
-> P //42
-
-> -----
-
-> N //-42
-
-> -----
+-----
+P //42
+-----
+N //-42
+-----
 ```
 
 ## Exercise 05 : ft_print_comb
