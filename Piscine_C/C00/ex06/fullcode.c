@@ -5,12 +5,18 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: alaamimi <alaamimi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/02/28 19:41:08 by alaamimi          #+#    #+#             */
-/*   Updated: 2021/02/28 19:43:57 by alaamimi         ###   ########.fr       */
+/*   Created: 2021/02/28 19:27:06 by alaamimi          #+#    #+#             */
+/*   Updated: 2021/02/28 19:40:15 by alaamimi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void	ft_putchar(char c);
+#include <unistd.h>
+#include <stdlib.h>
+
+void	ft_putchar(char c)
+{
+	write(1, &c, 1);
+}
 
 void	ft_print_comb2(void)
 {
@@ -36,4 +42,22 @@ void	ft_print_comb2(void)
 			}
 		}
 	}
+}
+
+int	main(void)
+{
+	write(1, "-----\n", 6);
+	write(1, "Single sheck :", 14);
+		ft_putchar('\n');
+	ft_print_comb2();
+		ft_putchar('\n');
+	write(1, "-----\n", 6);
+	write(1, "Multiple Check :", 16);
+		ft_putchar('\n');
+	ft_print_comb2();
+		ft_putchar(',');
+		ft_putchar(' ');
+	ft_print_comb2();
+		ft_putchar('\n');
+	return(0);
 }
