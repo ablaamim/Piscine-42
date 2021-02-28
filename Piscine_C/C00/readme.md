@@ -47,7 +47,7 @@ int	main(void)
 ```
 
 4. :8ball: Expected output :
-
+```c
 > $>gcc ft_putchar.c -o ft_putchar -Wall -Wextra -Werror && ./ft_putchar
 
 > *
@@ -55,6 +55,7 @@ int	main(void)
 > $>gcc ft_putchar.c -o ft_putchar -Wall -Wextra -Werror && ./ft_putchar
 
 > 4
+```
 
 ## Exercise 01 : ft_print_alphabet
 
