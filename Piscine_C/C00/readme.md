@@ -1,3 +1,14 @@
+## Table Content :
+
+| C00 | Problems |
+|---|---|
+| ex00 | ft_putchar |
+| ex01 | ft_print_alphabet |
+| ex02 | ft_print_reverse_alphabet |
+| ex03 | ft_print_numbers |
+| ex04 | ft_is_negative |
+
+
 ## Exercise 00 : ft_putchar 
 
 1. :dart: Task :
