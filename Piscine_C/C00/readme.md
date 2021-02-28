@@ -170,7 +170,7 @@ int	main(void)
 
 > Create a function that displays all digits, on a single line, by ascending order.
 
-2. `man ascii`:
+2. :floppy_disk: `man ascii`:
 
 ```
       48  0    49  1    50  2    51  3    52  4    53  5    54  6    55  7
