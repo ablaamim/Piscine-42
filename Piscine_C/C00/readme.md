@@ -38,8 +38,11 @@ int	main(void)
 4. :8ball: Expected output :
 
 > $>gcc ft_putchar.c -o ft_putchar -Wall -Wextra -Werror && ./ft_putchar
+
 > *
+
 > $>gcc ft_putchar.c -o ft_putchar -Wall -Wextra -Werror && ./ft_putchar
+
 > 4
 
 ## Exercise 01 : ft_print_alphabet
@@ -72,6 +75,7 @@ void ft_putchar(char c)
 > `(i >= 97 && i <= 122)` while i fits the condition
 
 ```
+
 3. :dart: Function :
 
 ```c
@@ -105,6 +109,7 @@ int	main(void)
 
 ```c
 > $>gcc ft_print_alphabet.c -o ft_print_alphabet -Wall -Wextra -Werror && ./ft_print_alphabet
+
 > abcd...z
 ```
 
@@ -147,6 +152,7 @@ int	main(void)
 4. :8ball: Expected output :
 ```c
 > $>gcc ft_print_reverse_alphabet.c -o ft_print_reverse_alphabet -Wall -Wextra -Werror && ./ft_print_reverse_alphabet
+
 > zyx...a
 ```
 ## Exercise 03 : ft_print_numbers
@@ -191,6 +197,7 @@ int	main(void)
 5. :8ball: Expected output :
 ```c
 > $>gcc ft_print_numbers.c -o ft_print_numbers -Wall -Wextra -Werror && ./ft_print_numbers
+
 > 012...9
 ```
 
