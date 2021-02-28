@@ -18,7 +18,7 @@ students, without teachers. It can be done, and it works.
 
 ## :information_source: New pool's holy graph mapping :
 
-<img src ="" width="600">
+<img src ="https://github.com/Alaamimi/Piscine-42/blob/master/ressources/map_of_the_Piscine_C.png" width="600">
 
 ## :eyes: Sauce of videos needed :
 
