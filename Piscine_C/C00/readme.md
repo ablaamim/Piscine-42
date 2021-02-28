@@ -59,7 +59,7 @@ int	main(void)
 
 4. :8ball: Expected output :
 ```c
-> $>gcc ft_putchar.c -o ft_putchar -Wall -Wextra -Werror && ./ft_putchar
+$>gcc ft_putchar.c -o ft_putchar -Wall -Wextra -Werror && ./ft_putchar
 -----
 *
 -----
@@ -128,7 +128,7 @@ int	main(void)
 5. :8ball: Expected output :
 
 ```c
-> $>gcc ft_print_alphabet.c -o ft_print_alphabet -Wall -Wextra -Werror && ./ft_print_alphabet
+$>gcc ft_print_alphabet.c -o ft_print_alphabet -Wall -Wextra -Werror && ./ft_print_alphabet
 abcd...z
 ```
 
@@ -170,7 +170,7 @@ int	main(void)
 
 4. :8ball: Expected output :
 ```c
-> $>gcc ft_print_reverse_alphabet.c -o ft_print_reverse_alphabet -Wall -Wextra -Werror && ./ft_print_reverse_alphabet
+$>gcc ft_print_reverse_alphabet.c -o ft_print_reverse_alphabet -Wall -Wextra -Werror && ./ft_print_reverse_alphabet
 
 zyx...a
 ```
@@ -215,7 +215,7 @@ int	main(void)
 ```
 5. :8ball: Expected output :
 ```c
-> $>gcc ft_print_numbers.c -o ft_print_numbers -Wall -Wextra -Werror && ./ft_print_numbers
+$>gcc ft_print_numbers.c -o ft_print_numbers -Wall -Wextra -Werror && ./ft_print_numbers
 012...9
 ```
 
@@ -256,7 +256,7 @@ int	main()
 ```
 4. :8ball: Expected output :
 ```c
-> $> ft_is_negative.c -o ft_is_negative -Wall -Wextra -Werror && ./ft_is_negative
+$> ft_is_negative.c -o ft_is_negative -Wall -Wextra -Werror && ./ft_is_negative
 -----
 P //42
 -----
