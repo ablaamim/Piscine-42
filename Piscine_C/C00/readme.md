@@ -43,10 +43,16 @@ void	ft_putchar(char c) 			/* Void because the function does not return any valu
 ```c
 int	main(void)
 {
+	write(1, "-----\n", 6);
 	ft_putchar(42);				/* will print a star */
-
-	/* ft_putchar(42 + '0');	 	will only print 4 */
-	/* ft_putchar("4");			will not work, you are using " instead of ', so C language think it is a char array. */
+		ft_putchar('\n');
+	write(1, "-----\n", 6);
+	ft_putchar(42 + '0');	 		/*will only print 4 */
+		ft_putchar('\n');
+	write(1, "-----\n", 6);
+	ft_putchar("4");			/*will not work, you are using " instead of ', so C language think it is a char array. */
+		ft_putchar('\n');
+	write(1, "-----\n", 6)
 	return (0);
 }
 ```
@@ -54,12 +60,11 @@ int	main(void)
 4. :8ball: Expected output :
 ```c
 > $>gcc ft_putchar.c -o ft_putchar -Wall -Wextra -Werror && ./ft_putchar
-
-> *
-
-> $>gcc ft_putchar.c -o ft_putchar -Wall -Wextra -Werror && ./ft_putchar
-
-> 4
+-----
+*
+-----
+4
+-----
 ```
 
 ## Exercise 01 : ft_print_alphabet
