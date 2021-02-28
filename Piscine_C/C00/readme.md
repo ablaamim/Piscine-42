@@ -3,7 +3,7 @@
 1. :dart: Task :
 
 > Write a function that displays characters passed as parameter.
-> This is how it should be prototyped.
+> This is how it should be prototyped:
 > void ft_putchar(char c);
 
 2. :floppy_disk: Ft_putchar using system calls :
@@ -37,9 +37,10 @@ int	main(void)
 
 4. :8ball: Expected output :
 
-> $>*
-
-> $>4
+> $>gcc ft_putchar.c -o ft_putchar -Wall -Wextra -Werror && ./ft_putchar
+> *
+> $>gcc ft_putchar.c -o ft_putchar -Wall -Wextra -Werror && ./ft_putchar
+> 4
 
 ## Exercise 01 : ft_print_alphabet
 
@@ -70,10 +71,12 @@ void ft_putchar(char c)
 
 > `(i >= 97 && i <= 122)` while i fits the condition
 
----
+```
 3. :dart: Function :
 
 ```c
+void	ft_putchar(char c);
+
 void	ft_print_alphabet(void)
 {
 	char ltr;
@@ -93,6 +96,7 @@ void	ft_print_alphabet(void)
 int	main(void)
 {
 	ft_print_alphabet();
+	Ft_putchar('\n');
 	return (0);
 }
 ```
@@ -100,9 +104,51 @@ int	main(void)
 5. :8ball: Expected output :
 
 ```c
-> $> abcd...z
+> $>gcc ft_print_alphabet.c -o ft_print_alphabet -Wall -Wextra -Werror && ./ft_print_alphabet
+> abcd...z
 ```
 
+## Exercise 04 : ft_print_reverse_alphabet
+
+1. :dart: task :
+```
+> Create a function that displays the alphabets in lowercase, on a single line, by descending order, starting from letter 'z'.
+> Here is how it should be prototyped:
+> void ft_print_reverse_alphabet(void);
+```
+
+2. :dart: Function :
+```c
+void	Ft_putchar(char c);
+
+void	ft_print_reverse_alphabet(void)
+{
+	char ltr;
+
+	ltr = 'z';
+	while (ltr >= 'a')
+	{
+		Ft_putchar(ltr);
+		ltr--;
+	}
+}
+```
+
+3. :wrench: :beetle: Test && Debug :
+```c
+int	main(void)
+{
+	ft_print_reverse_alphabet();
+		Ft_putchar('\n');
+	return(0);
+}
+```
+
+4. :8ball: Expected output :
+```c
+> $>gcc ft_print_reverse_alphabet.c -o ft_print_reverse_alphabet -Wall -Wextra -Werror && ./ft_print_reverse_alphabet
+> zyx...a
+```
 ## Exercise 03 : ft_print_numbers
 
 1. :dart: Task :
@@ -120,16 +166,32 @@ int	main(void)
 3. :dart: Function:
 
 ``` c
+void	ft_putchar(char c);
+
 void	ft_print_numbers(void)
 {
 	char nbr;
 
 	nbr = '0';
-	while (nbr >= '0' && nbr <= '9')
+	while (nbr <= '9')
 	{
 		ft_putchar(nbr);
 		nbr++;
 }
+```
+4. :wrench: :beetle: Test && Debug :
+```c
+int	main(void)
+{
+	ft_print_numbers();
+		ft_putchar('\n');
+	return (0);
+}
+```
+5. :8ball: Expected output :
+```c
+> $>gcc ft_print_numbers.c -o ft_print_numbers -Wall -Wextra -Werror && ./ft_print_numbers
+> 012...9
 ```
 
 ## Exercise 04: ft_is_negative
