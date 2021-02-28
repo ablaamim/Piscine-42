@@ -16,6 +16,10 @@ students, without teachers. It can be done, and it works.
 
 > keep this in mind!
 
+## :information_source: New pool's holy graph mapping :
+
+<img src ="" width="600">
+
 ## :eyes: Sauce of videos needed :
 
 <img src="http://memes.ucoz.com/_nw/41/85352863.jpg" width="600">

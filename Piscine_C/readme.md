@@ -57,8 +57,10 @@ void	ft_putchar(char c) 			/* void because the function does not return any valu
 						(which is a pointer) to fd (if fd = 1 this is your terminal, stdout) */
 }
 
-int	main(void) {
+int	main(void)
+{
 	ft_putchar(42);				/* will print a star */
+
 	/* ft_putchar(42 + '0');	 	will only print 4 */
 	/* ft_putchar("4");			will not work, you are using " instead of ', so C language think it is a char array. */
 	return 0;
