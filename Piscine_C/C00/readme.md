@@ -74,8 +74,6 @@ void ft_putchar(char c)
 
 > `(i >= 97 && i <= 122)` while i fits the condition
 
-```
-
 3. :dart: Function :
 
 ```c
