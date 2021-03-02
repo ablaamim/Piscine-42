@@ -12,6 +12,7 @@
 | ex07 | ft_rev_int_tab |
 | ex08 | ft_sort_int_tab |
 
+![](https://media.giphy.com/media/RrVzUOXldFe8M/giphy.gif)
 
 ## Exercise 00 : ft_ft
 
