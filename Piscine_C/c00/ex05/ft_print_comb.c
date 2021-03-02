@@ -6,9 +6,11 @@
 /*   By: alaamimi <alaamimi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/28 17:44:13 by alaamimi          #+#    #+#             */
-/*   Updated: 2021/02/28 17:44:40 by alaamimi         ###   ########.fr       */
+/*   Updated: 2021/03/02 11:30:16 by alaamimi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include <unistd.h>
 
 void	ft_putchar(char c)
 {

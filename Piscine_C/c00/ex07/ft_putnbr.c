@@ -6,11 +6,16 @@
 /*   By: alaamimi <alaamimi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/28 21:55:49 by alaamimi          #+#    #+#             */
-/*   Updated: 2021/02/28 21:55:51 by alaamimi         ###   ########.fr       */
+/*   Updated: 2021/03/02 11:32:55 by alaamimi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void	ft_putchar(char c);
+#include <unistd.h>
+
+void	ft_putchar(char c)
+{
+	write(1, &c, 1);
+}
 
 void	ft_putnbr(int nb)
 {
