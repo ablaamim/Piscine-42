@@ -426,4 +426,81 @@ Multiple Check :
 
 ## Exercise 07 : ft_putnbr
 
-1. Task :
+1. :dart: Task :
+
+• Create a function that displays the number entered as a parameter. The function
+has to be able to display all possible values within an int type variable.
+• Here’s how it should be prototyped :
+void ft_putnbr(int nb);
+• For example:
+¶ ft_putnbr(42) displays "42".
+
+2. :dart: Function :
+```c
+void	ft_putchar(char c);
+
+void	ft_putnbr(int nb)
+{
+	long int nbr;
+
+	nbr = nb;
+	if(nbr < 0)
+	{
+		nbr = -nbr;
+		ft_putchar('-');
+	}
+	if(nbr >= 10)
+	{
+		ft_putnbr(nbr / 10);
+		ft_putnbr(nbr % 10);
+	}
+	if (nbr >= 0 && nbr < 10) 
+		ft_putchar(nbr + '0');
+}
+```
+
+3. :wrench: :beetle: Test && Debug :
+```c
+int	main(void)
+{
+	write(1, "-----\n", 6);
+	ft_putnbr(42);
+		ft_putchar('\n');
+	write(1, "-----\n", 6);
+	ft_putnbr(-42);
+		ft_putchar('\n');
+	write(1, "-----\n", 6);
+	ft_putnbr(0);
+		ft_putchar('\n');
+	write(1, "-----\n", 6);
+	write(1, "IntMax:\n", 8);
+	ft_putnbr(2147483647);
+		ft_putchar('\n');
+	write(1, "-----\n", 6);
+	write(1, "Intmin:\n", 8);
+	ft_putnbr(-2147483648);
+		ft_putchar('\n');
+	write(1, "-----\n", 6);
+	ft_putnbr(-0);
+		ft_putchar('\n');
+	return(0);
+}
+```
+4. :8ball: Expected output :
+```c
+$>gcc fullcode.c -o fullcode -Wall -Wextra -Werror && ./fullcode
+-----
+42
+-----
+-42
+-----
+0
+-----
+IntMax:
+2147483647
+-----
+Intmin:
+-2147483648
+-----
+0
+```

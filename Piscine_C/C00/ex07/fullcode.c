@@ -6,12 +6,13 @@
 /*   By: alaamimi <alaamimi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/28 19:53:35 by alaamimi          #+#    #+#             */
-/*   Updated: 2021/02/28 22:01:14 by alaamimi         ###   ########.fr       */
+/*   Updated: 2021/03/01 07:41:55 by alaamimi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 #include <stdlib.h>
+#include <stdio.h>
 
 void	ft_putchar(char c)
 {
@@ -49,10 +50,15 @@ int	main(void)
 	ft_putnbr(0);
 		ft_putchar('\n');
 	write(1, "-----\n", 6);
+	write(1, "IntMax:\n", 8);
 	ft_putnbr(2147483647);
 		ft_putchar('\n');
 	write(1, "-----\n", 6);
+	write(1, "Intmin:\n", 8);
 	ft_putnbr(-2147483648);
 		ft_putchar('\n');
-	return(EXIT_SUCCESS);
+	write(1, "-----\n", 6);
+	ft_putnbr(-0);
+		ft_putchar('\n');
+	return(0);
 }
