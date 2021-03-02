@@ -6,7 +6,7 @@
 /*   By: alaamimi <alaamimi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/03/02 17:09:28 by alaamimi          #+#    #+#             */
-/*   Updated: 2021/03/02 17:11:48 by alaamimi         ###   ########.fr       */
+/*   Updated: 2021/03/02 17:21:05 by alaamimi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,9 +53,15 @@ int	main(void)
 	
 	a = 1337;
 	b = 42;
+	write(1, "-----\n",6);
+	ft_putnbr(a);
+		ft_putchar(' ');
+	ft_putnbr(b);
+		ft_putchar('\n');
+	write(1, "-----\n",6);
 	ft_swap(&a, &b);
 	ft_putnbr(a);
-	ft_putchar('\n');
+	ft_putchar(' ');
 	ft_putnbr(b);
 	ft_putchar('\n');
 	return (EXIT_SUCCESS);

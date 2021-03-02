@@ -44,7 +44,7 @@ int	main(void)
 
 4. :8ball: Expected output :
 ```c
-$>gcc fullcode.c -o fullcode -Wall -Wextra -Werror && ./fullcode
+$>gcc ft_ft.c -o ft_ft -Wall -Wextra -Werror && ./ft_ft
 -----
 1
 -----
@@ -109,3 +109,11 @@ int	main(void)
 ```
 
 4. :8ball: Expected output :
+```c
+ gcc ft_ultimate_ft.c -o ft_ultimate_fr -Wall -Wextra -Werror && ./ft_ultimare_ft
+-----
+0
+-----
+42
+-----
+```
