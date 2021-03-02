@@ -1,18 +1,17 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_ft.c                                            :+:      :+:    :+:   */
+/*   fullcode.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: alaamimi <alaamimi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/03/02 16:25:21 by alaamimi          #+#    #+#             */
-/*   Updated: 2021/03/02 16:30:25 by alaamimi         ###   ########.fr       */
+/*   Updated: 2021/03/02 16:46:44 by alaamimi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 #include <stdlib.h>
-
 void	ft_putchar(char c)
 {
 	write(1, &c, 1);
@@ -44,15 +43,16 @@ void	ft_putnbr(int nb)
 
 int	main(void)
 {
-	int *nbr;
 	int n;
 
 	n = 1;
-	nbr = &n;
+	write(1, "-----\n", 6);
 	ft_putnbr(n);
 		ft_putchar('\n');
-	ft_ft(nbr);
+	write(1,"------\n", 6);
+	ft_ft(&n);
 	ft_putnbr(n);
 		ft_putchar('\n');
+	write(1, "------'n", 6);
 	return(EXIT_SUCCESS);
 }
