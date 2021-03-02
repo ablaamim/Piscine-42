@@ -3,7 +3,7 @@
 | Project | PDF | Solutions |
 |---     |---  |---        |
 | C00 | [C00 PDF](https://github.com/Alaamimi/Piscine-42/blob/master/Piscine_C/c00/c00.pdf) | [9 Problems](https://github.com/Alaamimi/Piscine-42/tree/master/Piscine_C/c00) |
-| C01 | [C01 PDF](https://github.com/Alaamimi/Piscine-42/blob/master/Piscine_C/c00/c01.pdf) | [9 Problems](https://github.com/Alaamimi/Piscine-42/tree/master/Piscine_C/C01) |
+| C01 | [C01 PDF](https://github.com/Alaamimi/Piscine-42/blob/master/Piscine_C/c01/c01.pdf) | [9 Problems](https://github.com/Alaamimi/Piscine-42/tree/master/Piscine_C/c01) |
 | C02 | [C02 PDF](https://github.com/Alaamimi/Piscine-42/blob/master/Piscine_C/C02/c02.pdf) | [13 Problems](https://github.com/Alaamimi/Piscine-42/tree/master/Piscine_C/C02) |
 | C03 | [C03 PDF](https://github.com/Alaamimi/Piscine-42/blob/master/Piscine_C/C03/c03.pdf) | [6 Problems](https://github.com/Alaamimi/Piscine-42/tree/master/Piscine_C/C03) |
 | C04 | [C04 PDF](https://github.com/Alaamimi/Piscine-42/tree/master/Piscine_C/C04) | [6 Problems](https://github.com/Alaamimi/Piscine-42/blob/master/Piscine_C/C04/c04.pdf) |
