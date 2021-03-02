@@ -99,7 +99,12 @@ void ft_putchar(char c)
 3. :dart: Function :
 
 ```c
-void	ft_putchar(char c);
+#include <unistd.h>
+
+void	ft_putchar(char c)
+{
+	write(1, &c, 1);
+}
 
 void	ft_print_alphabet(void)
 {
@@ -143,7 +148,12 @@ abcd...z
 
 2. :dart: Function :
 ```c
-void	Ft_putchar(char c);
+#include <unistd.h>
+
+void	Ft_putchar(char c)
+{
+	write(1, &c, 1);
+}
 
 void	ft_print_reverse_alphabet(void)
 {
@@ -190,7 +200,12 @@ zyx...a
 3. :dart: Function:
 
 ``` c
-void	ft_putchar(char c);
+#include <unistd.h>
+
+void	ft_putchar(char c)
+{
+	write(1, &c, 1);
+}
 
 void	ft_print_numbers(void)
 {
@@ -228,7 +243,12 @@ $>gcc ft_print_numbers.c -o ft_print_numbers -Wall -Wextra -Werror && ./ft_print
 2. :dart: Function:
 
 ```c
-void	ft_putchar(char c);
+#include <unistd.h>
+
+void	ft_putchar(char c)
+{
+	write(1, &c, 1);
+}
 
 void	ft_is_negative(int n)
 {
@@ -281,7 +301,12 @@ void	ft_print_comb(void);
 
 2. :dart: Function :
 ```c
-void	ft_putchar(char c);
+#include <unistd.h>
+
+void	ft_putchar(char c)
+{
+	write(1, &c, 1);
+}
 
 void	ft_print_comb(void)
 {
@@ -363,7 +388,12 @@ void ft_print_comb2(void);
 
 2. :dart: Function :
 ```c
-void	ft_putchar(char c);
+#include <unistd.h>
+
+void	ft_putchar(char c)
+{
+	write(1, &c, 1);
+}
 
 void	ft_print_comb2(void)
 {
@@ -437,7 +467,12 @@ void ft_putnbr(int nb);
 
 2. :dart: Function :
 ```c
-void	ft_putchar(char c);
+#include <unistd.h>
+
+void	ft_putchar(char c)
+{
+	write(1, &c, 1);
+}
 
 void	ft_putnbr(int nb)
 {
