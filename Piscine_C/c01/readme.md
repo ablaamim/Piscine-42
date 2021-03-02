@@ -129,69 +129,127 @@ $>gcc ft_ultimate_ft.c -o ft_ultimate_fr -Wall -Wextra -Werror && ./ft_ultimare_
 ## Exercise 02 : ft_swap :
 
 1. :dart: Task :
+```c
+• Create a function that swaps the value of two integers whose addresses are entered
+as parameters.
+• Here’s how it should be prototyped :
+void ft_swap(int *a, int *b);
+```
 
 2. :dart: Function :
+```c
+```
 
 3. :wrench: :beetle: Test && Debug :
+```c
+```
 
 4. :8ball: Expected output :
 
 ## Exercise 03 : ft_div_mod
 
 1. :dart: Task :
+```c
+```
 
 2. :dart: Function :
+```c
+```
 
 3. :wrench: :beetle: Test && Debug :
+```c
+```
 
 4. :8ball: Expected output :
+```c
+```
 
 ## Exercise 04 : ft_ultimate_div_mod
 
 1. :dart: Task :
+```c
+```
 
 2. :dart: Function :
+```c
+```
 
 3. :wrench: :beetle: Test && Debug :
+```c
+```
 
 4. :8ball: Expected output :
+```c
+```
 
 ## Exercise 05 : ft_putstr :
 
 1. :dart: Task :
+```c
+```
 
 2. :dart: Function :
+```c
+```
 
 3. :wrench: :beetle: Test && Debug :
+```c
+```
 
 4. :8ball: Expected output :
+```c
+```
 
 ## Exercise 06 : ft_strlen :
 
 1. :dart: Task :
+```c
+```
 
 2. :dart: Function :
+```c
+```
 
 3. :wrench: :beetle: Test && Debug :
+```c
+```
 
 4. :8ball: Expected output :
+```c
+```
 
 ## Exercise 07 : ft_rev_int_tab :
 
 1. :dart: Task :
+```c
+```
 
 2. :dart: Function :
+```c
+```
 
 3. :wrench: :beetle: Test && Debug :
+```c
+```
 
 4. :8ball: Expected output :
+```c
+```
 
 ## Exercise 08 : ft_sort_int_tab :
 
 1. :dart: Task :
+```c
+```
 
 2. :dart: Function :
+```c
+```
 
 3. :wrench: :beetle: Test && Debug :
+```c
+```
 
 4. :8ball: Expected output :
+```c
+```
