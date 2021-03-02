@@ -125,3 +125,73 @@ $>gcc ft_ultimate_ft.c -o ft_ultimate_fr -Wall -Wextra -Werror && ./ft_ultimare_
 42
 -----
 ```
+
+## Exercise 02 : ft_swap :
+
+1. :dart: Task :
+
+2. :dart: Function :
+
+3. :wrench: :beetle: Test && Debug :
+
+4. :8ball: Expected output :
+
+## Exercise 03 : ft_div_mod
+
+1. :dart: Task :
+
+2. :dart: Function :
+
+3. :wrench: :beetle: Test && Debug :
+
+4. :8ball: Expected output :
+
+## Exercise 04 : ft_ultimate_div_mod
+
+1. :dart: Task :
+
+2. :dart: Function :
+
+3. :wrench: :beetle: Test && Debug :
+
+4. :8ball: Expected output :
+
+## Exercise 05 : ft_putstr :
+
+1. :dart: Task :
+
+2. :dart: Function :
+
+3. :wrench: :beetle: Test && Debug :
+
+4. :8ball: Expected output :
+
+## Exercise 06 : ft_strlen :
+
+1. :dart: Task :
+
+2. :dart: Function :
+
+3. :wrench: :beetle: Test && Debug :
+
+4. :8ball: Expected output :
+
+## Exercise 07 : ft_rev_int_tab :
+
+1. :dart: Task :
+
+2. :dart: Function :
+
+3. :wrench: :beetle: Test && Debug :
+
+4. :8ball: Expected output :
+
+## Exercise 08 : ft_sort_int_tab :
+
+1. :dart: Task :
+
+2. :dart: Function :
+
+3. :wrench: :beetle: Test && Debug :
+
+4. :8ball: Expected output :
