@@ -139,13 +139,51 @@ void ft_swap(int *a, int *b);
 
 2. :dart: Function :
 ```c
+void	ft_swap(int *a, int *b)
+{
+	int tmp;
+
+	tmp = *a;
+	*a = *b;
+	*b = tmp;
+}
 ```
 
 3. :wrench: :beetle: Test && Debug :
 ```c
+int	main(void)
+{
+	int a;
+	int b;
+	
+	a = 1337;
+	b = 42;
+	write(1, "-----\n",6);
+	ft_putnbr(a);
+		ft_putchar(' ');
+	ft_putnbr(b);
+		ft_putchar('\n');
+	write(1, "-----\n",6);
+	ft_swap(&a, &b);
+	ft_putnbr(a);
+	ft_putchar(' ');
+	ft_putnbr(b);
+	ft_putchar('\n');
+	return (0);
+}
 ```
 
 4. :8ball: Expected output :
+```c
+&>gcc ft_swap.c -o ft_swap -Wall -Wextra -Werror && ./ft_swap
+------
+1337
+42
+------
+42
+1337
+------
+```
 
 ## Exercise 03 : ft_div_mod
 
