@@ -4,6 +4,7 @@
 |--- |--- |
 | ex00 | ft_ft |
 | ex01 | ft_ultimate_ft |
+| ex02 | ft_swap |
 
 ## Exercise 00 : ft_ft
 
@@ -110,7 +111,7 @@ int	main(void)
 
 4. :8ball: Expected output :
 ```c
- gcc ft_ultimate_ft.c -o ft_ultimate_fr -Wall -Wextra -Werror && ./ft_ultimare_ft
+$>gcc ft_ultimate_ft.c -o ft_ultimate_fr -Wall -Wextra -Werror && ./ft_ultimare_ft
 -----
 0
 -----
