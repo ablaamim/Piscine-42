@@ -1,4 +1,4 @@
-:information_source: Table Content :
+## :information_source: Table Content :
 
 | C01 | Problems |
 |--- |--- |
@@ -25,5 +25,29 @@ void	ft_ft(int *nbr)
 
 3. :wrench: :beetle: Test && Debug :
 ```c
+int	main(void)
+{
+	int n;
 
+	n = 1;
+	write(1, "-----\n", 6);
+	ft_putnbr(n);
+		ft_putchar('\n');
+	write(1,"------\n", 6);
+	ft_ft(&n);
+	ft_putnbr(n);
+		ft_putchar('\n');
+	write(1, "------'n", 6);
+	return(EXIT_SUCCESS);
+}
+```
+
+4. :8ball: Expected output :
+```c
+$>gcc fullcode.c -o fullcode -Wall -Wextra -Werror && ./fullcode
+-----
+1
+-----
+42
+-----
 ```
