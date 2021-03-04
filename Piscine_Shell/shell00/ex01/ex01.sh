@@ -6,7 +6,7 @@
 #    By: alaamimi <alaamimi@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/03/04 15:56:20 by alaamimi          #+#    #+#              #
-#    Updated: 2021/03/04 15:56:52 by alaamimi         ###   ########.fr        #
+#    Updated: 2021/03/04 16:02:23 by alaamimi         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -20,6 +20,8 @@
 # Cat : "Concatenate", Lire le contenu d'un ficher textuel.
 # redirection ">" : Permet de rediriger le resultat de la commande dans un fichier de votre choix.
 #--------------------------------------------------------------------------------------------------
+
+#Script :
 
 #!/bin/bash
 

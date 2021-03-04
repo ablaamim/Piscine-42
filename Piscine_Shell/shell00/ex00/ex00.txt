@@ -6,12 +6,12 @@
 #    By: alaamimi <alaamimi@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/03/04 15:55:35 by alaamimi          #+#    #+#              #
-#    Updated: 2021/03/04 15:55:56 by alaamimi         ###   ########.fr        #
+#    Updated: 2021/03/04 16:01:42 by alaamimi         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 ----------------------------------------------------------------------------------------------
 # Ex00
-# To do : Ecrire un email a norminet@42.fr
+# To do : write an emaill to norminet@42.fr
 ----------------------------------------------------------------------------------------------
 # Objective de l'email : Le chat le plus formidable au monde [alaamimi] je vous flatte un peu.
 
