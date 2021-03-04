@@ -4,7 +4,7 @@
 
 ## :books: Piscine 2021 new subjects :
 
-This project is a programming bootcamp at 1337 school, it lasts roughly 
+This project is a programming bootcamp concerning 1337 school, it lasts roughly 
 4 weeks, working 7 days a week, day and night. (error 404 sleep will never be found)
 These bootcamp covers the basics of programming so there's no need to have any experience at
 all. People will try and will fail, over and over again. This trial-and-error
