@@ -1,7 +1,7 @@
 ### :dart: Table of content :
 
-| Project | PDF | Fr | Eng | Solutions |
-|---     |---  |---  |--- |---       |
+| Project | Fr | Eng | Solutions |
+|---     |---  |--- |---       |
 | C00 | [fr](https://github.com/Alaamimi/Piscine-42/blob/master/Piscine_C/c00/c00.pdf) | [eng] | [9 Problems](https://github.com/Alaamimi/Piscine-42/tree/master/Piscine_C/c00) |
 | C01 | [fr](https://github.com/Alaamimi/Piscine-42/blob/master/Piscine_C/c01/c01.pdf) | [eng] |[9 Problems](https://github.com/Alaamimi/Piscine-42/tree/master/Piscine_C/c01) |
 | C02 | [fr](https://github.com/Alaamimi/Piscine-42/blob/master/Piscine_C/C02/c02.pdf) | [eng] |[13 Problems](https://github.com/Alaamimi/Piscine-42/tree/master/Piscine_C/C02) |
