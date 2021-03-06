@@ -2,9 +2,9 @@
 
 | Project | Fr | Eng | Solutions |
 |---     |---  |--- |---       |
-| C00 | [fr](https://github.com/Alaamimi/Piscine-42/blob/master/Piscine_C/c00/c00.pdf) | [eng] | [9 Problems](https://github.com/Alaamimi/Piscine-42/tree/master/Piscine_C/c00) |
-| C01 | [fr](https://github.com/Alaamimi/Piscine-42/blob/master/Piscine_C/c01/c01.pdf) | [eng] |[9 Problems](https://github.com/Alaamimi/Piscine-42/tree/master/Piscine_C/c01) |
-| C02 | [fr](https://github.com/Alaamimi/Piscine-42/blob/master/Piscine_C/C02/c02.pdf) | [eng] |[13 Problems](https://github.com/Alaamimi/Piscine-42/tree/master/Piscine_C/C02) |
+| C00 | [fr](https://github.com/Alaamimi/Piscine-42/blob/master/Piscine_C/c00/c00%20Fr.pdf) | [eng](https://github.com/Alaamimi/Piscine-42/blob/master/Piscine_C/c00/c00%20English.pdf) | [9 Problems](https://github.com/Alaamimi/Piscine-42/tree/master/Piscine_C/c00) |
+| C01 | [fr](https://github.com/Alaamimi/Piscine-42/blob/master/Piscine_C/c01/c01%20Fr.pdf) | [eng](https://github.com/Alaamimi/Piscine-42/blob/master/Piscine_C/c01/c01%20English.pdf) |[9 Problems](https://github.com/Alaamimi/Piscine-42/tree/master/Piscine_C/c01) |
+| C02 | [fr](https://github.com/Alaamimi/Piscine-42/blob/master/Piscine_C/c02/c02%20fr.pdf) | [eng](https://github.com/Alaamimi/Piscine-42/blob/master/Piscine_C/c02/c02%20english.pdf) |[13 Problems](https://github.com/Alaamimi/Piscine-42/tree/master/Piscine_C/C02) |
 | C03 | [fr](https://github.com/Alaamimi/Piscine-42/blob/master/Piscine_C/C03/c03.pdf) | [eng] |[6 Problems](https://github.com/Alaamimi/Piscine-42/tree/master/Piscine_C/C03) |
 | C04 | [fr](https://github.com/Alaamimi/Piscine-42/tree/master/Piscine_C/C04) | [eng] |[6 Problems](https://github.com/Alaamimi/Piscine-42/blob/master/Piscine_C/C04/c04.pdf) |
 | C05 | [fr](https://github.com/Alaamimi/Piscine-42/blob/master/Piscine_C/C05/c05.pdf) |[eng] | [9 Problems](https://github.com/Alaamimi/Piscine-42/tree/master/Piscine_C/C05) |
