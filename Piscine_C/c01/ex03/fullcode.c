@@ -1,23 +1,14 @@
-/*-----------------------------------------------------
--                               __                    -
--                             .d$$b                   -
--                           .' TO$;\                  -
--                          /  : TP._;                 -
--                         / _.;  :Tb|                 -
--                        /   /   ;j$j                 -
--                    _.-"       d$$$$                 -
--                  .' ..       d$$$$;                 -
--                 /  /P'      d$$$$P. |\              -
--                /   "      .d$$$P' |\^"l             -
--              .'           `T$P^"""""  :             -
--          ._.'      _.'                ;             -
--       `-.-".-'-' ._.       _.-"    .-"              -
--     `.-" _____  ._              .-"                 -
--    -(.g$$$$$$$b.              .'                    -
--      ""^^T$$$P^)            .(:                     -
--        _/  -"  /.'         /:/;                     -
--     ._.'-'`-'  ")/         /;/;                     -
-------------------------------------------------------*/
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   fullcode.c                                         :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: alaamimi <alaamimi@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/03/05 21:35:17 by alaamimi          #+#    #+#             */
+/*   Updated: 2021/03/05 21:38:03 by alaamimi         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include <unistd.h>
 #include <stdlib.h>
@@ -29,7 +20,7 @@ void	ft_putchar(char c)
 
 void	ft_putnbr(int nb)
 {
-	long nbr;
+	long int nbr;
 
 	nbr = nb;
 	if (nbr < 0)
@@ -37,19 +28,22 @@ void	ft_putnbr(int nb)
 		nbr = -nbr;
 		ft_putchar('-');
 	}
-	if (nbr > 9)
+	if (nbr >= 10)
 	{
 		ft_putnbr(nbr / 10);
 		ft_putnbr(nbr % 10);
 	}
-	else
+	if (nbr >= 0 && nbr < 10)
 		ft_putchar(nbr + 48);
 }
 
 void	ft_div_mod(int a, int b, int *div, int *mod)
 {
-	*div = a / b;
-	*mod = a % b;
+	if (b != 0)
+	{
+		*div = a / b;
+		*mod = a % b;
+	}
 }
 
 int	main(void)
@@ -59,12 +53,12 @@ int	main(void)
 	int div;
 	int mod;
 
-	a = 10;
-	b = 3;
+	a = 42;
+	b = 13;
 	ft_div_mod(a, b, &div, &mod);
 	ft_putnbr(div);
-	ft_putchar(10);
+	ft_putchar('\n');
 	ft_putnbr(mod);
-	ft_putchar(10);
+	ft_putchar('\n');
 	return(EXIT_SUCCESS);
 }

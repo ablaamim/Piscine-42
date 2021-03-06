@@ -189,6 +189,10 @@ int	main(void)
 
 1. :dart: Task :
 ```c
+• Create a function ft_div_mod prototyped like this :
+void ft_div_mod(int a, int b, int *div, int *mod);
+• This function divides parameters a by b and stores the result in the int pointed by
+div. It also stores the remainder of the division of a by b in the int pointed by mod.
 ```
 
 2. :dart: Function :
@@ -207,6 +211,10 @@ int	main(void)
 
 1. :dart: Task :
 ```c
+• Create a function ft_ultimate_div_mod with the following prototype :
+void ft_ultimate_div_mod(int *a, int *b);
+• This function divides parameters a by b. The result of this division is stored in the
+int pointed by a. The remainder of the division is stored in the int pointed by b.
 ```
 
 2. :dart: Function :
@@ -225,6 +233,10 @@ int	main(void)
 
 1. :dart: Task :
 ```c
+• Create a function that displays a string of characters on the standard output.
+• Here’s how it should be prototyped :
+void ft_putstr(char *str);
+
 ```
 
 2. :dart: Function :
@@ -243,6 +255,10 @@ int	main(void)
 
 1. :dart: Task :
 ```c
+• Create a function that counts and returns the number of characters in a string.
+• Here’s how it should be prototyped :
+int ft_strlen(char *str);
+
 ```
 
 2. :dart: Function :
