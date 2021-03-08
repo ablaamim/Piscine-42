@@ -25,7 +25,7 @@
 
 </p>
 <p align="center">  
-<img src="https://nationalcoffeeblog.files.wordpress.com/2016/09/art-of-coffee.gif?w=676">
+<img src="https://nationalcoffeeblog.files.wordpress.com/2016/09/art-of-coffee.gif?w=676" width="1200">
 </p>
 
 #### :information_source: Quick and dirty guide to C :
