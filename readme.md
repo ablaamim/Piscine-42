@@ -74,9 +74,9 @@ Title | How Interesting | Author
 
 > GCC = Gnu Compiler Collection.
 
-[Gcc explained](https://gcc.gnu.org/)
+> :books: [Gcc explained](https://gcc.gnu.org/)
 
-[Steps](https://vitux.com/how-to-write-and-run-a-c-program-in-linux/)
+> :wild_card: [Steps](https://vitux.com/how-to-write-and-run-a-c-program-in-linux/)
 
 </p>
 <p align="center">  
@@ -90,7 +90,7 @@ Title | How Interesting | Author
 
 > Don't you dare to forget reading manuals, read them religiously. ;)
 
-[Manual Reference](https://www.howtoforge.com/linux-man-command/)
+> :books: [Manual Reference](https://www.howtoforge.com/linux-man-command/)
 
 </p>
 <p align="center">  
