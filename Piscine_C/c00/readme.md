@@ -12,9 +12,11 @@
 | ex07 | ft_putnbr |
 | ex08 | ft_print_combn |
 
+## Ready ?
+
 </p>
 <p align="center">  
-<img src="http://mrwgifs.com/wp-content/uploads/2013/08/Im-Ready-Lets-Do-This-Reaction-Gif.gif" width = "800">
+<img src="http://mrwgifs.com/wp-content/uploads/2013/08/Im-Ready-Lets-Do-This-Reaction-Gif.gif" width = "1200">
 </p>
 
 ## Exercise 00 : ft_putchar 
