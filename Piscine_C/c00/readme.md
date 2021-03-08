@@ -14,7 +14,7 @@
 
 </p>
 <p align="center">  
-<img src="http://mrwgifs.com/wp-content/uploads/2013/08/Im-Ready-Lets-Do-This-Reaction-Gif.gif" >
+<img src="http://mrwgifs.com/wp-content/uploads/2013/08/Im-Ready-Lets-Do-This-Reaction-Gif.gif" width = "800">
 </p>
 
 ## Exercise 00 : ft_putchar 
