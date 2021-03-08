@@ -76,7 +76,7 @@ Title | How Interesting | Author
 
 > :books: [Gcc explained](https://gcc.gnu.org/)
 
-> :wild_card: [Steps](https://vitux.com/how-to-write-and-run-a-c-program-in-linux/)
+> :information_source: [Steps](https://vitux.com/how-to-write-and-run-a-c-program-in-linux/)
 
 </p>
 <p align="center">  
