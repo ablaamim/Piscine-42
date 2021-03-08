@@ -12,7 +12,7 @@
 | ex07 | ft_rev_int_tab |
 | ex08 | ft_sort_int_tab |
 
-## Lets go !
+## Let's go !
 
 </p>
 <p align="center">  
