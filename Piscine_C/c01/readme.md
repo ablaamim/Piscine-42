@@ -12,8 +12,10 @@
 | ex07 | ft_rev_int_tab |
 | ex08 | ft_sort_int_tab |
 
-![](https://media.giphy.com/media/RrVzUOXldFe8M/giphy.gif)
-
+</p>
+<p align="center">  
+<img src="https://media.giphy.com/media/RrVzUOXldFe8M/giphy.gif" width="1200">
+</p>
 ## Exercise 00 : ft_ft
 
 1. :dart: Task :
