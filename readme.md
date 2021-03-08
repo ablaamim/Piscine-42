@@ -1,7 +1,9 @@
 ## :information_source: 1337 School (42 Network) :
 
+</p>
+<p align="center">  
 <img src="https://1337.ma/static/b8296aebbcc7fb3ce15ae9e4a66d82fa/25252/cluster.jpg" width="600">
-
+</p>
 ## :books: Piscine 2021 new subjects :
 
 This project is a programming bootcamp concerning 1337 school, it lasts roughly 
@@ -18,7 +20,10 @@ students, without teachers. It can be done, and it works.
 
 ## :information_source: New pool's holy graph mapping :
 
+</p>
+<p align="center">  
 <img src ="https://github.com/Alaamimi/Piscine-42/blob/master/ressources/map_of_the_Piscine_C.png" width="600">
+</p>
 
 ## :eyes: Sauce of videos needed :
 
