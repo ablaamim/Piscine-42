@@ -27,7 +27,10 @@ students, without teachers. It can be done, and it works.
 
 ## :eyes: Sauce of videos needed :
 
+</p>
+<p align="center">  
 <img src="http://memes.ucoz.com/_nw/41/85352863.jpg" width="600">
+</p>
 
 > :tv:[Shell && Git videos](https://www.youtube.com/playlist?list=PLVQYiy6xNUxxhvwi0PGmXb5isUdVwmsg8)
 
@@ -71,7 +74,10 @@ Title | How Interesting | Author
 
 > GCC = Gnu Compiler Collection.
 
+</p>
+<p align="center">  
 <img src="https://upload.wikimedia.org/wikipedia/commons/a/af/GNU_Compiler_Collection_logo.svg" width="300">
+</p>
 
 > Example:
 
@@ -80,5 +86,7 @@ Title | How Interesting | Author
 
 > Don't you dare to forget reading manuals, read them religiously. ;)
 
+</p>
+<p align="center">  
 <img src="https://postcoitum429456745.files.wordpress.com/2018/10/mao_rtfm_vectorize_by_cmenghi.png" width="700">
-
+</p>
