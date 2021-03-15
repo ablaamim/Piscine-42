@@ -1,10 +1,10 @@
 # :dart: ft_print_combn.c
 
-The devil whispers: itterative problem solving and mind stretching problem, it takes time to master but it worths the pain.
+The devil whispers: iterative problem solving and mind stretching problem, it takes time to master but it's worth the pain.
 
 # :books: Goal:
 
-Algorithm exercice, the purpose is to print all combinaisons possibles with n numbers while (0 < n < 10).
+Algorithm exercise, the purpose is to print all combinations possible with n numbers while (0 < n < 10).
 
 Function prototype: 
 

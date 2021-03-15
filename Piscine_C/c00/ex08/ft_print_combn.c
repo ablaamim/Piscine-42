@@ -6,7 +6,7 @@
 /*   By: alaamimi <alaamimi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/03/02 11:33:14 by alaamimi          #+#    #+#             */
-/*   Updated: 2021/03/02 11:33:24 by alaamimi         ###   ########.fr       */
+/*   Updated: 2021/03/09 19:20:08 by root             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -72,6 +72,6 @@ void	ft_print_combn(int n)
 }
 int	main(void)
 {
-	ft_print_combn(2);
+	ft_print_combn(9);
 	return (EXIT_SUCCESS);
 }
