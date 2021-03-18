@@ -80,15 +80,12 @@ Title | How Interesting | Author
 **[Are Global Variables Bad](https://stackoverflow.com/questions/484635/are-global-variables-bad)** | :star: | *StackOverFlow*
 
 
-## :floppy_disk: How to compile?
+## :floppy_disk: How to [compile](https://vitux.com/how-to-write-and-run-a-c-program-in-linux/)?
 
 > We use gcc command with specific flags.
 
-> GCC = Gnu Compiler Collection.
+> [GCC](https://gcc.gnu.org/) = Gnu Compiler Collection.
 
-> :books: [Gcc explained](https://gcc.gnu.org/)
-
-> :information_source: [Steps](https://vitux.com/how-to-write-and-run-a-c-program-in-linux/)
 
 </p>
 <p align="center">  
@@ -100,9 +97,7 @@ Title | How Interesting | Author
 ```$> gcc "filename.c" -o "executable.exe" -Wall -Wextra -Werror```
 
 
-> Don't you dare to forget reading manuals, read them religiously. ;)
-
-> :books: [Manual Reference](https://www.howtoforge.com/linux-man-command/)
+> Don't you dare to forget reading [manuals](https://www.howtoforge.com/linux-man-command/), read them religiously. ;)
 
 </p>
 <p align="center">  
