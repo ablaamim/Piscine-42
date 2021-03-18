@@ -1,12 +1,13 @@
 ## Disclaimer : :skull: CHEAT ZONE ALERT! :skull:
 
-This code is not licenced, copying it is not the best way to progress ! Dig your own way budd.
+> This code is not licenced, copying it is not the best way to progress ! Dig your own way budd.
 
 </p>
 <p align="center">  
 <img src="https://camo.githubusercontent.com/0f0675795e1d04d4f3d2de8af8161bf1b9db4ac04bf6dec63c6cd5ae908ebde7/68747470733a2f2f692e726564642e69742f3569696e637a62656430797a2e6a7067" width="700">
 </p>
 
+> “It’s harder to read code than to write it.” — Joel Spolsky
 
 ## :information_source: 1337 School (42 Network) :
 
@@ -14,6 +15,7 @@ This code is not licenced, copying it is not the best way to progress ! Dig your
 <p align="center">  
 <img src="https://1337.ma/static/b8296aebbcc7fb3ce15ae9e4a66d82fa/25252/cluster.jpg" width="600">
 </p>
+
 ## :books: Piscine 2021 new subjects :
 
 This project is a programming bootcamp concerning 1337 school, it lasts roughly 
