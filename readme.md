@@ -14,6 +14,11 @@
 <img src ="https://msmariapoppies.files.wordpress.com/2020/09/aye-aye-capitain.gif?w=498" width="600">
 </p>
 
+# Table of Content
+
+* **[ Piscine 42 School](#About-42-&&-1337-School)**
+    
+
 ## :information_source: 1337 School (42 Network) :
 
 </p>
@@ -21,7 +26,7 @@
 <img src="https://1337.ma/static/b8296aebbcc7fb3ce15ae9e4a66d82fa/25252/cluster.jpg" width="600">
 </p>
 
-## :books: Piscine 2021 new subjects :
+## :books: About 42 && 1337 School :
 
 This project is a programming bootcamp concerning 1337 school, it lasts roughly 
 4 weeks, working 7 days a week, day and night. (error 404 sleep will never be found)
