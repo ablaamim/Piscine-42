@@ -1,5 +1,6 @@
+---
 ## Disclaimer : :skull: CHEAT ZONE ALERT! :skull:
-
+---
 > This code is not licenced, copying it is not the best way to progress ! Dig your own way budd.
 
 </p>
@@ -14,9 +15,9 @@
 <img src ="https://msmariapoppies.files.wordpress.com/2020/09/aye-aye-capitain.gif?w=498" width="600">
 </p>
 
-    
+---    
 ## :information_source: 1337 School (42 Network) :
-
+---
 </p>
 <p align="center">  
 <img src="https://1337.ma/static/b8296aebbcc7fb3ce15ae9e4a66d82fa/25252/cluster.jpg" width="600">
@@ -24,7 +25,6 @@
 
 ---
 ## About 42 && 1337 School :
-
 ---
 
 This project is a programming bootcamp concerning 1337 school, it lasts roughly 
@@ -39,14 +39,18 @@ students, without teachers. It can be done, and it works.
 
 > keep this in mind!
 
+---
 ## New pool's holy graph :
+---
 
 </p>
 <p align="center">  
 <img src ="https://github.com/Alaamimi/Piscine-42/blob/master/ressources/map_of_the_Piscine_C.png" width="600">
 </p>
 
+---
 ## :eyes: Sauce of videos needed :
+---
 
 </p>
 <p align="center">  
@@ -67,7 +71,9 @@ students, without teachers. It can be done, and it works.
 
 > :tv:[Linked Lists](https://www.youtube.com/watch?v=zQI3FyWm144&t=784s&ab_channel=CS50)
 
+---
 ## :wrench: C Knowledge :
+---
 
 > **C is [quirky](https://en.wiktionary.org/wiki/quirky), flawed, and an enormous success** ― *[Dennis Ritchie, Creator of the C language](https://en.wikipedia.org/wiki/Dennis_Ritchie)*
 
@@ -88,7 +94,7 @@ Title | How Interesting | Author
 **[Cello, High Level Programming to C](https://github.com/orangeduck/Cello)** | :star::star::star: | *by Daniel Holden*
 **[Are Global Variables Bad](https://stackoverflow.com/questions/484635/are-global-variables-bad)** | :star: | *StackOverFlow*
 
-
+---
 ## :floppy_disk: How to [compile](https://vitux.com/how-to-write-and-run-a-c-program-in-linux/)?
 
 > We use gcc command with specific flags.
@@ -107,3 +113,4 @@ Title | How Interesting | Author
 
 
 > Don't you dare to forget reading [manuals](https://www.howtoforge.com/linux-man-command/), read them religiously. ;)
+---
