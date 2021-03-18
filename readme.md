@@ -103,8 +103,3 @@ Title | How Interesting | Author
 
 
 > Don't you dare to forget reading [manuals](https://www.howtoforge.com/linux-man-command/), read them religiously. ;)
-
-</p>
-<p align="center">  
-<img src="https://postcoitum429456745.files.wordpress.com/2018/10/mao_rtfm_vectorize_by_cmenghi.png" width="700">
-</p>
