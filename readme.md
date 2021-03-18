@@ -9,6 +9,11 @@
 
 > “It’s harder to read code than to write it.” — Joel Spolsky
 
+</p>
+<p align="center">  
+<img src ="https://msmariapoppies.files.wordpress.com/2020/09/aye-aye-capitain.gif?w=498" width="600">
+</p>
+
 ## :information_source: 1337 School (42 Network) :
 
 </p>
