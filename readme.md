@@ -18,6 +18,7 @@
 # Table of Content
 
 * **[0. About 42 && 1337 School](#about-42-&&-1337-School)**
+	* **[0x00 ~ New pool's holy graph](#0x00--new-pool's-holy-graph)**
 
 ---
     
@@ -31,6 +32,7 @@
 
 ---
 # About 42 && 1337 School
+
 ---
 
 This project is a programming bootcamp concerning 1337 school, it lasts roughly 
@@ -45,7 +47,7 @@ students, without teachers. It can be done, and it works.
 
 > keep this in mind!
 
-## :information_source: New pool's holy graph mapping :
+# New pool's holy graph
 
 </p>
 <p align="center">  
