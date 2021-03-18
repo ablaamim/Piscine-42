@@ -18,6 +18,8 @@
 # Table of Content
 
 * **[0. About 42 && 1337 School](#About-42-&&-1337-School)**
+
+---
     
 
 ## :information_source: 1337 School (42 Network) :
