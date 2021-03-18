@@ -14,15 +14,7 @@
 <img src ="https://msmariapoppies.files.wordpress.com/2020/09/aye-aye-capitain.gif?w=498" width="600">
 </p>
 
----
-# Table of Content
-
-* **[0. About 42 && 1337 School](#About 42 && 1337 School)**
-	* **[0x00 ~ New pool's holy graph](#0x00--new-pool's-holy-graph)**
-
----
     
-
 ## :information_source: 1337 School (42 Network) :
 
 </p>
@@ -31,7 +23,7 @@
 </p>
 
 ---
-#About 42 && 1337 School
+## About 42 && 1337 School :
 
 ---
 
@@ -47,7 +39,7 @@ students, without teachers. It can be done, and it works.
 
 > keep this in mind!
 
-# New pool's holy graph
+## New pool's holy graph :
 
 </p>
 <p align="center">  
