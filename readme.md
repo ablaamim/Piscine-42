@@ -1,3 +1,13 @@
+## Disclaimer : :skull: CHEAT ZONE ALERT! :skull:
+
+This code is not licenced, copying it is not the best way to progress ! Dig your own way budd.
+
+</p>
+<p align="center">  
+<img src="https://camo.githubusercontent.com/0f0675795e1d04d4f3d2de8af8161bf1b9db4ac04bf6dec63c6cd5ae908ebde7/68747470733a2f2f692e726564642e69742f3569696e637a62656430797a2e6a7067" width="700">
+</p>
+
+
 ## :information_source: 1337 School (42 Network) :
 
 </p>
