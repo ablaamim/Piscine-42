@@ -17,7 +17,7 @@
 ---
 # Table of Content
 
-* **[0. About 42 && 1337 School](#about-42-&&-1337-School)**
+* **[0. About 42 && 1337 School](#About 42 && 1337 School)**
 	* **[0x00 ~ New pool's holy graph](#0x00--new-pool's-holy-graph)**
 
 ---
@@ -31,7 +31,7 @@
 </p>
 
 ---
-# About 42 && 1337 School
+#About 42 && 1337 School
 
 ---
 
