@@ -17,7 +17,7 @@
 ---
 # Table of Content
 
-* **[0. About 42 && 1337 School](#About-42-&&-1337-School)**
+* **[0. About 42 && 1337 School](#about-42-&&-1337-School)**
 
 ---
     
