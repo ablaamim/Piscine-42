@@ -1,4 +1,8 @@
+---
+
 ## :information_source: Table Content :
+
+---
 
 | C00 | Problems |
 |---|---|
@@ -12,7 +16,11 @@
 | ex07 | ft_putnbr |
 | ex08 | ft_print_combn |
 
+---
+
 ## Ready ?
+
+---
 
 </p>
 <p align="center">  
