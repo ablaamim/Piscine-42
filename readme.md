@@ -16,7 +16,9 @@
 
 * The will to learn .
 
-* Simple manipulation of a mouse and keyboard.
+* Simple manipulation of a mouse and keyboard .
+
+* [Link for music](https://www.youtube.com/watch?v=jo7f059kJ-A&list=PLc11zrc3DKEnLmW4jYv84KNC3Y9wk5oh-&index=1&ab_channel=BrownswoodRecordings) to relief you .
 
 ---
 
@@ -50,7 +52,7 @@ students, without teachers. It can be done, and it works.
 > keep this in mind!
 
 ---
-## New pool's holy graph :
+## Holy graph :
 ---
 
 </p>
