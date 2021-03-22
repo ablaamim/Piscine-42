@@ -72,7 +72,7 @@ int	main(void)
 	return 0;
 }
 ```
-#### :books: Ascii table is prettty useful for this project !
+#### :books: Ascii table is pretty useful for this project !
 </p>
 <p align="center">  
 <IMG SRC="https://pascal.developpez.com/cours/cyberzoide/images/ascii.gif" width = "700">
