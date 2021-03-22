@@ -10,6 +10,16 @@
 
 > “It’s harder to read code than to write it.” — Joel Spolsky
 
+## Requirements for this projet :
+
+* Rigor .
+
+* The will to learn .
+
+* Simple manipulation of a mouse and keyboard.
+
+---
+
 </p>
 <p align="center">  
 <img src ="https://msmariapoppies.files.wordpress.com/2020/09/aye-aye-capitain.gif?w=498" width="600">
