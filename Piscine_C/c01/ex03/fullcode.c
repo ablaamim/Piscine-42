@@ -6,7 +6,7 @@
 /*   By: alaamimi <alaamimi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/03/05 21:35:17 by alaamimi          #+#    #+#             */
-/*   Updated: 2021/04/14 12:34:47 by alaamimi         ###   ########.fr       */
+/*   Updated: 2021/04/14 13:03:32 by alaamimi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,16 +49,18 @@ void	ft_div_mod(int a, int b, int *div, int *mod)
 int	main(void)
 {
 	int a;
-`:wq	int b;
+	int b;
 	int div;
 	int mod;
 
 	a = 42;
-	b = 13;
+	b = 4;
 	ft_div_mod(a, b, &div, &mod);
+	write(1, "-----\n", 6);
 	ft_putnbr(div);
 	ft_putchar('\n');
 	ft_putnbr(mod);
 	ft_putchar('\n');
+	write(1, "-----\n", 6);
 	return(EXIT_SUCCESS);
 }
