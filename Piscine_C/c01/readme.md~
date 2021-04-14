@@ -1,3 +1,5 @@
+---
+
 ## :information_source: Table Content :
 
 | C01 | Problems |
@@ -12,12 +14,17 @@
 | ex07 | ft_rev_int_tab |
 | ex08 | ft_sort_int_tab |
 
+---
+
 ## Let's go !
 
 </p>
 <p align="center">  
 <img src="https://media.giphy.com/media/RrVzUOXldFe8M/giphy.gif" width="1200">
 </p>
+
+---
+
 ## Exercise 00 : ft_ft
 
 1. :dart: Task :
@@ -64,6 +71,8 @@ $>gcc ft_ft.c -o ft_ft -Wall -Wextra -Werror && ./ft_ft
 42
 -----
 ```
+---
+
 ## Exercise 01 : ft_ultimate_ft
 
 1. :dart: Task :
@@ -131,6 +140,8 @@ $>gcc ft_ultimate_ft.c -o ft_ultimate_fr -Wall -Wextra -Werror && ./ft_ultimare_
 -----
 ```
 
+---
+
 ## Exercise 02 : ft_swap :
 
 1. :dart: Task :
@@ -177,6 +188,8 @@ int	main(void)
 }
 ```
 
+---
+
 4. :8ball: Expected output :
 ```c
 &>gcc ft_swap.c -o ft_swap -Wall -Wextra -Werror && ./ft_swap
@@ -211,6 +224,8 @@ div. It also stores the remainder of the division of a by b in the int pointed b
 ```c
 ```
 
+---
+
 ## Exercise 04 : ft_ultimate_div_mod
 
 1. :dart: Task :
@@ -232,6 +247,8 @@ int pointed by a. The remainder of the division is stored in the int pointed by 
 4. :8ball: Expected output :
 ```c
 ```
+
+---
 
 ## Exercise 05 : ft_putstr :
 
@@ -255,6 +272,8 @@ void ft_putstr(char *str);
 ```c
 ```
 
+---
+
 ## Exercise 06 : ft_strlen :
 
 1. :dart: Task :
@@ -277,6 +296,8 @@ int ft_strlen(char *str);
 ```c
 ```
 
+---
+
 ## Exercise 07 : ft_rev_int_tab :
 
 1. :dart: Task :
@@ -295,6 +316,8 @@ int ft_strlen(char *str);
 ```c
 ```
 
+---
+
 ## Exercise 08 : ft_sort_int_tab :
 
 1. :dart: Task :
@@ -312,3 +335,5 @@ int ft_strlen(char *str);
 4. :8ball: Expected output :
 ```c
 ```
+
+---
