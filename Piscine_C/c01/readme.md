@@ -210,10 +210,25 @@ div. It also stores the remainder of the division of a by b in the int pointed b
 
 2. :dart: Function :
 ```c
+void	ft_div_mod(int a, int b, int *div, int *mod)
+{
+	if(div != 0)
+	{
+		*div = a / b;
+		*mod = a % b;
+	}
+}
 ```
 
 3. :wrench: :beetle: Test && Debug :
 ```c
+int	main(void)
+{
+	int a;
+	int b;
+	int *div;
+	int *mod;
+}
 ```
 
 4. :8ball: Expected output :
