@@ -314,14 +314,57 @@ void ft_putstr(char *str);
 
 2. :dart: Function :
 ```c
+void	ft_putstr(char *str)
+{
+	int i;
+
+	i = 0;
+	while (str[i] != '\0')
+	{
+		ft_putchar(str[i]);
+		i++;
+	}
+}
 ```
 
 3. :wrench: :beetle: Test && Debug :
 ```c
+int	main(void)
+{
+	char *str;
+
+	str = "Future is loading, 1337!";
+	write(1,"-----\n", 6);
+	ft_putstr(str);
+		write(1, "\n", 1);
+	write(1, "-----\n",6);
+	ft_putstr(str);
+		write(1, "\n",1);
+	ft_putstr(str);
+		write(1, "\n", 1);
+	ft_putstr(str);
+		write(1, "\n", 1);
+	write(1, "-----\n", 6);
+	str="";
+	write(1,"should be empty :", 17);
+	ft_putstr(str);
+	write(1, "\n", 1);
+	write(1, "-----\n", 6);
+	return(EXIT_SUCCESS);
+}
 ```
 
 4. :8ball: Expected output :
 ```c
+-----
+Future is loading, 1337!
+-----
+Future is loading, 1337!
+Future is loading, 1337!
+Future is loading, 1337!
+-----
+should be empty :
+-----
 ```
 
 ---
