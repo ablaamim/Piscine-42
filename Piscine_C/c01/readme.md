@@ -1,4 +1,4 @@
-## :information_source: Table Content :
+﻿## :information_source: Table Content :
 
 | C01 | Problems |
 |--- |--- |
@@ -262,10 +262,38 @@ int pointed by a. The remainder of the division is stored in the int pointed by 
 
 2. :dart: Function :
 ```c
+void	ft_ultimate_div_mod(int *a, int *b)
+{
+	int div;
+	int mod;
+
+	div = *a / *b;
+	mod = *a % *b;
+	div = *a;
+	mod = *b;
+}
 ```
 
 3. :wrench: :beetle: Test && Debug :
 ```c
+int	main(void)
+{
+	int a;
+	int b;
+
+	a = 10;
+	b = 3;
+	ft_ultimate_div_mod(&a, &b);
+	ft_putnbr(a);
+	ft_putchar(10);
+	ft_putnbr(b);
+	ft_putchar(10);
+	return(EXIT_SUCCESS);
+}
+-----
+3
+1
+-----
 ```
 
 4. :8ball: Expected output :
