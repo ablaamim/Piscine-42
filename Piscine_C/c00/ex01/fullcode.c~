@@ -6,12 +6,12 @@
 /*   By: alaamimi <alaamimi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/01/02 20:25:22 by alaamimi          #+#    #+#             */
-/*   Updated: 2021/04/14 11:41:40 by Vlad             ###   ########.fr       */
+/*   Updated: 2021/02/24 19:14:29 by alaamimi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h> /*Preprocessor Directives*/
-#include <stdlib.h> /*Forbiden library*/
+#include <stdlib.h>
 
 void	ft_putchar(char c) /*Function that uses write() to print chars*/
 {
@@ -34,5 +34,5 @@ int	main(void)
 {
 	ft_print_alphabet();
 		ft_putchar('\n');
-	return (EXIT_SUCCESS); /*This is forbiden*/
+	return (EXIT_SUCCESS); /*This forbiden*/
 }
