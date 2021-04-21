@@ -6,7 +6,7 @@
 /*   By: alaamimi <alaamimi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/21 17:12:49 by alaamimi          #+#    #+#             */
-/*   Updated: 2021/04/21 17:33:07 by alaamimi         ###   ########.fr       */
+/*   Updated: 2021/04/21 17:32:47 by alaamimi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,7 +58,7 @@ int	main(void)
 
 	str = "AA123456789"; /* len = 11 */
 	write(1, "-----\n", 6);
-		write(1, "len = ", 6);
+		write(1, "len = ", 6)
 	ft_putnbr(ft_strlen(str));
 		write(1, "\n", 1);
 	write(1, "-----\n", 6);
