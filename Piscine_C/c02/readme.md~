@@ -29,6 +29,9 @@
 
 1. :dart: Task :
 ```c
+• Reproduce the behavior of the function strcpy (man strcpy).
+• Here’s how it should be prototyped :
+char *ft_strcpy(char *dest, char *src);
 ```
 
 2. :dart: Function :

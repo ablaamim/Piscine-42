@@ -6,7 +6,7 @@
 /*   By: alaamimi <alaamimi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/21 22:18:37 by alaamimi          #+#    #+#             */
-/*   Updated: 2021/04/22 00:22:47 by alaamimi         ###   ########.fr       */
+/*   Updated: 2021/04/22 00:37:39 by alaamimi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,21 +50,21 @@ int	main(void)
 	char src[] = "testing\n";
 	char dest[] = "qq   qqqq\n";
 		write(1, "-----\n", 6);
-		write(1, "Destination string is : ", 25);
+		write(1, "Destination string is : ", 24);
 	ft_putstr(dest);
 		write(1, "-----\n", 6);
 	ft_strcpy(dest, src);
-		write(1, "The result is : ", 17);
+		write(1, "The result is : ", 16);
 	ft_putstr(dest);
 		write(1, "-----\n", 6);
 	char src1[] = "";
 	char dest1[] = "42";
-		write(1, "Destination string is : ", 25);
+		write(1, "Destination string is : ", 24);
 	ft_putstr(dest1);
 		write(1, "\n", 1);
 		write(1, "-----\n", 6);
 	ft_strcpy(dest1, src1);
-		write(1, "The result is : ", 17);
+		write(1, "The result is : ", 16);
 	ft_putstr(dest1);
 		write(1, "\n", 1);
 		write(1, "-----\n", 6);
