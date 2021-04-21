@@ -479,7 +479,7 @@ int	main(void)
 	ft_rev_int_tab(tab, 10);
 	write(1, "-----\n", 6);
 		write(1, "rev_int_tab values are : ", 25);
-	write(1, "\n{", 2);
+	write(1, "{", 2);
 	while(cmt < 10)
 	{
 		ft_putnbr(tab[cmt]);
@@ -497,8 +497,7 @@ int	main(void)
 4. :8ball: Expected output :
 ```c
 -----
-rev_int_tab values are : 
-{0, 8, 7, 6, 5, 8, 3, 2, 4, 1}
+rev_int_tab values are : {0, 8, 7, 6, 5, 8, 3, 2, 4, 1}
 -----
 ```
 

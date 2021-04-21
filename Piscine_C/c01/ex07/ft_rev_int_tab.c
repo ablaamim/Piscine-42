@@ -62,7 +62,7 @@ int	main(void)
 	ft_rev_int_tab(tab, 10);
 	write(1, "-----\n", 6);
 		write(1, "rev_int_tab values are : ", 25);
-	write(1, "\n{", 2);
+	write(1, "{", 2);
 	while(cmt < 10)
 	{
 		ft_putnbr(tab[cmt]);

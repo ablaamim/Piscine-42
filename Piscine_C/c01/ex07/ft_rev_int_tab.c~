@@ -6,7 +6,7 @@
 /*   By: alaamimi <alaamimi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/21 17:47:25 by alaamimi          #+#    #+#             */
-/*   Updated: 2021/04/21 18:39:34 by alaamimi         ###   ########.fr       */
+/*   Updated: 2021/04/21 18:40:06 by alaamimi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,16 +37,6 @@ void	ft_putnbr(int nb)
 		ft_putchar(nbr + 48);
 }
 
-void	ft_swap(int *a, int *b)
-{
-	int temp;
-
-	temp = *a;
-	*a = *b;
-	*b = temp;
-
-}
-
 void	ft_rev_int_tab(int *tab, int size)
 {
 	int cmt;
@@ -72,7 +62,7 @@ int	main(void)
 	ft_rev_int_tab(tab, 10);
 	write(1, "-----\n", 6);
 		write(1, "rev_int_tab values are : ", 25);
-	write(1, "\n{", 2);
+	write(1, "{", 2);
 	while(cmt < 10)
 	{
 		ft_putnbr(tab[cmt]);
