@@ -381,50 +381,10 @@ int ft_strlen(char *str);
 
 2. :dart: Function :
 ```c
-int	ft_strlen(char *str)
-{
-	int cpt;
-	int i;
-
-	cpt = 0;
-	i = 0;
-	while(str[i] != '\0')
-	{
-		i++;
-		cpt++;
-	}
-	return(cpt);
-}
 ```
 
 3. :wrench: :beetle: Test && Debug :
 ```c
-int	main(void)
-{
-	char *str;
-
-	str = "AA123456789"; /* len = 11 */
-	write(1, "-----\n", 6);
-		write(1, "len = ", 6);
-	ft_putnbr(ft_strlen(str));
-		write(1, "\n", 1);
-	write(1, "-----\n", 6);
-	char *str1;
-
-	str1 = "";
-	write(1,"len = ",6);
-	ft_putnbr(ft_strlen(str1));
-		write(1, "\n", 1);
-	write(1, "-----\n", 6);
-	char *str2;
-
-	str2 = "\t\n 42";
-	write(1,"len = ",6);
-	ft_putnbr(ft_strlen(str2));
-		write(1, "\n", 1);
-	write(1, "-----\n", 6);
-	return(EXIT_SUCCESS);
-}
 ```
 
 4. :8ball: Expected output :
@@ -449,14 +409,8 @@ int	main(void)
 
 4. :8ball: Expected output :
 ```c
------
-len = 11
------
-len = 0
------
-len = 5
------
 ```
+
 ---
 
 ## Exercise 08 : ft_sort_int_tab :
