@@ -18,14 +18,14 @@
 
 </p>
 <p align="center">  
-<IMG SRC="https://64.media.tumblr.com/ab95eba62064b6ca1622dbcf4fb50a63/tumblr_otjmkidZks1us7drco1_500.jpg" WIDTH="1200">
+<IMG SRC="https://64.media.tumblr.com/ab95eba62064b6ca1622dbcf4fb50a63/tumblr_otjmkidZks1us7drco1_500.jpg" WIDTH="800">
 </p>
 
 > Get a cup of coffee and come back hahahahaha !
 
 </p>
 <p align="center">  
-<img src="https://nationalcoffeeblog.files.wordpress.com/2016/09/art-of-coffee.gif?w=676" width="1200">
+<img src="https://nationalcoffeeblog.files.wordpress.com/2016/09/art-of-coffee.gif?w=676" width="800">
 </p>
 
 #### :information_source: Quick and dirty guide to C :

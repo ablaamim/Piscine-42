@@ -18,7 +18,7 @@
 
 </p>
 <p align="center">  
-<IMG SRC="https://64.media.tumblr.com/ab95eba62064b6ca1622dbcf4fb50a63/tumblr_otjmkidZks1us7drco1_500.jpg" WIDTH="500">
+<IMG SRC="https://64.media.tumblr.com/ab95eba62064b6ca1622dbcf4fb50a63/tumblr_otjmkidZks1us7drco1_500.jpg" WIDTH="1200">
 </p>
 
 > Get a cup of coffee and come back hahahahaha !
