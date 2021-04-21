@@ -20,7 +20,7 @@
 
 </p>
 <p align="center">  
-<img src="" width="1200">
+<img src="https://tahirjan.com/media/posts/9/responsive/c-string-manipulation-md.jpg" width="1200">
 </p>
 
 ---
