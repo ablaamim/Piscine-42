@@ -517,14 +517,63 @@ void ft_sort_int_tab(int *tab, int size);
 
 2. :dart: Function :
 ```c
+void	ft_sort_int_tab(int *tab, int size)
+{
+	int cmp1;
+	int cmp2;
+	int tmp;
+
+	cmp1 = 0;
+	while(cmp1 < size)
+	{
+		cmp2 = cmp1 + 1;
+		while(cmp2 < size)
+		{
+			if (tab[cmp2] < tab[cmp1])
+			{
+				tmp = tab[cmp1];
+				tab[cmp1] = tab[cmp2];
+				tab[cmp2] = tmp;
+			}
+			cmp2++;
+		}
+		cmp1++;
+	}
+}
 ```
 
 3. :wrench: :beetle: Test && Debug :
 ```c
+int	main(void)
+{
+	int tab[10]= {8, 9, 4, 5, 7, 1, 0, 3, 2, 6};
+	int cmp;
+
+	ft_sort_int_tab(tab, 10);
+	cmp = 0;
+	write(1, "-----\n", 6);
+		write(1, "Sorted int tab : ", 17);
+	while(cmp < 10)
+	{
+		{
+			ft_putnbr(tab[cmp]);
+			cmp++;
+		}
+	}
+		write(1, "\n", 1);
+	write(1, "-----\n", 6);
+	return(EXIT_SUCCESS);
+}
 ```
 
 4. :8ball: Expected output :
 ```c
+-----
+
+Sorted int tab : 0123456789
+
+-----
+
 ```
 ---
 
