@@ -5,10 +5,38 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: alaamimi <alaamimi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/04/21 19:28:35 by alaamimi          #+#    #+#             */
-/*   Updated: 2021/04/21 19:33:47 by alaamimi         ###   ########.fr       */
+/*   Created: 2021/04/21 18:53:26 by alaamimi          #+#    #+#             */
+/*   Updated: 2021/04/21 19:27:16 by alaamimi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+
+#include <unistd.h>
+#include <stdlib.h>
+
+void	ft_putchar(char c)
+{
+	write(1, &c, 1);
+}
+
+void	ft_putnbr(int nb)
+{
+	long nbr;
+
+	nbr = nb;
+	if(nbr < 0)
+	{
+		nbr = -nbr;
+		ft_putchar('-');
+	}
+	if(nbr > 9)
+	{
+		ft_putnbr(nbr / 10);
+		ft_putnbr(nbr % 10);
+	}
+	if(nbr >= 0 && nbr < 10)
+		ft_putchar(nbr + 48);
+}
 
 void	ft_sort_int_tab(int *tab, int size)
 {
@@ -32,4 +60,25 @@ void	ft_sort_int_tab(int *tab, int size)
 		}
 		cmp1++;
 	}
+}
+
+int	main(void)
+{
+	int tab[10]= {8, 9, 4, 5, 7, 1, 0, 3, 2, 6};
+	int cmp;
+
+	ft_sort_int_tab(tab, 10);
+	cmp = 0;
+	write(1, "-----\n", 6);
+		write(1, "Sorted int tab : ", 17);
+	while(cmp < 10)
+	{
+		{
+			ft_putnbr(tab[cmp]);
+			cmp++;
+		}
+	}
+		write(1, "\n", 1);
+	write(1, "-----\n", 6);
+	return(EXIT_SUCCESS);
 }
