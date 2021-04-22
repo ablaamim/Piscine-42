@@ -170,6 +170,11 @@ int ft_str_is_numeric(char *str);
 
 1. :dart: Task :
 ```c
+• Create a function that returns 1 if the string given as a parameter contains only
+lowercase alphabetical characters, and 0 if it contains any other character.
+• Here’s how it should be prototyped :
+int ft_str_is_lowercase(char *str);
+• It should return 1 if str is empty.
 ```
 2. :dart: Function :
 ```c
@@ -189,6 +194,11 @@ int ft_str_is_numeric(char *str);
 
 1. :dart: Task :
 ```c
+• Create a function that returns 1 if the string given as a parameter contains only
+uppercase alphabetical characters, and 0 if it contains any other character.
+• Here’s how it should be prototyped :
+int ft_str_is_uppercase(char *str);
+• It should return 1 if str is empty.
 ```
 
 2. :dart: Function :
@@ -205,6 +215,11 @@ int ft_str_is_numeric(char *str);
 
 1. :dart: Task :
 ```c
+• Create a function that returns 1 if the string given as a parameter contains only
+printable characters, and 0 if it contains any other character.
+• Here’s how it should be prototyped :
+int ft_str_is_printable(char *str);
+• It should return 1 if str is empty.
 ```
 
 2. :dart: Function :
@@ -223,6 +238,10 @@ int ft_str_is_numeric(char *str);
 
 1. :dart: Task :
 ```c
+• Create a function that transforms every letter to uppercase.
+• Here’s how it should be prototyped :
+char *ft_strupcase(char *str);
+• It should return str.
 ```
 
 2. :dart: Function :
@@ -245,6 +264,10 @@ int ft_str_is_numeric(char *str);
 
 1. :dart: Task :
 ```c
+• Create a function that transforms every letter to lowercase.
+• Here’s how it should be prototyped :
+char *ft_strlowcase(char *str);
+• It should return str.
 ```
 
 2. :dart: Function :
@@ -264,6 +287,12 @@ int ft_str_is_numeric(char *str);
 
 1. :dart: Task :
 ```c
+• Create a function that capitalizes the first letter of each word and transforms all
+other letters to lowercase.
+• A word is a string of alphanumeric characters.
+• Here’s how it should be prototyped :
+char *ft_strcapitalize(char *str);
+• It should return str.
 ```
 
 2. :dart: Function :
@@ -279,10 +308,13 @@ int ft_str_is_numeric(char *str);
 ```
 ---
 
-## Exercise 10 : ft_strlcopy :
+## Exercise 10 : ft_strlcpy :
 
 1. :dart: Task :
 ```c
+• Reproduce the behavior of the function strlcpy (man strlcpy).
+• Here’s how it should be prototyped :
+unsigned int ft_strlcpy(char *dest, char *src, unsigned int size);
 ```
 
 2. :dart: Function :
@@ -301,6 +333,14 @@ int ft_str_is_numeric(char *str);
 
 1. :dart: Task :
 ```c
+• Create a function that displays a string of characters onscreen. If this string contains characters that aren’t printable, they’ll have to be displayed in the shape of
+hexadecimals (lowercase), preceeded by a "backslash".
+• For example :
+Coucou\ntu vas bien ?
+• The function should display :
+Coucou\0atu vas bien ?
+• Here’s how it should be prototyped :
+void ft_putstr_non_printable(char *str);
 ```
 
 2. :dart: Function :
@@ -319,8 +359,17 @@ int ft_str_is_numeric(char *str);
 
 1. :dart: Task :
 ```c
+• Create a function that displays the memory area onscreen.
+• The display of this memory area should be split into three "columns" separated by
+a space :
+? The hexadecimal address of the first line’s first character followed by a ’:’.
+? The content in hexadecimal with a space each 2 characters and should be
+padded with spaces if needed (see the example below).
+? The content in printable characters.
+• If a character is non-printable, it’ll be replaced by a dot.
+• Each line should handle sixteen characters.
+• If size equals to 0, nothing should be displayed.
 ```
-
 2. :dart: Function :
 ```c
 ```

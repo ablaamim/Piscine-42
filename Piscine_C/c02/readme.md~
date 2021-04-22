@@ -98,6 +98,9 @@ The result is :
 
 1. :dart: Task :
 ```c
+• Reproduce the behavior of the function strncpy (man strncpy).
+• Here’s how it should be prototyped :
+char *ft_strncpy(char *dest, char *src, unsigned int n);
 ```
 
 2. :dart: Function :
@@ -117,6 +120,12 @@ The result is :
 
 1. :dart: Task :
 ```c
+• Create a function that returns 1 if the string given as a parameter contains only
+alphabetical characters, and 0 if it contains any other character.
+• Here’s how it should be prototyped :
+int ft_str_is_alpha(char *str);
+• It should return 1 if str is empty
+```
 
 2. :dart: Function :
 ```c
@@ -136,6 +145,11 @@ The result is :
 
 1. :dart: Task :
 ```c
+• Create a function that returns 1 if the string given as a parameter contains only
+digits, and 0 if it contains any other character.
+• Here’s how it should be prototyped :
+int ft_str_is_numeric(char *str);
+• It should return 1 if str is empty.
 ```
 
 2. :dart: Function :
@@ -265,7 +279,7 @@ The result is :
 ```
 ---
 
-## Exercise 10 : ft_strlcopy :
+## Exercise 10 : ft_strlcpy :
 
 1. :dart: Task :
 ```c
