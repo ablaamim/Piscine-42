@@ -6,7 +6,7 @@
 /*   By: alaamimi <alaamimi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/21 22:18:37 by alaamimi          #+#    #+#             */
-/*   Updated: 2021/04/22 00:37:39 by alaamimi         ###   ########.fr       */
+/*   Updated: 2021/04/23 02:18:44 by alaamimi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,27 +21,19 @@ void	ft_putchar(char c)
 
 void	ft_putstr(char *str)
 {
-	int cmp;
-
-	cmp = 0;
-	while(str[cmp] != '\0')
+	while(*str != '\0')
 	{
-		ft_putchar(str[cmp]);
-		cmp++;
+		ft_putchar(*str++);
 	}
 }
 
 char	*ft_strcpy(char *dest, char *src)
 {
-	int cmp;
-
-	cmp = 0;
-	while(src[cmp] != '\0')
+	while(*src != '\0')
 	{
-		dest[cmp] = src[cmp];
-		cmp++;
+		*dest++ = *src++;
 	}
-	dest[cmp] = '\0';
+	*dest = '\0';
 	return(dest);
 }
 

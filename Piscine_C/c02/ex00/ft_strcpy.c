@@ -6,20 +6,16 @@
 /*   By: alaamimi <alaamimi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/16 09:39:37 by alaamimi          #+#    #+#             */
-/*   Updated: 2021/04/22 00:24:19 by alaamimi         ###   ########.fr       */
+/*   Updated: 2021/04/23 02:20:30 by alaamimi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 char *ft_strcpy( char *dest, char *src)
 {
-	int cmp;
-
-	cmp = 0;
-	while (src[cmp] != '\0')
+	while(*dest != '\0')
 	{
-		dest[cmp] = src[cmp];
-		cmp++;
+		*str++ = *dest++;
 	}
-	dest[cmp] = '\0';
+	*dest = '\0';
 	return (dest);
 }
