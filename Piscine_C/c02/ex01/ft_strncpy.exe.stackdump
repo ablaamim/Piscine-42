@@ -1,0 +1,7 @@
+Exception: STATUS_ACCESS_VIOLATION at eip=000A7478
+eax=00000000 ebx=0061CC7C ecx=77CC1CFC edx=00000000 esi=0000002E edi=0000006E
+ebp=65742E74 esp=0061CC60 program=C:\Users\tetouan\.babun\cygwin\home\Vlad\Piscine-42\Piscine_C\c02\ex01\ft_strncpy.exe, pid 10232, thread main
+cs=0023 ds=002B es=002B fs=0053 gs=002B ss=002B
+Stack trace:
+Frame     Function  Args
+End of stack trace

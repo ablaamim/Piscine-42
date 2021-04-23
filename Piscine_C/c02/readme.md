@@ -38,15 +38,12 @@ char *ft_strcpy(char *dest, char *src);
 ```c
 char	*ft_strcpy(char *dest, char *src)
 {
-	int cmp;
 
-	cmp = 0;
-	while(src[cmp] != '\0')
+	while(*src != '\0')
 	{
-		dest[cmp] = src[cmp];
-		cmp++;
+		*dest++ = *src++;
 	}
-	dest[cmp] = '\0';
+	*dest = '\0';
 	return(dest);
 }
 ```
