@@ -112,8 +112,6 @@ void ft_putchar(char c)
 3. :dart: Function :
 
 ```c
-#include <unistd.h>
-
 void	ft_putchar(char c)
 {
 	write(1, &c, 1);
@@ -161,8 +159,6 @@ abcd...z
 
 2. :dart: Function :
 ```c
-#include <unistd.h>
-
 void	Ft_putchar(char c)
 {
 	write(1, &c, 1);
@@ -213,8 +209,6 @@ zyx...a
 3. :dart: Function:
 
 ``` c
-#include <unistd.h>
-
 void	ft_putchar(char c)
 {
 	write(1, &c, 1);
@@ -256,8 +250,6 @@ $>gcc ft_print_numbers.c -o ft_print_numbers -Wall -Wextra -Werror && ./ft_print
 2. :dart: Function:
 
 ```c
-#include <unistd.h>
-
 void	ft_putchar(char c)
 {
 	write(1, &c, 1);
@@ -300,7 +292,7 @@ N //-42
 
 1. :dart: Task :
 ```c
-• Create a function that displays all dierent combinations of three dierent digits in
+• Create a function that displays all different combinations of three different digits in
 ascending order, listed by ascending order - yes, repetition is voluntary.
 
 • 987 isn’t there because 789 already is.
@@ -314,7 +306,6 @@ void	ft_print_comb(void);
 
 2. :dart: Function :
 ```c
-#include <unistd.h>
 
 void	ft_putchar(char c)
 {
@@ -401,8 +392,6 @@ void ft_print_comb2(void);
 
 2. :dart: Function :
 ```c
-#include <unistd.h>
-
 void	ft_putchar(char c)
 {
 	write(1, &c, 1);
@@ -480,8 +469,6 @@ void ft_putnbr(int nb);
 
 2. :dart: Function :
 ```c
-#include <unistd.h>
-
 void	ft_putchar(char c)
 {
 	write(1, &c, 1);
