@@ -5,7 +5,9 @@
 ---
 
 <img src="https://github.com/Alaamimi/Piscine-42/blob/master/ressources/1337.jpg" width="55">
+
 ---
+
 ## Disclaimer : :skull: CHEAT ZONE ALERT! :skull:
 ---
 > This code is not licenced, copying it is not the best way to progress ! Dig your own way budd.
