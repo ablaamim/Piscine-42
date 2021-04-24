@@ -1,3 +1,5 @@
+<img src="" width="55">
+
 ---
 ## Disclaimer : :skull: CHEAT ZONE ALERT! :skull:
 ---
