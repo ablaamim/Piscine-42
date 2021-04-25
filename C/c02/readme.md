@@ -134,17 +134,11 @@ int	main(void)
 4. :8ball: Expected output :
 ```c
 -----
+Text1.txt
 
 -----
-Return : 1
------
-123
------
-Return : 0
------
-abcDEF
------
-Return :1
+Text1.txt
+
 -----
 ```
 
@@ -218,6 +212,7 @@ int	main(void)
 
 4. :8ball: Expected output :
 ```c
+
 -----
 
 -----
