@@ -39,10 +39,8 @@ char *ft_strcpy(char *dest, char *src);
 char	*ft_strcpy(char *dest, char *src)
 {
 
-	while(*src != '\0')
-	{
+	while (*src != '\0')
 		*dest++ = *src++;
-	}
 	*dest = '\0';
 	return(dest);
 }
@@ -102,6 +100,13 @@ char *ft_strncpy(char *dest, char *src, unsigned int n);
 
 2. :dart: Function :
 ```c
+char	*strncpy(char *dest, char *src, unsigned int n)
+{
+	while (*src != '\0' && n--)
+		*dest++ = *src++;
+	*dest = '\0';
+	return (dest);
+}
 ```
 3. :wrench: :beetle: Test && Debug :
 ```c
