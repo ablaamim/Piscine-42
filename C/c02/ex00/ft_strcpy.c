@@ -6,15 +6,15 @@
 /*   By: alaamimi <alaamimi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/16 09:39:37 by alaamimi          #+#    #+#             */
-/*   Updated: 2021/04/23 02:20:30 by alaamimi         ###   ########.fr       */
+/*   Updated: 2021/04/25 19:59:49 by root             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-char *ft_strcpy( char *dest, char *src)
+char	*ft_strcpy( char *dest, char *src)
 {
-	while(*dest != '\0')
+	while (*dest != '\0')
 	{
-		*str++ = *dest++;
+		*dest++ = *src++;
 	}
 	*dest = '\0';
 	return (dest);
