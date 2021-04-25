@@ -133,6 +133,19 @@ int	main(void)
 
 4. :8ball: Expected output :
 ```c
+-----
+
+-----
+Return : 1
+-----
+123
+-----
+Return : 0
+-----
+abcDEF
+-----
+Return :1
+-----
 ```
 
 ---
