@@ -6,16 +6,14 @@
 /*   By: alaamimi <alaamimi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/16 09:39:37 by alaamimi          #+#    #+#             */
-/*   Updated: 2021/04/25 19:59:49 by root             ###   ########.fr       */
+/*   Updated: 2021/04/25 20:08:47 by alaamimi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 char	*ft_strcpy( char *dest, char *src)
 {
 	while (*dest != '\0')
-	{
 		*dest++ = *src++;
-	}
 	*dest = '\0';
 	return (dest);
 }

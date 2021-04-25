@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strncpy.c                                       :+:      :+:    :+:   */
+/*   fullcode.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: alaamimi <alaamimi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/22 19:35:26 by alaamimi          #+#    #+#             */
-/*   Updated: 2021/04/23 02:24:45 by alaamimi         ###   ########.fr       */
+/*   Updated: 2021/04/25 20:29:01 by alaamimi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,16 +27,19 @@ void	ft_putstr(char *str)
 	}
 }
 
-char *ft_strncpy(char *dest, char *src, unsigned int n)
+char	*ft_strncpy(char *dest, char *src, unsigned int n)
 {
-	while(n-- && ((*dest++ = *src++) != '\0'));
+	while (*src != '\0' && n--)
+		*dest++ = *src++;
+	*dest = '\0';
+	return (dest);
 }
 
 int	main(void)
 {
-	char dest[] = "";
-	char src[]= "Text1.txt\n";
-	unsigned int n;
+	char	dest[] = "";
+	char	src[]= "Text1.txt\n";
+	unsigned int	n;
 
 	n = 10;
 	write(1, "-----\n", 6);
@@ -47,5 +50,5 @@ int	main(void)
 	ft_putstr(dest);
 	write(1, "\n", 1);
 	write(1, "-----\n", 6);
-	return(EXIT_SUCCESS);
+	return (EXIT_SUCCESS);
 }
