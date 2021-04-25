@@ -241,14 +241,69 @@ int ft_str_is_numeric(char *str);
 
 2. :dart: Function :
 ```c
+int ft_str_is_numeric(char *str)
+{
+	while (*str != '\0')
+	{
+		if (!(*str >= '0' && *str <= '9'))
+			return (0);
+		*str++;
+	}
+	return (1);
+}
 ```
 
 3. :wrench: :beetle: Test && Debug :
 ```c
+int	main(void)
+{
+	/*TEST 1 : */
+	char	str[] = "";
+		write(1, "-----\n", 6);
+	ft_putstr(str);
+		write(1, "\n", 1);
+		write(1, "-----\n", 6);
+	ft_str_is_numeric(str);
+	ft_putnbr(ft_str_is_numeric(str));
+		write(1, "\n", 1);
+		write(1, "-----\n", 6);
+	/*TEST 2 : */
+	char	str1[] = "0bcd11";
+	ft_putstr(str1);
+		write(1, "\n", 1);
+		write(1, "-----\n", 6);
+	ft_str_is_numeric(str1);
+	ft_putnbr(ft_str_is_numeric(str1));
+		write(1, "\n", 1);
+		write(1, "-----\n", 6);
+	/*TEST 3 :*/
+	char	str2[] = "1234";
+	ft_putstr(str2);
+		write(1, "\n", 1);
+		write(1, "-----\n", 6);
+	ft_str_is_numeric(str2);
+	ft_putnbr(ft_str_is_numeric(str2));
+		write(1, "\n", 1);
+		write(1, "-----\n", 6);
+	return (EXIT_SUCCESS);
+}
 ```
 
 4. :8ball: Expected output :
 ```c
+-----
+
+-----
+1
+-----
+0bcd11
+-----
+0
+-----
+1234
+-----
+1
+-----
 ```
 
 ---
