@@ -6,7 +6,7 @@
 /*   By: alaamimi <alaamimi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/25 23:15:05 by alaamimi          #+#    #+#             */
-/*   Updated: 2021/04/26 02:12:35 by alaamimi         ###   ########.fr       */
+/*   Updated: 2021/04/26 02:16:29 by alaamimi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,6 +48,7 @@ int	main(void)
 		write(1, "-----\n" , 6);
 	ft_putstr(str);
 		write(1, "\n", 1);
+		write(1, "-----\n", 6);
 	ft_str_is_lowercase(str);
 		write(1, "Return : ", 9);
 	ft_putnbr(ft_str_is_lowercase(str));
