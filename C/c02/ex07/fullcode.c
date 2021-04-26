@@ -1,22 +1,45 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strupcase.c                                     :+:      :+:    :+:   */
+/*   fullcode.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: alaamimi <alaamimi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/04/26 05:12:07 by alaamimi          #+#    #+#             */
-/*   Updated: 2021/04/26 05:12:54 by alaamimi         ###   ########.fr       */
+/*   Created: 2021/04/26 05:13:08 by alaamimi          #+#    #+#             */
+/*   Updated: 2021/04/26 05:40:00 by alaamimi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-char	*ft_strupcase(char *str)
+#include <unistd.h>
+#include <stdlib.h>
+
+void	ft_putstr(char *str)
+{
+	while (*str != '\0')
+		write(1, &(*str++),1);
+}
+
+char *ft_strupcase(char *str)
 {
 	while (*str != '\0')
 	{
-		if (*str >= 'a' && *str <= 'z')
+		if(*str >= 'a' && *str <= 'z')
 			*str = *str - 32;
 		*str++;
 	}
 	return (str);
+}
+
+int	main(void)
+{
+	char	str[] = "abcd";
+		write(1, "-----\n", 6);
+	ft_putstr(str);
+		write(1, "\n", 1);
+		write(1, "-----\n", 6);
+	ft_strupcase(str);
+	ft_putstr(str);
+		write(1, "\n", 1);
+		write(1, "-----\n", 6);
+	return (EXIT_SUCCESS);
 }
