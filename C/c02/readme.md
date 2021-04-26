@@ -320,14 +320,70 @@ int ft_str_is_lowercase(char *str);
 ```
 2. :dart: Function :
 ```c
+int	ft_str_is_lowercase(char *str)
+{
+	while (*str != '\0')
+	{
+		if (!(*str >= 'a' && *str <= 'z'))
+			return (0);
+		*str++;
+	}
+	return (1);
+}
 ```
 
 3. :wrench: :beetle: Test && Debug :
 ```c
+int	main(void)
+{
+	/*TEST 1 : */
+	char	str[] = "abcd";
+		write(1, "-----\n" , 6);
+	ft_putstr(str);
+		write(1, "\n", 1);
+	ft_str_is_lowercase(str);
+		write(1, "Return : ", 9);
+	ft_putnbr(ft_str_is_lowercase(str));
+		write(1, "\n", 1);
+		write(1, "-----\n", 6);
+	/*TEST 2 : */
+	char	str1[] = "aaaAAAaaa";
+	ft_putstr(str1);
+		write(1, "\n", 1);
+		write(1, "-----\n", 6);
+	ft_str_is_lowercase(str1);
+	write(1, "Return : ", 9);
+	ft_putnbr(ft_str_is_lowercase(str1));
+		write(1, "\n", 1);
+		write(1, "-----\n", 6);
+	/*TEST 3 : */
+	char	str2[] = "";
+	ft_putstr(str2);
+		write(1, "\n", 1);
+		write(1, "-----\n",6);
+	ft_str_is_lowercase(str2);
+	ft_putnbr(ft_str_is_lowercase(str2));
+		write(1, "\n", 1);
+		write(1, "-----\n", 6);
+	return (EXIT_SUCCESS);
+}
 ```
 
 4. :8ball: Expected output :
 ```c
+-----
+abcd
+-----
+Return : 1
+-----
+aaaAAAaaa
+-----
+Return : 0
+-----
+
+-----
+1
+-----
 ```
 
 ---
@@ -345,10 +401,71 @@ int ft_str_is_uppercase(char *str);
 
 2. :dart: Function :
 ```c
+int	ft_str_is_uppercase(char *str)
+{
+	while (*str != '\0')
+	{
+		if (!(*str >= 'A' && *str <= 'Z'))
+			return (0);
+		str++;
+	}
+	return (1);
+}
+```
+
+3. :wrench: :beetle: Test && Debug :
+```c
+int	main(void)
+{
+	/*TEST 1 : */
+	char	str[] = "ABCD";
+		write(1, "-----\n" , 6);
+	ft_putstr(str);
+		write(1, "\n", 1);
+		write(1, "-----\n", 6);
+	ft_str_is_uppercase(str);
+		write(1, "Return : ", 9);
+	ft_putnbr(ft_str_is_uppercase(str));
+		write(1, "\n", 1);
+		write(1, "-----\n", 6);
+	/*TEST 2 : */
+	char	str1[] = "AAAaaaAAA";
+	ft_putstr(str1);
+		write(1, "\n", 1);
+		write(1, "-----\n", 6);
+	ft_str_is_uppercase(str1);
+	write(1, "Return : ", 9);
+	ft_putnbr(ft_str_is_uppercase(str1));
+		write(1, "\n", 1);
+		write(1, "-----\n", 6);
+	/*TEST 3 : */
+	char	str2[] = "";
+	ft_putstr(str2);
+		write(1, "\n", 1);
+		write(1, "-----\n",6);
+	ft_str_is_uppercase(str2);
+	ft_putnbr(ft_str_is_uppercase(str2));
+		write(1, "\n", 1);
+		write(1, "-----\n", 6);
+	return (EXIT_SUCCESS);
+}
 ```
 
 4. :8ball: Expected output :
 ```c
+-----
+ABCD
+-----
+Return : 1
+-----
+AAAaaaAAA
+-----
+Return : 0
+-----
+
+-----
+1
+-----
 ```
 
 ---
