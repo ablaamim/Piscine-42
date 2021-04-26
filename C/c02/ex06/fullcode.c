@@ -6,7 +6,7 @@
 /*   By: alaamimi <alaamimi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/26 02:46:33 by alaamimi          #+#    #+#             */
-/*   Updated: 2021/04/26 03:19:48 by alaamimi         ###   ########.fr       */
+/*   Updated: 2021/04/26 03:28:13 by alaamimi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -67,7 +67,7 @@ int	main(void)
 		write(1, "\n", 1);
 		write(1,"-----\n", 6);
 	/*TEST 3 :*/
-	char	str2[] = " <";
+	char	str2[] = " <\n\t";
 	ft_putstr(str2);
 		write(1, "\n", 1);
 		write(1, "-----\n", 6);
