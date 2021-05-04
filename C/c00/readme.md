@@ -85,9 +85,6 @@ $>gcc ft_putchar.c -o ft_putchar -Wall -Wextra -Werror && ./ft_putchar
 1. :dart: Task :
 
 > Create a function that displays the alphabet in lowercase, on a single line, by ascending order, starting from the letter ’a’.
-
-2. :dart: Task :
-
 > This function is easier to enter, that would constantly use.
 > void - is NONE type, func - return NONE, but put `char` character
 
