@@ -3,18 +3,18 @@
 #                                                         :::      ::::::::    #
 #    ex02.sh                                            :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: alaamimi <alaamimi@student.42.fr>          +#+  +:+       +#+         #
+#    By: alaamimi <alaamimi@student.1337.ma>        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2021/03/04 15:57:21 by alaamimi          #+#    #+#              #
-#    Updated: 2021/03/04 16:03:27 by alaamimi         ###   ########.fr        #
+#    Created: 2021/06/17 00:42:33 by alaamimi          #+#    #+#              #
+#    Updated: 2021/06/17 00:43:21 by alaamimi         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 #-------------------------------------------------------------------------------
 # Ex02
-# Title : What are attributions anyway?
+# Title : What are attributes anyway?
 # TO DO : - Create a file named testShell00 in your submission directory.
-#          - Change file timestamp, attributs and size.
-#          - Create an archive using tar utility.
+#         - Change file timestamp, attributs and size.
+#         - Create an archive using tar utility.
 # Used files : touch, chmod, tar, fallocate/dd/vim,  stat.
 #
 #-------------------------------------------------------------------------------
