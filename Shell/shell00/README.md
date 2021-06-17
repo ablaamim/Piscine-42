@@ -11,7 +11,7 @@
 | 05 | midLS | ex05/ | midLS |
 | 06 | GiT Commit | ex06/ | git_commit.sh |
 | 07 | GiT Ignore | ex07/ | git_ignore.sh |
-| 08 | dif | ex08/ | b | 
+| 08 | diff | ex08/ | b | 
 | 09 | clean | ex09/ | clean |
 | 10 | Illusions, not tricks, Michael... | ex10/ | ft_magic |
 
