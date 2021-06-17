@@ -5,4 +5,7 @@
 ### [Kerberos](https://www.roguelynn.com/words/explain-like-im-5-kerberos/?fbclid=IwAR25Mf4XjM1teYggK_4XNe9keDd3LC1jKWbstLcs_ibvgZEV_gOcyrq_xtE)
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
-### [back](https://i.pinimg.com/originals/ed/61/a9/ed61a9e728c7799c86383a8b0783806e.jpg)
+</p>
+<p align="center">
+### [back](https://i.pinimg.com/originals/ed/61/a9/ed61a9e728c7799c86383a8b0783806e.jpg width = "800")
+</p>
