@@ -18,7 +18,11 @@
 ## :information_source: USEFUL COMMANDS :
 
 rmdir => remove directory
+
+---
+
 chmod
+
 Utilisateur | groupe | all users
 
 u => user
@@ -31,7 +35,11 @@ chmod a-x => remove all executing rights for everyone (all)
 rwx => 421 => 7
 rwx rw- r-- => 427 420 4 => 764
 
+---
+
 shell => delete beginning of line ctrl + d
+
+---
 
 echo
 ls -l
@@ -41,17 +49,26 @@ echo $avar => avalue
 
 if a create an under shell with sh, doesn't know the variable => I need to export it to my environment
 
+---
+
 wc => count the number of line / words & bytes of file
 
+---
 
 * => matching char  substitution
 t??? -> replace with any char
 ~ => root directory
 
+---
+
 to escape wild char => echo '*' or echo \*
+
+---
 
 use more instead of cat => pagination , space allows to jump to nxt page
 / => to do search
+
+---
 
 head => only display the beginning of the file
 head -n 2 => only displays the first two lines
@@ -59,19 +76,24 @@ head -c 9 => only the first 9 chars
 return to line is a char
 tail is the reverse of head
 
+---
+
 cat -e => shows all the return to new line
 
+---
 
 grep -v => reversed search => all line that doesn't contain a certain char / word
 grep -i => case insensitive
 
+---
 
 every program has stdin, stdout (standard output) and stderr (standard error output?)
 
 pipe operator => branch stdout of previous program to stdin of other program
 
+---
 
-ls > res.txt => output of ls gets inside this file
+ls > res.txt => output of ls inside this file
 
 ls hello 2> error.log will write the rror message inside error.log (usage of the 2)
 
@@ -103,9 +125,9 @@ To have all output in a file:
 Command substitution
 https://unix.stackexchange.com/questions/27428/what-does-backquote-backtick-mean-in-commands
 
+---
 
-
------- advanced shell function / utilitaries
+advanced shell function / utilitaries
 
 1) find = looking for file and return path ?
 find . -name hello.txt => find any file in the current directory where the name is hello.txt
@@ -114,20 +136,29 @@ find . -maxdepth 1 => depth in which you want to look (starting with 0 but 0 is 
 find FOLDER_TO_FIND_IN -name NAME_OF_FILE can be combined with -exec option and then any command you want to execute for each single file found
 e.g. find . -name .gitignore 
 
+---
+
 2) wc = wordcount
 -l => line
 -w => words
 -c => amount of characters
 
+---
+
 3) bc = calculation function
 to go out quit
 
+---
 
 4) patch
 patch takes a patch file patchfile containing a difference listing produced by the diff program and applies those differences to one or more original files, producing patched versions.
 
+---
+
 5) sed
 Normally sed is invoked like this:
+
+---
 
 sed SCRIPT INPUTFILE...
 For example, to replace all occurrences of ‘hello’ to ‘world’ in the file input.txt:
@@ -163,24 +194,32 @@ echo 's/hello/world/' > myscript.sed
 sed -f myscript.sed input.txt > output.txt
 sed --file=myscript.sed input.txt > output.txt
 
+---
 
 6) grep
 grep used with -v (--invert-match) is going to select the lines that ARE NOT matching with a specific pattern => -v
 
------- interrupt
+---
+
+interrupt
 when shell is expecting input => ctrl + d to finish but need to be on a new line
 ctrl + c to interrupt
 ctrl + \ => quit as well
 
+---
 
-------- git
+git
+
+
 git log --pretty=format:"%H" => will return the list of commit hashes
 you can pick your own format for your commits
 
 git branch => creates a new branch but doesn't go in there
 git checkout -b => creates a new branch and goes in there
 
-------- magic files
+---
+
+magic files
 use to determine the type of files (and can be used with the file shell command then)
 
 
@@ -189,5 +228,4 @@ use to determine the type of files (and can be used with the file shell command 
 
 01234567891234567891234567891234567891234542
 
-tar xf PATH_TO_FILE 
-
+---
