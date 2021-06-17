@@ -1,12 +1,33 @@
+---
+
 ### [back](https://github.com/alaamimi/Piscine-42/tree/master/Shell/shell00)
 
 ---
 
-### [Kerberos](https://www.roguelynn.com/words/explain-like-im-5-kerberos/?fbclid=IwAR25Mf4XjM1teYggK_4XNe9keDd3LC1jKWbstLcs_ibvgZEV_gOcyrq_xtE)
+#### If you RTFM!(`man ls`) we will see that:
+
+-t:	sort by modification time, newest first
+
+-r:	--reverse
+	reverse order while sorting
+
+-h:	--human-readable
+	with -l and -s, print sizes like 1K 234M 2G etc.
+
+-p:	--indicator-style=slash
+	append / indicator to directories
+
+-m:	fill width with a comma separated list of entries
+
+
+> Here we encounter a problem, because at least with the command `ls` we can't
+truly sort the results by creation date, so we need to create a script or use
+other methods to ensure we display the results in the desired manner. This is
+given because most UNIXes do not have a concept of file creation time, so we
+can't make `ls` print it because the information is not recorded.
+
+For those looking for more go to my [sources](https://unix.stackexchange.com/questions/91197/how-to-find-creation-date-of-file)
+here.
 
 ---
 
-</p>
-<p align="center">
-<img src="https://i.pinimg.com/originals/ed/61/a9/ed61a9e728c7799c86383a8b0783806e.jpg" width = "800">
-</p>
