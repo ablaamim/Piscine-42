@@ -1,7 +1,9 @@
 ### [back](https://github.com/alaamimi/Piscine-42/tree/master/Shell/shell00)
 
-------------------------------------------
+---
+
 #### Objective:
+
 ```
 $ ls -l
 total 42
@@ -15,7 +17,7 @@ lrwxr-xr-x 1 login wheel 5	Jun 1 22:20 test6 -> test0
 $
 ```
 
-------------------------------------------
+---
 #### Command `ls -l` output explanation
 ```
 -rwxrw-r--    10    root   root 2048    Jan 13 07:11 afile.exe
@@ -68,7 +70,8 @@ still points to the same contents, and is thus unaffected, whereas
 `my-soft-link` now points to nothing. Is up to future tasks to evaluate the
 pros/cons of each.
 
-------------------------------------------
+---
+
 #### Changing the timestamp of a symlink
 We just need to add the [OPTION] -h to `touch`
 ```
@@ -76,7 +79,8 @@ touch -h -a -m -t 201806012220.00 test6
 ```
 > Use `man touch` for more info.
 
-------------------------------------------
+---
+
 #### Change the FILE SIZE + timestamp + permissions
 Go here for the __previous__**
 [answer](https://github.com/Alaamimi/1337-piscine/blob/master/Piscine_Shell/Day00/ex02/notes.md)
@@ -84,7 +88,8 @@ Go here for the __previous__**
 the folders and files accordingly with the requirements and come back to it
 latter.
 
-------------------------------------------
+---
+
 #### How do file permissions apply to symlinks?
 It depends on how you call `chmod` and the platform you are running on.
 For example, on a Linux system, `man chmod` says this:
@@ -100,4 +105,4 @@ link using options such as this (from `man chmod`):
 >**-h** If the file is a symbolic link, change the mode of the link itself
 rather than the file that the link points to.
 
-------------------------------------------
+---
