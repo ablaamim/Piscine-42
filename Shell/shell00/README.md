@@ -15,7 +15,7 @@
 | 09 | clean | ex09/ | clean |
 | 10 | Illusions, not tricks, Michael... | ex10/ | ft_magic |
 
-USEFUL COMMANDS :
+## :information_source: USEFUL COMMANDS :
 
 rmdir => remove directory
 chmod
