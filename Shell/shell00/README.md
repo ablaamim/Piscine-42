@@ -16,14 +16,16 @@
 | 10 | Illusions, not tricks, Michael... | ex10/ | ft_magic |
 
 ## :information_source: USEFUL COMMANDS :
+---
 
 rmdir => remove directory
 
 ---
 
-chmod
+chmod : change mode
 
 Utilisateur | groupe | all users
+rwx         | rwx    | rwx
 
 u => user
 g => group
@@ -33,7 +35,7 @@ chmod o+r => add reading rights
 chmod a-x => remove all executing rights for everyone (all)
 
 rwx => 421 => 7
-rwx rw- r-- => 427 420 4 => 764
+rwx rw- r-- => 427 420 400 => 764
 
 ---
 
@@ -42,16 +44,17 @@ shell => delete beginning of line ctrl + d
 ---
 
 echo
+
 ls -l
 shell variable
 $avar=avalue
 echo $avar => avalue
 
-if a create an under shell with sh, doesn't know the variable => I need to export it to my environment
+if you create an under shell with sh, it doesn't know the variable => You need to export it to my environment
 
 ---
 
-wc => count the number of line / words & bytes of file
+wc => count the number of lines / words & bytes of file
 
 ---
 
@@ -78,7 +81,7 @@ tail is the reverse of head
 
 ---
 
-cat -e => shows all the return to new line
+cat -e => shows all the returned values untill new line
 
 ---
 
@@ -127,9 +130,9 @@ https://unix.stackexchange.com/questions/27428/what-does-backquote-backtick-mean
 
 ---
 
-advanced shell function / utilitaries
+advanced shell functions / utilitaries
 
-1) find = looking for file and return path ?
+1) find = looking for files
 find . -name hello.txt => find any file in the current directory where the name is hello.txt
 find . -type d => find any directory in the current directory
 find . -maxdepth 1 => depth in which you want to look (starting with 0 but 0 is just itself)
@@ -157,8 +160,6 @@ patch takes a patch file patchfile containing a difference listing produced by t
 
 5) sed
 Normally sed is invoked like this:
-
----
 
 sed SCRIPT INPUTFILE...
 For example, to replace all occurrences of ‘hello’ to ‘world’ in the file input.txt:
