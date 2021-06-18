@@ -15,7 +15,8 @@
 | 09 | clean | ex09/ | clean |
 | 10 | Illusions, not tricks, Michael... | ex10/ | ft_magic |
 
-## :information_source: USEFUL COMMANDS :
+## :information_source: Notes :
+
 ---
 
 rmdir => remove directory
