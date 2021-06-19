@@ -1,5 +1,3 @@
----
-
 | Subjects | Languages |
 |--- |--- |
 | [PDF](https://github.com/alaamimi/Piscine-42/blob/master/C/c00/c00%20Fr.pdf) | French |
