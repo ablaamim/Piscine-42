@@ -6,7 +6,7 @@
 /*   By: alaamimi <alaamimi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/03/02 17:09:28 by alaamimi          #+#    #+#             */
-/*   Updated: 2021/03/02 17:21:05 by alaamimi         ###   ########.fr       */
+/*   Updated: 2021/06/18 12:49:40 by alaamimi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,11 +39,11 @@ void	ft_putnbr(int nb)
 
 void	ft_swap(int *a, int *b)
 {
-	int temp;
+	int tmp;
 
-	temp = *a;
+	tmp = *a;
 	*a = *b;
-	*b = temp;
+	*b = tmp;
 }
 
 int	main(void)

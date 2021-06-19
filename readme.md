@@ -92,7 +92,7 @@ students, without teachers. It can be done, and it works.
 > :tv:[Linked Lists](https://www.youtube.com/watch?v=zQI3FyWm144&t=784s&ab_channel=CS50)
 
 ---
-## :wrench: C Knowledge :
+## :wrench: C Books :
 ---
 
 > **C is [quirky](https://en.wiktionary.org/wiki/quirky), flawed, and an enormous success** ― *[Dennis Ritchie, Creator of the C language](https://en.wikipedia.org/wiki/Dennis_Ritchie)*
@@ -129,7 +129,7 @@ Title | How Interesting | Author
 
 > Example:
 
-```$> gcc "filename.c" -o "executable.exe" -Wall -Wextra -Werror```
+```$> gcc "filename.c" -Wall -Wextra -Werror -o "executable.exe" ```
 
 
 > Don't you dare to forget reading [manuals](https://www.howtoforge.com/linux-man-command/), read them religiously. ;)
