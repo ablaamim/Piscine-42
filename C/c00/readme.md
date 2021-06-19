@@ -30,6 +30,8 @@
 <img src="http://mrwgifs.com/wp-content/uploads/2013/08/Im-Ready-Lets-Do-This-Reaction-Gif.gif" width = "1200">
 </p>
 
+---
+
 ## Exercise 00 : ft_putchar :
 
 1. :dart: Task :
@@ -156,6 +158,8 @@ int	main (void)				 /* Define the main function from which the program will star
 }
 ```
 
+---
+
 ## Exercise 01 : ft_print_alphabet :
 
 1. :dart: Task :
@@ -268,6 +272,8 @@ int	main(void)	 /* Define the main function from which the program will start */
 	return (EXIT_SUCCESS); /*This is forbiden*/
 }
 ```
+
+---
 
 ## Exercise 02 : ft_print_reverse_alphabet :
 
