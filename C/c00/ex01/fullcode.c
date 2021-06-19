@@ -6,7 +6,7 @@
 /*   By: alaamimi <alaamimi@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/20 00:15:49 by alaamimi          #+#    #+#             */
-/*   Updated: 2021/06/20 00:15:55 by alaamimi         ###   ########.fr       */
+/*   Updated: 2021/06/20 00:17:42 by alaamimi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,11 +45,11 @@ void	ft_print_alphabet() /* Define a function to print alphabets in the stdout*/
 	}
 }
 
-int	main(void)	 / * Define the main function from which the program will start * /
+int	main(void)	 /* Define the main function from which the program will start */
 {
-	ft_print_alphabet();	/ * Call the function for printing the alphabet. When calling a function in parentheses, we do not write anything,
+	ft_print_alphabet();	/* Call the function for printing the alphabet. When calling a function in parentheses, we do not write anything,
 									** leaving them empty because we remember that the function 'ft_print_alphabet' does not accept
-									** arguments * /
+									** arguments */
 	ft_putchar('\n');
 	return (EXIT_SUCCESS); /*This is forbiden*/
 }
