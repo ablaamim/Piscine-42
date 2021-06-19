@@ -6,7 +6,7 @@
 
 | C00 | Problems | Fullcode |
 |--- |--- |--- |
-| ex00 | ft_putchar | |
+| ex00 | ft_putchar | [ft_putchar](https://github.com/alaamimi/Piscine-42/blob/master/C/c00/ex00/fullcode.c) |
 | ex01 | ft_print_alphabet | |
 | ex02 | ft_print_reverse_alphabet | |
 | ex03 | ft_print_numbers | |
