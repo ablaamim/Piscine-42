@@ -10,7 +10,7 @@
 | C00 | Problems | Fullcode |
 |--- |--- |--- |
 | ex00 | ft_putchar | [ft_putchar](https://github.com/alaamimi/Piscine-42/blob/master/C/c00/ex00/fullcode.c) |
-| ex01 | ft_print_alphabet | [ft_print_alphabet]() |
+| ex01 | ft_print_alphabet | [ft_print_alphabet](https://github.com/alaamimi/Piscine-42/blob/master/C/c00/ex01/fullcode.c) |
 | ex02 | ft_print_reverse_alphabet | [ft_print_reverse_alphabet]() |
 | ex03 | ft_print_numbers | [ft_print_numbers]() |
 | ex04 | ft_is_negative | [ft_is_negative]() |
@@ -162,6 +162,8 @@ int	main (void)				 /* Define the main function from which the program will star
 
 ## Exercise 01 : ft_print_alphabet :
 
+---
+
 1. :dart: Task :
 
 </p>
@@ -276,6 +278,8 @@ int	main(void)	 /* Define the main function from which the program will start */
 ---
 
 ## Exercise 02 : ft_print_reverse_alphabet :
+
+---
 
 1. :dart: task :
 
