@@ -110,7 +110,7 @@ void ft_putchar(char c)
 
 > `(i >= 97 && i <= 122)` while i fits the condition
 
-3. :dart: Function :
+3. :wrench: Function :
 
 ```c
 void	ft_putchar(char c)
@@ -158,7 +158,7 @@ abcd...z
 <p align="center">
 </p>
 
-2. :dart: Function :
+2. :wrench: Function :
 ```c
 void	Ft_putchar(char c)
 {
@@ -208,7 +208,7 @@ zyx...a
 ```
 
 ---
-3. :dart: Function :
+3. :wrench: Function :
 
 ``` c
 void	ft_putchar(char c)
@@ -251,7 +251,7 @@ $>gcc ft_print_numbers.c -o ft_print_numbers -Wall -Wextra -Werror && ./ft_print
 <p align="center">
 </p>
 
-2. :dart: Function:
+2. :wrench: Function :
 
 ```c
 void	ft_putchar(char c)
@@ -301,7 +301,7 @@ N //-42
 <p align="center">
 </p>
 
-2. :dart: Function :
+2. :wrench: Function :
 ```c
 
 void	ft_putchar(char c)
@@ -382,7 +382,7 @@ Multiple check :
 <p align="center">
 </p>
 
-2. :dart: Function :
+2. :wrench: Function :
 ```c
 void	ft_putchar(char c)
 {
@@ -457,7 +457,7 @@ Multiple Check :
 <p align="center">
 </p>
 
-2. :dart: Function :
+2. :wrench: Function :
 ```c
 void	ft_putchar(char c)
 {
