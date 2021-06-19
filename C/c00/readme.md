@@ -4,17 +4,17 @@
 
 ---
 
-| C00 | Problems |
-|---|---|
-| ex00 | ft_putchar |
-| ex01 | ft_print_alphabet |
-| ex02 | ft_print_reverse_alphabet |
-| ex03 | ft_print_numbers |
-| ex04 | ft_is_negative |
-| ex05 | ft_print_comb |
-| ex06 | ft_print_comb2 |
-| ex07 | ft_putnbr |
-| ex08 | ft_print_combn |
+| C00 | Problems | Fullcode |
+|--- |--- |--- |
+| ex00 | ft_putchar | |
+| ex01 | ft_print_alphabet | |
+| ex02 | ft_print_reverse_alphabet | |
+| ex03 | ft_print_numbers | |
+| ex04 | ft_is_negative | |
+| ex05 | ft_print_comb | |
+| ex06 | ft_print_comb2 | |
+| ex07 | ft_putnbr | |
+| ex08 | ft_print_combn | |
 
 ---
 
@@ -31,15 +31,15 @@
 
 1. :dart: Task :
 
-> Write a function that displays characters passed as parameter.
-> This is how it should be prototyped:
-> void ft_putchar(char c);
+<img src="https://github.com/alaamimi/Piscine-42/blob/master/C/c00/Ressources/00.jpg" width = "800">
 
 2. :floppy_disk: Ft_putchar using system calls :
 
 > *A minimal c program that will puzzle beginners, write it in a file named ft_putchar.c and create a.out with ```gcc ft_putchar.c && ./a.out```*
 
 > The following program will print a char by making use of [write](http://man7.org/linux/man-pages/man2/write.2.html)
+
+3. :wrench: Function  :
 
 ```c
 #include <unistd.h>
@@ -51,7 +51,7 @@ void	ft_putchar(char c) 			/* Void because the function does not return any valu
 						(which is a pointer) to fd (if fd = 1 this is your terminal, stdout) */
 }
 ```
-3. :beetle: :wrench: Test && Debug
+4. :beetle: :wrench: Test && Debug
 
 ```c
 int	main(void)
@@ -70,7 +70,7 @@ int	main(void)
 }
 ```
 
-4. :8ball: Expected output :
+3. :8ball: Expected output :
 ```c
 $>gcc ft_putchar.c -o ft_putchar -Wall -Wextra -Werror && ./ft_putchar
 -----
