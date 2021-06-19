@@ -31,7 +31,10 @@
 
 1. :dart: Task :
 
+</p>
+<p align="center">
 <img src="https://github.com/alaamimi/Piscine-42/blob/master/C/c00/Ressources/00.jpg" width = "800">
+</p>
 
 2. :floppy_disk: Ft_putchar using system calls :
 
