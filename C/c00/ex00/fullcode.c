@@ -6,7 +6,7 @@
 /*   By: alaamimi <alaamimi@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/19 23:14:11 by alaamimi          #+#    #+#             */
-/*   Updated: 2021/06/19 23:38:25 by alaamimi         ###   ########.fr       */
+/*   Updated: 2021/06/20 17:37:06 by alaamimi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,9 +25,6 @@ void 	ft_putchar ( char c)		 /* Define the function itself, describing its body,
 								** standard output stream using its identifier (file descriptor) that we specified
 								** in the first argument of the 'write' function */
 }
-
-/************************************************ ********************************************* ***********************************************/
-/* *********************************************** ********************************************* **********************************************/
 
 /** The write function has the following parameters:
 ** write (<stream descriptor>, <& pointer to buffer>, <number of bytes to write>):
@@ -57,9 +54,7 @@ void 	ft_putchar ( char c)		 /* Define the function itself, describing its body,
 ** 3/. size_t count <number of bytes to be written> - the amount of data transferred (1 byte - 1 char).
 ** This function writes one character to the standard output of the terminal.
 **
-** *********************************************** ******************************************* *****************************************************************************/
-/* *********************************************** ******************************************* *****************************************************************************/
-
+*/
 
 
 int	main (void)				 /* Define the main function from which the program will start executing.
