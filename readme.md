@@ -123,3 +123,5 @@ students, without teachers. It can be done, and it works.
 <p align="center">
 <img src="https://github.com/alaamimi/Piscine-42/blob/master/ressources/marvin.jpg" width="800">
 </p>
+
+---
