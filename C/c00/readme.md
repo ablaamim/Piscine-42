@@ -176,7 +176,6 @@ int	main (void)				 /* Define the main function from which the program will star
 <p align="center">
 </p>
 
-
 2. :wrench: Function :
 
 ```c
