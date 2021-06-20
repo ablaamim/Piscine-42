@@ -17,6 +17,10 @@
 <img src="https://camo.githubusercontent.com/0f0675795e1d04d4f3d2de8af8161bf1b9db4ac04bf6dec63c6cd5ae908ebde7/68747470733a2f2f692e726564642e69742f3569696e637a62656430797a2e6a7067" width="700">
 </p>
 
+---
+
+## Quote
+
 > “It’s harder to read code than to write it.” — Joel Spolsky
 
 ## Requirements for this projet :
@@ -92,29 +96,7 @@ students, without teachers. It can be done, and it works.
 > :tv:[Linked Lists](https://www.youtube.com/watch?v=zQI3FyWm144&t=784s&ab_channel=CS50)
 
 ---
-## :wrench: C Books :
----
 
-> **C is [quirky](https://en.wiktionary.org/wiki/quirky), flawed, and an enormous success** ― *[Dennis Ritchie, Creator of the C language](https://en.wikipedia.org/wiki/Dennis_Ritchie)*
-
-Title | How Interesting | Author
----|---|---
-**[The C Programming Language 2nd Ed Subsequent Edition](https://www.goodreads.com/book/show/515601.The_C_Programming_Language)** | :two_hearts: | *by Brian Kernighan and Dennis Ritchie*
-**[Obscure C Features](https://multun.net/obscure-c-features.html)** | :star::star::star::star::star: | *[by Multun](https://github.com/multun)*
-**[Characters, Symbols and the UTF-8 Miracle - Computerphile](https://www.youtube.com/watch?v=MijmeoH9LT4)** | :star::star::star::star: | *by Tom Scott*
-**[Automatic Vectorization](https://www.codingame.com/playgrounds/283/sse-avx-vectorization/autovectorization)** | :star::star::star::star: | *[by Marchete](https://github.com/marchete)*
-**[Writing Solid Code](http://cs.brown.edu/courses/cs190/2008/documents/restricted/Writing%20Solid%20Code.pdf)** | :star::star::star::star: | *by Steve Maguire*
-**[Fast wc Multithread SIMD](https://github.com/expr-fi/fastlwc)** | :star::star::star::star: | *by [expr-fi](https://github.com/expr-fi)*
-**[OpenMP Multithreading Programming](https://bisqwit.iki.fi/story/howto/openmp/)** | :star::star::star::star: | *by Joel Yliluoma*
-**[Understanding lvalues and rvalues](https://eli.thegreenplace.net/2011/12/15/understanding-lvalues-and-rvalues-in-c-and-c/)** | :star::star::star::star: | *by Eli Bendersky*
-**[The Practice of Programing](http://index-of.co.uk/Etc/The.Practice.of.Programming.-.B.W..Kernighan..pdf)** | :star::star::star: | *by Brian W. Kernighan and Rob Pike*
-**[Modern C](https://gforge.inria.fr/frs/download.php/file/38170/ModernC.pdf)** | :star::star::star: | *by Jens Gustedt*
-**[Duff's Device](http://www.lysator.liu.se/c/duffs-device.html)** | :star::star::star: | *by Tom Duff*
-**[Structure Packing](http://www.catb.org/esr/structure-packing/)** | :star::star::star: | *by Eric S. Raymond*
-**[Cello, High Level Programming to C](https://github.com/orangeduck/Cello)** | :star::star::star: | *by Daniel Holden*
-**[Are Global Variables Bad](https://stackoverflow.com/questions/484635/are-global-variables-bad)** | :star: | *StackOverFlow*
-
----
 ## :floppy_disk: How to [compile](https://vitux.com/how-to-write-and-run-a-c-program-in-linux/)?
 
 > We use gcc command with specific flags.
@@ -134,3 +116,10 @@ Title | How Interesting | Author
 
 > Don't you dare to forget reading [manuals](https://www.howtoforge.com/linux-man-command/), read them religiously. ;)
 ---
+
+> Take it easy and dont panic .
+
+</p>
+<p align="center">
+<img src="" width="800">
+</p>
