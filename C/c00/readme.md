@@ -181,13 +181,6 @@ int	main (void)				 /* Define the main function from which the program will star
 <p align="center">
 </p>
 
-```c
-void ft_putchar(char c)
-{
-	write(1, &c, 1);
-}
-```
-
 2 `man ASCII` :
 
 ```
