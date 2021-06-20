@@ -49,8 +49,6 @@
 </p>
 
 ---
-## About 42 && 1337 School :
----
 
 This project is a programming bootcamp concerning 1337 school, it lasts roughly 
 4 weeks, working 7 days a week, day and night. (error 404 sleep will never be found)
