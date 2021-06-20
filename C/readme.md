@@ -18,19 +18,12 @@
 
 </p>
 <p align="center">  
-<IMG SRC="https://64.media.tumblr.com/ab95eba62064b6ca1622dbcf4fb50a63/tumblr_otjmkidZks1us7drco1_500.jpg" WIDTH="800">
-</p>
-
-> Get a cup of coffee and come back hahahahaha !
-
-</p>
-<p align="center">  
-<img src="https://nationalcoffeeblog.files.wordpress.com/2016/09/art-of-coffee.gif?w=676" width="800">
+<IMG SRC="https://64.media.tumblr.com/ab95eba62064b6ca1622dbcf4fb50a63/tumblr_otjmkidZks1us7drco1_500.jpg" WIDTH="400">
 </p>
 
 #### :information_source: Quick and dirty guide to C :
 
-:wrench: [Feed this to yourself along with the coffee.](https://courses.cs.washington.edu/courses/cse351/16wi/sections/1/Cheatsheet-c.pdf)
+:wrench: [Feed this to yourself along with a cup of coffee.](https://courses.cs.washington.edu/courses/cse351/16wi/sections/1/Cheatsheet-c.pdf)
 
 #### :information_source: C Data Types :
 
