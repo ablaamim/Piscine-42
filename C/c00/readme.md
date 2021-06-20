@@ -176,16 +176,8 @@ int	main (void)				 /* Define the main function from which the program will star
 <p align="center">
 </p>
 
-2 `man ASCII` :
 
-```
-      97  |  a  |    98  |  b  |    99  |  c  |   100  |  d   |  101 |  e  |  102  |  f  |   103 |  g  |
-     104  |  h  |   105  |  i  |   106  |  j  |   107  |  k   |  108 |  l  |  109  |  m  |   110 |  n  |  111 |  o  |
-     112  |  p  |   113  |  q  |   114  |  r  |   115  |  s   |  116 |  t  |  117  |  u  |   118 |  v  |  119 |  w  |
-     120  |  x  |   121  |  y  |   122  |  z  |
-```
-
-3. :wrench: Function :
+2. :wrench: Function :
 
 ```c
 void	ft_putchar(char c)
@@ -206,7 +198,7 @@ void	ft_print_alphabet(void)
 }
 ```
 
-4. :beetle: :wrench: Test && Debug :
+3. :beetle: :wrench: Test && Debug :
 
 ```c
 int	main(void)
@@ -217,14 +209,14 @@ int	main(void)
 }
 ```
 
-5. :8ball: Expected output :
+4. :8ball: Expected output :
 
 ```c
 $>gcc ft_print_alphabet.c -o ft_print_alphabet -Wall -Wextra -Werror && ./ft_print_alphabet
 abcd...z
 ```
 
-6. :ok_hand: Commented program :
+5. :ok_hand: Commented program :
 ```c
 #include <unistd.h> /* Preprocessor directives */
 /* This library is required to use the write function */
