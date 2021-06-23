@@ -6,9 +6,11 @@
 /*   By: alaamimi <alaamimi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/16 01:39:46 by alaamimi          #+#    #+#             */
-/*   Updated: 2021/04/25 00:06:06 by alaamimi         ###   ########.fr       */
+/*   Updated: 2021/06/23 15:57:28 by alaamimi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include <unistd.h>
 
 void	ft_print_reverse_alphabet(void)
 {

@@ -6,7 +6,7 @@
 /*   By: alaamimi <alaamimi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/28 19:53:35 by alaamimi          #+#    #+#             */
-/*   Updated: 2021/03/01 07:41:55 by alaamimi         ###   ########.fr       */
+/*   Updated: 2021/06/23 16:02:50 by alaamimi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,9 +21,9 @@ void	ft_putchar(char c)
 
 void	ft_putnbr(int nb)
 {
-	long int nbr;
+	long nbr;
 
-	nbr = nb;
+	nbr = (long)nb;
 	if(nbr < 0)
 	{
 		nbr = -nbr;
@@ -32,10 +32,8 @@ void	ft_putnbr(int nb)
 	if(nbr >= 10)
 	{
 		ft_putnbr(nbr / 10);
-		ft_putnbr(nbr % 10);
 	}
-	if (nbr >= 0 && nbr < 10) 
-		ft_putchar(nbr + '0');
+		ft_putchar((nbr % 10) + '0');
 }
 
 int	main(void)

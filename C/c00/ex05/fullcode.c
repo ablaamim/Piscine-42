@@ -6,7 +6,7 @@
 /*   By: alaamimi <alaamimi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/28 17:29:56 by alaamimi          #+#    #+#             */
-/*   Updated: 2021/02/28 17:42:07 by alaamimi         ###   ########.fr       */
+/*   Updated: 2021/06/23 16:00:46 by alaamimi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,26 +19,24 @@ void	ft_putchar(char c)
 
 void	ft_print_comb(void)
 {
-	char i;
-	char j;
-	char k;
+	char tab[3];
 
-	i = '0' - 1;
-	while (i < '7')
+	tab[0] = '0' - 1;
+	while (tab[0] < '7')
 	{
-		i++;
-		j = i;
-		while(j < '8')
+		tab[0]++;
+		tab[1] = tab[0];
+		while(tab[1] < '8')
 		{
-			j++;
-			k = j;
-			while(k < '9')
+			tab[1]++;
+			tab[2] = tab[1];
+			while(tab[2] < '9')
 			{
-				k++;
-				ft_putchar(i);
-				ft_putchar(j);
-				ft_putchar(k);
-				if (i != '7')
+				tab[2]++;
+				ft_putchar(tab[0]);
+				ft_putchar(tab[1]);
+				ft_putchar(tab[2]);
+				if (tab[0] != '7')
 				{
 					ft_putchar(',');
 					ft_putchar(' ');
