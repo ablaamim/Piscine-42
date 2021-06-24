@@ -6,72 +6,63 @@
 /*   By: alaamimi <alaamimi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/03/02 11:33:14 by alaamimi          #+#    #+#             */
-/*   Updated: 2021/03/09 19:20:08 by root             ###   ########.fr       */
+/*   Updated: 2021/06/24 15:41:12 by alaamimi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 
 #include <unistd.h>
 #include <stdlib.h>
 
-void    ft_putchar(char c)
-{
-    write(1, &c, 1);
-}
+char	g_buf[10];
+int		g_len;
 
-void	print_array(int *tab, int size)
+void	rec(int prev, int n)
 {
 	int	i;
-	int	to_print;
 
-	i = -1;
-	to_print = 1;
-	while (++i < size - 1)
+	if (n == g_len)
 	{
-		if (tab[i] >= tab[i + 1])
-			to_print = 0;
+		write(1, g_buf, g_len);
+		write(1, ", ", 2);
+		return ;
 	}
-	if (to_print)
+	if (prev == 9)
+		return ;
+	i = prev;
+	while (++i <= 10 - g_len + n)
 	{
-		i = -1;
-		while (++i < size)
-			ft_putchar(tab[i] + '0');
-		if (tab[0] < 10 - size)
-		{
-			ft_putchar(',');
-			ft_putchar(' ');
-		}
+		g_buf[n] = '0' + i;
+		rec(i, n + 1);
+	}
+}
+
+void	print_last(int i)
+{
+	char	c;
+
+	while (i <= 9)
+	{
+		c = '0' + i++;
+		write(1, &c, 1);
 	}
 }
 
 void	ft_print_combn(int n)
 {
-	int		i;
-	int		tab[n];
+	int	i;
 
-	i = -1;
-	if (n <= 0 || n >= 10)
-		return ;
-	while (++i < n)
-		tab[i] = i;
-	while (tab[0] <= 10 - n)
+	i = 0;
+	g_len = n;
+	while (i < 10 - n)
 	{
-		print_array(tab, n);
-		tab[n - 1]++;
-		i = n - 1;
-		while (i > 0)
-		{
-			if (tab[i] > 9)
-			{
-				tab[i] = 0;
-				tab[i - 1]++;
-			}
-			i--;
-		}
+		g_buf[0] = '0' + i;
+		rec(i++, 1);
 	}
+	print_last(i);
 }
+
 int	main(void)
 {
-	ft_print_combn(9);
+	ft_print_combn(-1);
 	return (EXIT_SUCCESS);
 }
