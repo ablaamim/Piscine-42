@@ -6,23 +6,32 @@
 /*   By: alaamimi <alaamimi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/03/05 21:35:17 by alaamimi          #+#    #+#             */
-/*   Updated: 2021/04/14 13:03:32 by alaamimi         ###   ########.fr       */
+/*   Updated: 2021/06/29 17:06:57 by alaamimi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 #include <stdlib.h>
+#include <stdio.h>
 
 void	ft_putchar(char c)
 {
 	write(1, &c, 1);
 }
 
+void	ft_putstr(char *str)
+{
+	while (*str)
+	{
+		write(1, str++, 1);
+	}
+}
+
 void	ft_putnbr(int nb)
 {
-	long int nbr;
+	long nbr;
 
-	nbr = nb;
+	nbr = (long) nb;
 	if (nbr < 0)
 	{
 		nbr = -nbr;
@@ -48,19 +57,34 @@ void	ft_div_mod(int a, int b, int *div, int *mod)
 
 int	main(void)
 {
-	int a;
-	int b;
-	int div;
-	int mod;
+	int		a;
+	int		b;
+	int		div;
+	int		mod;
+	char	str[] = "---------------------\n";
+	char str2[] = "Mem adress : \n\n";
 
 	a = 42;
 	b = 4;
 	ft_div_mod(a, b, &div, &mod);
-	write(1, "-----\n", 6);
+	ft_putstr(str);
+	ft_putnbr(a);
+	ft_putchar('\n');
+	ft_putnbr(b);
+	ft_putchar('\n');
+	ft_putstr(str);
 	ft_putnbr(div);
 	ft_putchar('\n');
 	ft_putnbr(mod);
 	ft_putchar('\n');
-	write(1, "-----\n", 6);
+	ft_putstr(str);
+	ft_putchar('\n');
+	ft_putstr(str);
+	ft_putstr(str2);
+	printf("%p\n", &a);
+	printf("%p\n", &b);
+	printf("%p\n", &div);
+	printf("%p\n", &mod);
+	ft_putstr(str);
 	return(EXIT_SUCCESS);
 }
