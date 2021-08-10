@@ -10,7 +10,7 @@
 
 ## Disclaimer : :skull: CHEAT ZONE ALERT! :skull:
 ---
-> This code is not licenced, copying it is not the best way to progress ! Dig your own way budd.
+> Copying this code is not the best way to progress ! Dig your own way budd.
 
 </p>
 <p align="center">  
