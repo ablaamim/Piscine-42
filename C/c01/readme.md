@@ -28,15 +28,16 @@
 ## Exercise 00 : ft_ft
 
 1. :dart: Task :
+
 </p>
 <p align="center">
 <img src="https://github.com/alaamimi/Piscine-42/blob/master/C/c01/Ressources/ex00.JPG" width="800">
 </p>
-```
 
 ---
 
 2. :dart: Function :
+
 ```c
 void	ft_ft(int *nbr)
 {
@@ -47,6 +48,7 @@ void	ft_ft(int *nbr)
 ---
 
 3. :wrench: :beetle: Test && Debug :
+
 ```c
 int	main(void)
 {
@@ -68,15 +70,17 @@ int	main(void)
 ---
 
 4. :8ball: Expected output :
+
 ```c
 $>gcc ft_ft.c -o ft_ft -Wall -Wextra -Werror && ./ft_ft
------
-1
------
-42
------
+--------------------------------------------------
+nb = 1337
+--------------------------------------------------
+Value of nb after calling ft_ft function : 42
+--------------------------------------------------
+Memory address if nb : 0x7ffffb56bf54
+--------------------------------------------------
 ```
----
 
 ---
 
