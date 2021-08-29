@@ -64,7 +64,7 @@ void	ft_ft(int *nbr)
 int	main(void)
 {
 	int n;
-	char str[] = "Memory address if nb : ";
+	char str[] = "Memory address of nb : ";
 	char str1[] = "nb = ";
 	char str2[] = "--------------------------------------------------\n";
 	char str3[] = "Value of nb after calling ft_ft function : ";
@@ -304,18 +304,44 @@ void	ft_div_mod(int a, int b, int *div, int *mod)
 ```c
 int	main(void)
 {
-	int a;
-	int b;
-	int div;
-	int mod;
+	int		a;
+	int		b;
+	int		div;
+	int		mod;
+	char	str[] = "------------------------------------------\n";
+	char	str2[] = "Memory adress : ";
+	char	str3[] = "Div = ";
+	char	str4[] = "Mod = ";
+	char	str5[] = "a = ";
+	char	str6[] = "b = ";
 
 	a = 42;
-	b = 10;
+	b = 4;
 	ft_div_mod(a, b, &div, &mod);
+		ft_putstr(str);
+		ft_putstr(str5);
+	ft_putnbr(a);
+		ft_putchar('\n');
+		ft_putstr(str6);
+	ft_putnbr(b);
+		ft_putchar('\n');
+		ft_putstr(str);
+		ft_putstr(str3);
 	ft_putnbr(div);
-	ft_putchar('\n');
+		ft_putchar('\n');
+		ft_putstr(str4);
 	ft_putnbr(mod);
-	ft_putchar('\n');
+		ft_putchar('\n');
+	ft_putstr(str);
+		ft_putstr(str2);
+	printf("%p\n", &a);
+		ft_putstr(str2);
+	printf("%p\n", &b);
+		ft_putstr(str2);
+	printf("%p\n", &div);
+		ft_putstr(str2);
+	printf("%p\n", &mod);
+		ft_putstr(str);
 	return(EXIT_SUCCESS);
 }
 ```
@@ -325,10 +351,18 @@ int	main(void)
 4. :8ball: Expected output :
 
 ```
-------
-10
-2
-------
+------------------------------------------
+a = 42
+b = 4
+------------------------------------------
+Div = 10
+Mod = 2
+------------------------------------------
+Memory adress : 0x7fffdd7f37d8
+Memory adress : 0x7fffdd7f37dc
+Memory adress : 0x7fffdd7f37e0
+Memory adress : 0x7fffdd7f37e4
+------------------------------------------
 ```
 
 ---

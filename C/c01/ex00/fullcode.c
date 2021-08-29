@@ -6,7 +6,7 @@
 /*   By: alaamimi <alaamimi@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/29 16:22:23 by alaamimi          #+#    #+#             */
-/*   Updated: 2021/08/29 18:17:54 by alaamimi         ###   ########.fr       */
+/*   Updated: 2021/08/29 19:15:46 by alaamimi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,7 +44,7 @@ void	ft_ft(int *nb)
 int	main(void)
 {
 	int n;
-	char str[] = "Memory address if nb : ";
+	char str[] = "Memory address of nb : ";
 	char str1[] = "nb = ";
 	char str2[] = "--------------------------------------------------\n";
 	char str3[] = "Value of nb after calling ft_ft function : ";
