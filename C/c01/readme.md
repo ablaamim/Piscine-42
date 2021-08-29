@@ -71,7 +71,7 @@ int	main(void)
 
 4. :8ball: Expected output :
 
-```c
+```
 $>gcc ft_ft.c -o ft_ft -Wall -Wextra -Werror && ./ft_ft
 --------------------------------------------------
 nb = 1337
