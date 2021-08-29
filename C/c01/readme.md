@@ -1,4 +1,6 @@
-ï»¿## :information_source: Table Content :
+ï»¿---
+
+## :information_source: Table Content :
 
 | C01 | Problems |
 |--- |--- |
@@ -12,6 +14,8 @@
 | ex07 | ft_rev_int_tab |
 | ex08 | ft_sort_int_tab |
 
+---
+
 ## Let's go !
 
 </p>
@@ -24,12 +28,13 @@
 ## Exercise 00 : ft_ft
 
 1. :dart: Task :
-```c
-â€¢ Create a function that takes a pointer to int as a parameter, and sets the value "42"
-to that int.
-â€¢ Hereâ€™s how it should be prototyped :
-void ft_ft(int *nbr);
+</p>
+<p align="center">
+<img src="" width="800">
+</p>
 ```
+
+---
 
 2. :dart: Function :
 ```c
@@ -38,6 +43,8 @@ void	ft_ft(int *nbr)
 	*nbr = 42;
 }
 ```
+
+---
 
 3. :wrench: :beetle: Test && Debug :
 ```c
@@ -58,6 +65,8 @@ int	main(void)
 }
 ```
 
+---
+
 4. :8ball: Expected output :
 ```c
 $>gcc ft_ft.c -o ft_ft -Wall -Wextra -Werror && ./ft_ft
@@ -69,15 +78,16 @@ $>gcc ft_ft.c -o ft_ft -Wall -Wextra -Werror && ./ft_ft
 ```
 ---
 
+---
+
 ## Exercise 01 : ft_ultimate_ft
 
 1. :dart: Task :
 ```c
-â€¢ Create a function that takes a pointer to pointer to pointer to pointer to pointer
-to pointer to pointer to pointer to pointer to int as a parameter and sets the value
-"42" to that int.
-â€¢ Hereâ€™s how it should be prototyped :
-void ft_ultimate_ft(int *********nbr);
+</p>
+<p align="center">
+<img src="" width="800">
+</p>
 ```
 
 2. :dart: Function :
@@ -142,10 +152,10 @@ $>gcc ft_ultimate_ft.c -o ft_ultimate_fr -Wall -Wextra -Werror && ./ft_ultimare_
 
 1. :dart: Task :
 ```c
-â€¢ Create a function that swaps the value of two integers whose addresses are entered
-as parameters.
-â€¢ Hereâ€™s how it should be prototyped :
-void ft_swap(int *a, int *b);
+</p>
+<p align="center">
+<img src="" width="800">
+</p>
 ```
 
 2. :dart: Function :
@@ -201,12 +211,10 @@ int	main(void)
 ## Exercise 03 : ft_div_mod
 
 1. :dart: Task :
-```c
-â€¢ Create a function ft_div_mod prototyped like this :
-void ft_div_mod(int a, int b, int *div, int *mod);
-â€¢ This function divides parameters a by b and stores the result in the int pointed by
-div. It also stores the remainder of the division of a by b in the int pointed by mod.
-```
+</p>
+<p align="center">
+<img src="" width="800">
+</p>
 
 2. :dart: Function :
 ```c
@@ -442,9 +450,9 @@ len = 5
 
 1. :dart: Task :
 ```c
-• Create a function which reverses a given array of integer (first goes last, etc).
-• The arguments are a pointer to int and the number of ints in the array.
-• Here’s how it should be prototyped :
+ï¿½ Create a function which reverses a given array of integer (first goes last, etc).
+ï¿½ The arguments are a pointer to int and the number of ints in the array.
+ï¿½ Hereï¿½s how it should be prototyped :
 void ft_rev_int_tab(int *tab, int size);
 ```
 
@@ -509,9 +517,9 @@ rev_int_tab values are : {0, 8, 7, 6, 5, 8, 3, 2, 4, 1}
 
 1. :dart: Task :
 ```c
-• Create a function which sorts an array of integers by ascending order.
-• The arguments are a pointer to int and the number of ints in the array.
-• Here’s how it should be prototyped :
+ï¿½ Create a function which sorts an array of integers by ascending order.
+ï¿½ The arguments are a pointer to int and the number of ints in the array.
+ï¿½ Hereï¿½s how it should be prototyped :
 void ft_sort_int_tab(int *tab, int size);
 ```
 
