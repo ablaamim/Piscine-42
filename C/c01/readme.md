@@ -283,6 +283,7 @@ Memory adress : 0x7ffff527112c
 </p>
 
 2. :dart: Function :
+
 ```c
 void	ft_div_mod(int a, int b, int *div, int *mod)
 {
@@ -295,6 +296,7 @@ void	ft_div_mod(int a, int b, int *div, int *mod)
 ```
 
 3. :wrench: :beetle: Test && Debug :
+
 ```c
 int	main(void)
 {
@@ -315,7 +317,8 @@ int	main(void)
 ```
 
 4. :8ball: Expected output :
-```c
+
+```
 ------
 10
 2
@@ -334,6 +337,7 @@ int	main(void)
 </p>
 
 2. :dart: Function :
+
 ```c
 void	ft_ultimate_div_mod(int *a, int *b)
 {
@@ -348,6 +352,7 @@ void	ft_ultimate_div_mod(int *a, int *b)
 ```
 
 3. :wrench: :beetle: Test && Debug :
+
 ```c
 int	main(void)
 {
@@ -363,13 +368,10 @@ int	main(void)
 	ft_putchar(10);
 	return(EXIT_SUCCESS);
 }
------
-3
-1
------
 ```
 
 4. :8ball: Expected output :
+
 ```c
 ```
 
