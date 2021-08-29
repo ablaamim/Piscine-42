@@ -282,6 +282,8 @@ Memory adress : 0x7ffff527112c
 <img src="" width="800">
 </p>
 
+---
+
 2. :dart: Function :
 
 ```c
@@ -294,6 +296,8 @@ void	ft_div_mod(int a, int b, int *div, int *mod)
 	}
 }
 ```
+
+---
 
 3. :wrench: :beetle: Test && Debug :
 
@@ -316,6 +320,8 @@ int	main(void)
 }
 ```
 
+---
+
 4. :8ball: Expected output :
 
 ```
@@ -336,6 +342,8 @@ int	main(void)
 <img src="" width="800">
 </p>
 
+---
+
 2. :dart: Function :
 
 ```c
@@ -350,6 +358,8 @@ void	ft_ultimate_div_mod(int *a, int *b)
 	mod = *b;
 }
 ```
+
+---
 
 3. :wrench: :beetle: Test && Debug :
 
@@ -370,6 +380,8 @@ int	main(void)
 }
 ```
 
+---
+
 4. :8ball: Expected output :
 
 ```c
@@ -386,8 +398,10 @@ int	main(void)
 <img src="" width="800">
 </p>
 
+---
 
 2. :dart: Function :
+
 ```c
 void	ft_putstr(char *str)
 {
@@ -401,6 +415,8 @@ void	ft_putstr(char *str)
 	}
 }
 ```
+
+---
 
 3. :wrench: :beetle: Test && Debug :
 ```c
@@ -429,6 +445,8 @@ int	main(void)
 }
 ```
 
+---
+
 4. :8ball: Expected output :
 ```c
 -----
@@ -453,7 +471,10 @@ should be empty :
 <img src="" width="800">
 </p>
 
+---
+
 2. :dart: Function :
+
 ```c
 int	ft_strlen(char *str)
 {
@@ -471,7 +492,10 @@ int	ft_strlen(char *str)
 }
 ```
 
+---
+
 3. :wrench: :beetle: Test && Debug :
+
 ```c
 int	main(void)
 {
@@ -501,8 +525,11 @@ int	main(void)
 }
 ```
 
+---
+
 4. :8ball: Expected output :
-```c
+
+```
 -----
 len = 11
 -----
@@ -512,6 +539,8 @@ len = 5
 -----
 ```
 
+---
+
 ## Exercise 07 : ft_rev_int_tab :
 
 1. :dart: Task :
@@ -520,6 +549,8 @@ len = 5
 <p align="center">
 <img src="" width="800">
 </p>
+
+---
 
 2. :dart: Function :
 
@@ -542,7 +573,10 @@ void	ft_rev_int_tab(int *tab, int size)
 
 ```
 
+---
+
 3. :wrench: :beetle: Test && Debug :
+
 ```c
 int	main(void)
 {
@@ -568,7 +602,10 @@ int	main(void)
 }
 ```
 
+---
+
 4. :8ball: Expected output :
+
 ```c
 -----
 rev_int_tab values are : {0, 8, 7, 6, 5, 8, 3, 2, 4, 1}
@@ -577,7 +614,6 @@ rev_int_tab values are : {0, 8, 7, 6, 5, 8, 3, 2, 4, 1}
 
 ---
 
----
 
 ## Exercise 08 : ft_sort_int_tab :
 
@@ -587,6 +623,8 @@ rev_int_tab values are : {0, 8, 7, 6, 5, 8, 3, 2, 4, 1}
 <p align="center">
 <img src="" width="800">
 </p>
+
+---
 
 2. :dart: Function :
 ```c
@@ -615,7 +653,10 @@ void	ft_sort_int_tab(int *tab, int size)
 }
 ```
 
+---
+
 3. :wrench: :beetle: Test && Debug :
+
 ```c
 int	main(void)
 {
@@ -639,8 +680,10 @@ int	main(void)
 }
 ```
 
+---
+
 4. :8ball: Expected output :
-```c
+```
 -----
 
 Sorted int tab : 0123456789
