@@ -2,17 +2,17 @@
 
 ## :information_source: Table Content :
 
-| C01 | Problems |
-|--- |--- |
-| ex00 | ft_ft |
-| ex01 | ft_ultimate_ft |
-| ex02 | ft_swap |
-| ex03 | ft_div_mod |
-| ex04 | ft_ultimate_div_mod |
-| ex05 | ft_putstr |
-| ex06 | ft_strlen |
-| ex07 | ft_rev_int_tab |
-| ex08 | ft_sort_int_tab |
+| C01 | Function | Full Code |
+|--- |--- |---  |
+| ex00 | [ft_ft](https://github.com/alaamimi/Piscine-42/blob/master/C/c01/ex00/ft_ft.c) | [ft_ft](https://github.com/alaamimi/Piscine-42/blob/master/C/c01/ex00/fullcode.c)  |
+| ex01 | [ft_ultimate_ft](https://github.com/alaamimi/Piscine-42/blob/master/C/c01/ex01/ft_ultimate_ft.c) | [ft_ultimate_ft](https://github.com/alaamimi/Piscine-42/blob/master/C/c01/ex01/fullcode.c) |
+| ex02 | [ft_swap]() | [ft_swap]() |
+| ex03 | [ft_div_mod]() | [ft_div_mod]() |
+| ex04 | [ft_ultimate_div_mod]() | [ft_div_mod]() |
+| ex05 | [ft_putstr]() | [ft_putstr]() |
+| ex06 | [ft_strlen]() | [ft_strlen]()  |
+| ex07 | [ft_rev_int_tab]() | [ft_rev_int_tab]()  |
+| ex08 | [ft_sort_int_tab]() | [ft_rev_int_tab]()  |
 
 ---
 
