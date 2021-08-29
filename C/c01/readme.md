@@ -195,7 +195,7 @@ Memory adress of nb : 0x7fffc9cc57b4
 
 </p>
 <p align="center">
-<img src="" width="800">
+<img src="https://github.com/alaamimi/Piscine-42/blob/master/C/c01/Ressources/ex02.JPG" width="800">
 </p>
 
 ---
@@ -276,6 +276,7 @@ Memory adress : 0x7ffff527112c
 ## Exercise 03 : ft_div_mod
 
 1. :dart: Task :
+
 </p>
 <p align="center">
 <img src="" width="800">
@@ -326,12 +327,11 @@ int	main(void)
 ## Exercise 04 : ft_ultimate_div_mod
 
 1. :dart: Task :
-```c
-• Create a function ft_ultimate_div_mod with the following prototype :
-void ft_ultimate_div_mod(int *a, int *b);
-• This function divides parameters a by b. The result of this division is stored in the
-int pointed by a. The remainder of the division is stored in the int pointed by b.
-```
+
+</p>
+<p align="center">
+<img src="" width="800">
+</p>
 
 2. :dart: Function :
 ```c
@@ -378,12 +378,12 @@ int	main(void)
 ## Exercise 05 : ft_putstr :
 
 1. :dart: Task :
-```c
-• Create a function that displays a string of characters on the standard output.
-• Here’s how it should be prototyped :
-void ft_putstr(char *str);
 
-```
+</p>
+<p align="center">
+<img src="" width="800">
+</p>
+
 
 2. :dart: Function :
 ```c
@@ -445,12 +445,11 @@ should be empty :
 ## Exercise 06 : ft_strlen :
 
 1. :dart: Task :
-```c
-• Create a function that counts and returns the number of characters in a string.
-• Here’s how it should be prototyped :
-int ft_strlen(char *str);
 
-```
+</p>
+<p align="center">
+<img src="" width="800">
+</p>
 
 2. :dart: Function :
 ```c
@@ -514,14 +513,14 @@ len = 5
 ## Exercise 07 : ft_rev_int_tab :
 
 1. :dart: Task :
-```c
-� Create a function which reverses a given array of integer (first goes last, etc).
-� The arguments are a pointer to int and the number of ints in the array.
-� Here�s how it should be prototyped :
-void ft_rev_int_tab(int *tab, int size);
-```
+
+</p>
+<p align="center">
+<img src="" width="800">
+</p>
 
 2. :dart: Function :
+
 ```c
 void	ft_rev_int_tab(int *tab, int size)
 {
@@ -581,12 +580,11 @@ rev_int_tab values are : {0, 8, 7, 6, 5, 8, 3, 2, 4, 1}
 ## Exercise 08 : ft_sort_int_tab :
 
 1. :dart: Task :
-```c
-� Create a function which sorts an array of integers by ascending order.
-� The arguments are a pointer to int and the number of ints in the array.
-� Here�s how it should be prototyped :
-void ft_sort_int_tab(int *tab, int size);
-```
+
+</p>
+<p align="center">
+<img src="" width="800">
+</p>
 
 2. :dart: Function :
 ```c
