@@ -178,7 +178,7 @@ int	main(void)
 4. :8ball: Expected output :
 
 ```
-$>gcc ft_ultimate_ft.c -o ft_ultimate_fr -Wall -Wextra -Werror && ./ft_ultimare_ft
+$>gcc ft_ultimate_ft.c -o ft_ultimate_fr -Wall -Wextra -Werror && ./ft_ultimate_ft
 -----------------------------------------------------------
 n = 0
 -----------------------------------------------------------
@@ -186,7 +186,7 @@ The value of nb after calling ft_ultimate_ft function : 42
 -----------------------------------------------------------
 Memory adress of nb : 0x7fffc9cc57b4
 -----------------------------------------------------------
-
+```
 ---
 
 ## Exercise 02 : ft_swap :
