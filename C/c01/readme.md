@@ -91,7 +91,7 @@ int	main(void)
 4. :8ball: Expected output :
 
 ```
-$>gcc ft_ft.c -o ft_ft -Wall -Wextra -Werror && ./ft_ft
+$>gcc -Wall -Wextra -Werror ft_ft.c -o ft_ft && ./ft_ft
 --------------------------------------------------
 nb = 1337
 --------------------------------------------------
@@ -178,7 +178,7 @@ int	main(void)
 4. :8ball: Expected output :
 
 ```
-$>gcc ft_ultimate_ft.c -o ft_ultimate_fr -Wall -Wextra -Werror && ./ft_ultimate_ft
+$>gcc -Wall -Wextra -Werror ft_ultimate_ft.c -o ft_ultimate_fr && ./ft_ultimate_ft
 -----------------------------------------------------------
 n = 0
 -----------------------------------------------------------
@@ -260,7 +260,7 @@ int	main(void)
 4. :8ball: Expected output :
 
 ```
-&>gcc ft_swap.c -o ft_swap -Wall -Wextra -Werror && ./ft_swap
+$>gcc -Wall -Wextra -Werror ft_swap.c -o ft_swap && ./ft_swap
 ----------------------------------------
 Values before swap : 1337 42
 ----------------------------------------
@@ -351,6 +351,7 @@ int	main(void)
 4. :8ball: Expected output :
 
 ```
+$>gcc -Wall -Wextra -Werror ft_div_mod.c -o ft_div_mod && ./ft_div_mod
 ------------------------------------------
 a = 42
 b = 4
@@ -419,6 +420,7 @@ int	main(void)
 4. :8ball: Expected output :
 
 ```c
+$>gcc -Wall -Wextra -Werror
 ```
 
 ---
@@ -482,7 +484,9 @@ int	main(void)
 ---
 
 4. :8ball: Expected output :
+
 ```c
+$>gcc -Wall -Wextra -Werror
 -----
 Future is loading, 1337!
 -----
@@ -564,6 +568,7 @@ int	main(void)
 4. :8ball: Expected output :
 
 ```
+$>gcc -Wall -Wextra -Werror
 -----
 len = 11
 -----
@@ -641,6 +646,7 @@ int	main(void)
 4. :8ball: Expected output :
 
 ```c
+$>gcc -Wall -Wextra -Werror
 -----
 rev_int_tab values are : {0, 8, 7, 6, 5, 8, 3, 2, 4, 1}
 -----
@@ -717,7 +723,9 @@ int	main(void)
 ---
 
 4. :8ball: Expected output :
+
 ```
+$>gcc -Wall -Wextra -Werror
 -----
 
 Sorted int tab : 0123456789
