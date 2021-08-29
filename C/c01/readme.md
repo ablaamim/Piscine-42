@@ -56,7 +56,7 @@ void	ft_ft(int *nbr)
 
 ---
 
-3. :wrench: :beetle: Test && Debug :
+3. :wrench: :computer: Test && Debug :
 
 ```c
 #include <stdlib.h>
@@ -125,7 +125,7 @@ void	ft_ultimate_ft(int *********nbr)
 
 ---
 
-3. :wrench: :beetle: Test && Debug :
+3. :wrench: :computer: Test && Debug :
 
 ```c
 #include <stdlib.h>
@@ -215,7 +215,7 @@ void	ft_swap(int *a, int *b)
 
 ---
 
-3. :wrench: :beetle: Test && Debug :
+3. :wrench: :computer: Test && Debug :
 
 
 ```
