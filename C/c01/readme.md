@@ -100,7 +100,7 @@ Memory address if nb : 0x7ffffb56bf54
 ```c
 </p>
 <p align="center">
-<img src="" width="800">
+<img src="https://github.com/alaamimi/Piscine-42/blob/master/C/c01/Ressources/ex01.JPG" width="800">
 </p>
 ```
 
