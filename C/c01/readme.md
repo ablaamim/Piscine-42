@@ -279,7 +279,7 @@ Memory adress : 0x7ffff527112c
 
 </p>
 <p align="center">
-<img src="" width="800">
+<img src="https://github.com/alaamimi/Piscine-42/blob/master/C/c01/Ressources/ex03.JPG" width="800">
 </p>
 
 ---
@@ -299,7 +299,7 @@ void	ft_div_mod(int a, int b, int *div, int *mod)
 
 ---
 
-3. :wrench: :beetle: Test && Debug :
+3. :wrench: :computer: Test && Debug :
 
 ```c
 int	main(void)
