@@ -97,12 +97,11 @@ Memory address if nb : 0x7ffffb56bf54
 ## Exercise 01 : ft_ultimate_ft
 
 1. :dart: Task :
-```c
+
 </p>
 <p align="center">
 <img src="https://github.com/alaamimi/Piscine-42/blob/master/C/c01/Ressources/ex01.JPG" width="800">
 </p>
-```
 
 2. :dart: Function :
 ```c
