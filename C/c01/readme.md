@@ -50,20 +50,30 @@ void	ft_ft(int *nbr)
 3. :wrench: :beetle: Test && Debug :
 
 ```c
+#include <stdlib.h>
+
 int	main(void)
 {
 	int n;
+	char str[] = "Memory address if nb : ";
+	char str1[] = "nb = ";
+	char str2[] = "--------------------------------------------------\n";
+	char str3[] = "Value of nb after calling ft_ft function : ";
 
-	n = 1;
-	write(1, "-----\n", 6);
+	n = 1337;
+		ft_putstr(str2);
+	ft_putstr(str1);
 	ft_putnbr(n);
-		ft_putchar('\n');
-	write(1,"------\n", 6);
+	ft_putchar('\n');
+		ft_putstr(str2);
 	ft_ft(&n);
-	ft_putnbr(n);
-		ft_putchar('\n');
-	write(1, "------'n", 6);
-	return(0);
+		ft_putstr(str3);
+	printf("%d\n", n);
+		ft_putstr(str2);
+	ft_putstr(str);
+	printf("%p\n", &n);
+		ft_putstr(str2);
+	return (EXIT_SUCCESS);
 }
 ```
 
@@ -103,19 +113,23 @@ void	ft_ultimate_ft(int *********nbr)
 ```
 3. :wrench: :beetle: Test && Debug :
 ```c
+#include <stdlib.h>
+
 int	main(void)
 {
-	int n;
-	int *ptr;
-	int **ptr2;
-	int ***ptr3;
-	int ****ptr4;
-	int *****ptr5;
-	int ******ptr6;
-	int *******ptr7;
-	int ********ptr8;
-	int *********ptr9;
-
+	int		n;
+	int		*ptr;
+	int		**ptr2;
+	int		***ptr3;
+	int		****ptr4;
+	int		*****ptr5;
+	int		******ptr6;
+	int		*******ptr7;
+	int		********ptr8;
+	int		*********ptr9;
+	char	str[] = "-----------------------------------------------------------\n";
+	char	str1[] = "Memory adress of nb : ";
+	char	str2[] = "The value of nb after calling ft_ultimate_ft function : ";
 
 	n = 0;
 	ptr = &n;
@@ -127,30 +141,33 @@ int	main(void)
 	ptr7 = &ptr6;
 	ptr8 = &ptr7;
 	ptr9 = &ptr8;
-	write(1, "-----\n", 6);
+	ft_putstr(str);
+		write(1, "n = ", 4);
 	ft_putnbr(n);
 		ft_putchar('\n');
-	write(1, "-----\n", 6);
+		ft_putstr(str);
 	ft_ultimate_ft(ptr9);
+		ft_putstr(str2);
 	ft_putnbr(n);
 		ft_putchar('\n');
-	write(1, "-----\n", 6);
-	return(0);
+		ft_putstr(str);
+		ft_putstr(str1);
+	printf("%p\n", &n);
+		ft_putstr(str);
+	return(EXIT_SUCCESS);
 }
-
 ```
 
 4. :8ball: Expected output :
-```c
-$>gcc ft_ultimate_ft.c -o ft_ultimate_fr -Wall -Wextra -Werror && ./ft_ultimare_ft
------
-0
------
-42
------
 ```
-
----
+$>gcc ft_ultimate_ft.c -o ft_ultimate_fr -Wall -Wextra -Werror && ./ft_ultimare_ft
+-----------------------------------------------------------
+n = 0
+-----------------------------------------------------------
+The value of nb after calling ft_ultimate_ft function : 42
+-----------------------------------------------------------
+Memory adress of nb : 0x7fffc9cc57b4
+-----------------------------------------------------------
 
 ## Exercise 02 : ft_swap :
 

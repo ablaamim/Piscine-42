@@ -6,7 +6,7 @@
 /*   By: alaamimi <alaamimi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/03/02 16:59:32 by alaamimi          #+#    #+#             */
-/*   Updated: 2021/06/29 16:43:37 by alaamimi         ###   ########.fr       */
+/*   Updated: 2021/08/29 18:30:52 by alaamimi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,7 @@ void	ft_putnbr(int nb)
 {
 	long nbr;
 
-	nbr = nb;
+	nbr = (long) nb;
 	if (nbr < 0)
 	{
 		nbr = -nbr;
@@ -40,10 +40,8 @@ void	ft_putnbr(int nb)
 	if (nbr >= 10)
 	{
 		ft_putnbr(nbr / 10);
-		ft_putnbr(nbr % 10);
 	}
-	if (nbr >= 0 && nbr < 10)
-		ft_putchar(nbr + 48);
+	ft_putchar(nbr % 10 + 48);
 }
 
 void	ft_ultimate_ft(int *********nbr)
@@ -63,8 +61,9 @@ int	main(void)
 	int		*******ptr7;
 	int		********ptr8;
 	int		*********ptr9;
-	char	str[] = "--------------------------\n";
-	char	str1[] = "Mem adress : \n\n";
+	char	str[] = "-----------------------------------------------------------\n";
+	char	str1[] = "Memory adress of nb : ";
+	char	str2[] = "The value of nb after calling ft_ultimate_ft function : ";
 
 	n = 0;
 	ptr = &n;
@@ -80,13 +79,14 @@ int	main(void)
 		write(1, "n = ", 4);
 	ft_putnbr(n);
 		ft_putchar('\n');
-	ft_putstr(str);
+		ft_putstr(str);
 	ft_ultimate_ft(ptr9);
+		ft_putstr(str2);
 	ft_putnbr(n);
 		ft_putchar('\n');
 		ft_putstr(str);
 		ft_putstr(str1);
 	printf("%p\n", &n);
-	ft_putstr(str);
+		ft_putstr(str);
 	return(EXIT_SUCCESS);
 }
