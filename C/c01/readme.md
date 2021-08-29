@@ -103,14 +103,21 @@ Memory address if nb : 0x7ffffb56bf54
 <img src="https://github.com/alaamimi/Piscine-42/blob/master/C/c01/Ressources/ex01.JPG" width="800">
 </p>
 
+---
+
 2. :dart: Function :
+
 ```c
 void	ft_ultimate_ft(int *********nbr)
 {
 	**********nbr = 42;
 }
 ```
+
+---
+
 3. :wrench: :beetle: Test && Debug :
+
 ```c
 #include <stdlib.h>
 
@@ -157,7 +164,10 @@ int	main(void)
 }
 ```
 
+---
+
 4. :8ball: Expected output :
+
 ```
 $>gcc ft_ultimate_ft.c -o ft_ultimate_fr -Wall -Wextra -Werror && ./ft_ultimare_ft
 -----------------------------------------------------------
@@ -168,17 +178,21 @@ The value of nb after calling ft_ultimate_ft function : 42
 Memory adress of nb : 0x7fffc9cc57b4
 -----------------------------------------------------------
 
+---
+
 ## Exercise 02 : ft_swap :
 
 1. :dart: Task :
-```c
+
 </p>
 <p align="center">
 <img src="" width="800">
 </p>
-```
+
+---
 
 2. :dart: Function :
+
 ```c
 void	ft_swap(int *a, int *b)
 {
@@ -190,8 +204,13 @@ void	ft_swap(int *a, int *b)
 }
 ```
 
+---
+
 3. :wrench: :beetle: Test && Debug :
+
 ```c
+#include <stdlib.h>
+
 int	main(void)
 {
 	int a;
