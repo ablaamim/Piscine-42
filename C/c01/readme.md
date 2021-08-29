@@ -30,7 +30,7 @@
 1. :dart: Task :
 </p>
 <p align="center">
-<img src="" width="800">
+<img src="https://github.com/alaamimi/Piscine-42/blob/master/C/c01/Ressources/ex00.JPG" width="800">
 </p>
 ```
 
