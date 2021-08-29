@@ -217,44 +217,61 @@ void	ft_swap(int *a, int *b)
 
 3. :wrench: :beetle: Test && Debug :
 
-```c
+
+```
+#include <stdio.h>
 #include <stdlib.h>
 
 int	main(void)
 {
-	int a;
-	int b;
-	
+	int		a;
+	int		b;
+	char	str[] = "Values before swap : ";
+	char	str1[] = "Values after swap : ";
+	char	str2[] = "----------------------------------------\n";
+	char	str3[] = "Memory adress : ";
+
 	a = 1337;
 	b = 42;
-	write(1, "-----\n",6);
+		ft_putstr(str2);
+		ft_putstr(str);
 	ft_putnbr(a);
 		ft_putchar(' ');
 	ft_putnbr(b);
 		ft_putchar('\n');
-	write(1, "-----\n",6);
+		ft_putstr(str2);
 	ft_swap(&a, &b);
+		ft_putstr(str1);
 	ft_putnbr(a);
-	ft_putchar(' ');
+		ft_putchar(' ');
 	ft_putnbr(b);
-	ft_putchar('\n');
-	return (0);
+		ft_putchar('\n');
+		ft_putstr(str2);
+		ft_putstr(str3);
+	printf("%p\n", &a);
+		ft_putstr(str3);
+	printf("%p\n", &b);
+		ft_putstr(str2);
+	return (EXIT_SUCCESS);
 }
 ```
-
 ---
 
 4. :8ball: Expected output :
-```c
-&>gcc ft_swap.c -o ft_swap -Wall -Wextra -Werror && ./ft_swap
-------
-1337
-42
-------
-42
-1337
-------
+
 ```
+&>gcc ft_swap.c -o ft_swap -Wall -Wextra -Werror && ./ft_swap
+----------------------------------------
+Values before swap : 1337 42
+----------------------------------------
+Values after swap : 42 1337
+----------------------------------------
+Memory adress : 0x7ffff5271128
+Memory adress : 0x7ffff527112c
+----------------------------------------
+```
+
+---
 
 ## Exercise 03 : ft_div_mod
 

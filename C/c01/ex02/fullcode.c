@@ -6,7 +6,7 @@
 /*   By: alaamimi <alaamimi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/03/02 17:09:28 by alaamimi          #+#    #+#             */
-/*   Updated: 2021/06/29 16:53:14 by alaamimi         ###   ########.fr       */
+/*   Updated: 2021/08/29 19:00:18 by alaamimi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,7 @@ void	ft_putnbr(int nb)
 {
 	long nbr;
 
-	nbr = (long)nb;
+	nbr = (long) nb;
 	if (nbr < 0)
 	{
 		nbr = -nbr;
@@ -40,10 +40,8 @@ void	ft_putnbr(int nb)
 	if (nbr >= 10)
 	{
 		ft_putnbr(nbr / 10);
-		ft_putnbr(nbr % 10);
 	}
-	if (nbr >= 0 && nbr < 10)
-		ft_putchar(nbr + 48);
+	ft_putchar(nbr % 10 + 48);
 }
 
 void	ft_swap(int *a, int *b)
@@ -59,30 +57,31 @@ int	main(void)
 {
 	int		a;
 	int		b;
-	char	str[] = "Values before swap : \n\n";
-	char	str1[] = "Values after swap : \n\n";
-	char	str2[] = "----------------------\n";
-	char	str3[] = "Mem adress : \n\n";
+	char	str[] = "Values before swap : ";
+	char	str1[] = "Values after swap : ";
+	char	str2[] = "----------------------------------------\n";
+	char	str3[] = "Memory adress : ";
 
-a = 1337;
+	a = 1337;
 	b = 42;
-	ft_putstr(str2);
-	ft_putstr(str);
+		ft_putstr(str2);
+		ft_putstr(str);
 	ft_putnbr(a);
 		ft_putchar(' ');
 	ft_putnbr(b);
 		ft_putchar('\n');
-	ft_putstr(str2);
+		ft_putstr(str2);
 	ft_swap(&a, &b);
-	ft_putstr(str1);
+		ft_putstr(str1);
 	ft_putnbr(a);
-	ft_putchar(' ');
+		ft_putchar(' ');
 	ft_putnbr(b);
-	ft_putchar('\n');
-	ft_putstr(str2);
-	ft_putstr(str3);
+		ft_putchar('\n');
+		ft_putstr(str2);
+		ft_putstr(str3);
 	printf("%p\n", &a);
+		ft_putstr(str3);
 	printf("%p\n", &b);
-	ft_putstr(str2);
+		ft_putstr(str2);
 	return (EXIT_SUCCESS);
 }
