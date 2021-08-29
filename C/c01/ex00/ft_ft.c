@@ -6,9 +6,11 @@
 /*   By: alaamimi <alaamimi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/03/02 16:32:29 by alaamimi          #+#    #+#             */
-/*   Updated: 2021/03/02 16:33:25 by alaamimi         ###   ########.fr       */
+/*   Updated: 2021/08/29 18:09:59 by alaamimi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include <unistd.h>
 
 void	ft_ft(int *nbr)
 {

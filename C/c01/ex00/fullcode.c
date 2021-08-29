@@ -6,7 +6,7 @@
 /*   By: alaamimi <alaamimi@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/29 16:22:23 by alaamimi          #+#    #+#             */
-/*   Updated: 2021/06/29 16:36:11 by alaamimi         ###   ########.fr       */
+/*   Updated: 2021/08/29 18:17:54 by alaamimi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-void	ft_pustr(char *str)
+void	ft_putstr(char *str)
 {
 	while(*str)
 	{
@@ -44,20 +44,23 @@ void	ft_ft(int *nb)
 int	main(void)
 {
 	int n;
-	char str[] = "Mem address : \n\n";
+	char str[] = "Memory address if nb : ";
 	char str1[] = "nb = ";
+	char str2[] = "--------------------------------------------------\n";
+	char str3[] = "Value of nb after calling ft_ft function : ";
 
 	n = 1337;
-	write(1, "---------------\n", 16);
-	ft_pustr(str1);
+		ft_putstr(str2);
+	ft_putstr(str1);
 	ft_putnbr(n);
 	ft_putchar('\n');
-	write(1, "---------------\n", 16);
+		ft_putstr(str2);
 	ft_ft(&n);
+		ft_putstr(str3);
 	printf("%d\n", n);
-	write(1, "---------------\n", 16);
-	ft_pustr(str);
+		ft_putstr(str2);
+	ft_putstr(str);
 	printf("%p\n", &n);
-	write(1, "---------------\n", 16);
+		ft_putstr(str2);
 	return (EXIT_SUCCESS);
 }
