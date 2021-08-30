@@ -374,7 +374,7 @@ Memory adress : 0x7fffdd7f37e4
 
 </p>
 <p align="center">
-<img src="" width="800">
+<img src="https://github.com/alaamimi/Piscine-42/blob/master/C/c01/Ressources/ex04.JPG" width="800">
 </p>
 
 ---
@@ -384,33 +384,52 @@ Memory adress : 0x7fffdd7f37e4
 ```c
 void	ft_ultimate_div_mod(int *a, int *b)
 {
-	int div;
-	int mod;
+	int	div;
+	int	mod;
 
-	div = *a / *b;
-	mod = *a % *b;
-	div = *a;
-	mod = *b;
-}
+	if (*b != 0)
+	{
+		div = *a / *b;
+		mod = *a % *b;
+		div = *a;
+		mod = *b;
+	}
 ```
 
 ---
 
 3. :wrench: :beetle: Test && Debug :
 
-```c
+```
+#include <stdio.h>
+#include <unistd.h>
+#include <stdlib.h>
+
 int	main(void)
 {
-	int a;
-	int b;
+	int		a;
+	int		b;
+	char	str[] = "-------------------------------\n";
+	char	str0[] = "*a = ";
+	char	str1[] = "*b = ";
+	char	str2[] = "Memory adress : ";
 
 	a = 10;
 	b = 3;
+		ft_putstr(str);
 	ft_ultimate_div_mod(&a, &b);
+		ft_putstr(str0);
 	ft_putnbr(a);
-	ft_putchar(10);
+		ft_putchar('\n');
+		ft_putstr(str1);
 	ft_putnbr(b);
-	ft_putchar(10);
+		ft_putchar('\n');
+		ft_putstr(str);
+		ft_putstr(str2);
+	printf("%p\n", &a);
+		ft_putstr(str2);
+	printf("%p\n", &b);
+		ft_putstr(str2);
 	return(EXIT_SUCCESS);
 }
 ```
@@ -419,8 +438,15 @@ int	main(void)
 
 4. :8ball: Expected output :
 
-```c
-$>gcc -Wall -Wextra -Werror
+```
+$>gcc -Wall -Wextra -Werror ft_ultimate_div_mod.c -o ft_ultimate_div_mod && ./ft_ultimate_div_mod
+
+-------------------------------
+*a = 3
+*b = 1
+-------------------------------
+Memory adress : 0x7fffefa86b9c
+Memory adress : 0x7fffefa86ba0
 ```
 
 ---
