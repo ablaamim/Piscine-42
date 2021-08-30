@@ -6,7 +6,7 @@
 /*   By: alaamimi <alaamimi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/21 17:12:49 by alaamimi          #+#    #+#             */
-/*   Updated: 2021/04/21 17:33:07 by alaamimi         ###   ########.fr       */
+/*   Updated: 2021/08/30 17:40:34 by alaamimi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,13 +40,10 @@ void	ft_putnbr(int nb)
 int	ft_strlen(char *str)
 {
 	int cpt;
-	int i;
 
 	cpt = 0;
-	i = 0;
-	while(str[i] != '\0')
+	while(*str++)
 	{
-		i++;
 		cpt++;
 	}
 	return(cpt);

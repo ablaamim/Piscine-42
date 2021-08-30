@@ -469,15 +469,16 @@ Memory adress : 0x7fffefa86ba0
 2. :dart: Function :
 
 ```c
+void	ft_putchar(char c)
+{
+	write(1, &c, 1);
+}
 void	ft_putstr(char *str)
 {
-	int i;
-
-	i = 0;
-	while (str[i] != '\0')
+	while (*str)
 	{
-		ft_putchar(str[i]);
-		i++;
+		ft_putchar(*str);
+		str++;
 	}
 }
 ```
@@ -486,27 +487,28 @@ void	ft_putstr(char *str)
 
 3. :wrench: :beetle: Test && Debug :
 ```c
+#include <stdlib.h>
+
 int	main(void)
 {
-	char *str;
+	char	str[] = "-----------------------------\n";
+	char	str0[] = "Future is loading\n";
+	char	str1[] = "";
+	char	str2[] = "0123456789\0aaaa";
+	char	str3[] = "ABCDabcd####123@!\0!!!!!";
 
-	str = "Future is loading, 1337!";
-	write(1,"-----\n", 6);
-	ft_putstr(str);
-		write(1, "\n", 1);
-	write(1, "-----\n",6);
-	ft_putstr(str);
-		write(1, "\n",1);
-	ft_putstr(str);
-		write(1, "\n", 1);
-	ft_putstr(str);
-		write(1, "\n", 1);
-	write(1, "-----\n", 6);
-	str="";
-	write(1,"should be empty :", 17);
-	ft_putstr(str);
-	write(1, "\n", 1);
-	write(1, "-----\n", 6);
+		ft_putstr(str);
+	ft_putstr(str0);
+		ft_putstr(str);
+	ft_putstr(str1);
+		ft_putchar('\n');
+		ft_putstr(str);
+	ft_putstr(str2);
+		ft_putchar('\n');
+			ft_putstr(str);
+	ft_putstr(str3);
+		ft_putchar('\n');
+		ft_putstr(str);
 	return(EXIT_SUCCESS);
 }
 ```
@@ -515,17 +517,18 @@ int	main(void)
 
 4. :8ball: Expected output :
 
-```c
-$>gcc -Wall -Wextra -Werror
------
-Future is loading, 1337!
------
-Future is loading, 1337!
-Future is loading, 1337!
-Future is loading, 1337!
------
-should be empty :
------
+```
+$>gcc -Wall -Wextra -Werror -ft_putstr.c -o ft_putstr && ./ft_pustr
+
+-----------------------------
+Future is loading
+-----------------------------
+
+-----------------------------
+0123456789
+-----------------------------
+ABCDabcd####123@!
+-----------------------------
 ```
 
 ---
@@ -536,7 +539,7 @@ should be empty :
 
 </p>
 <p align="center">
-<img src="" width="800">
+<img src="https://github.com/alaamimi/Piscine-42/blob/master/C/c01/Ressources/ex06.JPG" width="800">
 </p>
 
 ---
