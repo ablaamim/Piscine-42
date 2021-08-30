@@ -15,12 +15,12 @@
 |--- |--- |---  |
 | ex00 | [ft_ft](https://github.com/alaamimi/Piscine-42/blob/master/C/c01/ex00/ft_ft.c) | [ft_ft](https://github.com/alaamimi/Piscine-42/blob/master/C/c01/ex00/fullcode.c)  |
 | ex01 | [ft_ultimate_ft](https://github.com/alaamimi/Piscine-42/blob/master/C/c01/ex01/ft_ultimate_ft.c) | [ft_ultimate_ft](https://github.com/alaamimi/Piscine-42/blob/master/C/c01/ex01/fullcode.c) |
-| ex02 | [ft_swap]() | [ft_swap]() |
-| ex03 | [ft_div_mod]() | [ft_div_mod]() |
-| ex04 | [ft_ultimate_div_mod]() | [ft_ultimate_div_mod]() |
-| ex05 | [ft_putstr]() | [ft_putstr]() |
-| ex06 | [ft_strlen]() | [ft_strlen]()  |
-| ex07 | [ft_rev_int_tab]() | [ft_rev_int_tab]()  |
+| ex02 | [ft_swap](https://github.com/alaamimi/Piscine-42/blob/master/C/c01/ex02/ft_swap.c) | [ft_swap](https://github.com/alaamimi/Piscine-42/blob/master/C/c01/ex02/fullcode.c) |
+| ex03 | [ft_div_mod](https://github.com/alaamimi/Piscine-42/blob/master/C/c01/ex03/ft_div_mod.c) | [ft_div_mod](https://github.com/alaamimi/Piscine-42/blob/master/C/c01/ex03/fullcode.c) |
+| ex04 | [ft_ultimate_div_mod](https://github.com/alaamimi/Piscine-42/blob/master/C/c01/ex04/ft_ultimate_div_mod.c) | [ft_ultimate_div_mod](https://github.com/alaamimi/Piscine-42/blob/master/C/c01/ex04/fullcode.c) |
+| ex05 | [ft_putstr](https://github.com/alaamimi/Piscine-42/blob/master/C/c01/ex05/ft_putstr.c) | [ft_putstr](https://github.com/alaamimi/Piscine-42/blob/master/C/c01/ex05/fullcode.c) |
+| ex06 | [ft_strlen](https://github.com/alaamimi/Piscine-42/blob/master/C/c01/ex06/ft_strlen.c) | [ft_strlen](https://github.com/alaamimi/Piscine-42/blob/master/C/c01/ex06/fullcode.c)  |
+| ex07 | [ft_rev_int_tab](https://github.com/alaamimi/Piscine-42/blob/master/C/c01/ex07/ft_rev_int_tab.c) | [ft_rev_int_tab](https://github.com/alaamimi/Piscine-42/blob/master/C/c01/ex07/fullcode.c)  |
 | ex08 | [ft_sort_int_tab]() | [ft_sort_int_tab]()  |
 
 ---
@@ -707,7 +707,7 @@ int	main(void)
 4. :8ball: Expected output :
 
 ```
-$>gcc -Wall -Wextra -Werror ft_reverse_int_tab.c -o ft_reverse_int_tab && ./ft_reverse_int_tab
+$>gcc -Wall -Wextra -Werror ft_rev_int_tab.c -o ft_rev_int_tab && ./ft_rev_int_tab
 
 ----------------------------------------------------
 None-reversed tab : {1, 4, 2, 3, 8, 5, 6, 7, 8, 9}
