@@ -604,7 +604,7 @@ int	main(void)
 4. :8ball: Expected output :
 
 ```
-$>gcc -Wall -Wextra -Werror
+$>gcc -Wall -Wextra -Werror ft_strlen.c -o ft_strlen && ./ft_strlen
 
 -------------------------
 10
