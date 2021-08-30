@@ -11,7 +11,9 @@
 ## Disclaimer : :skull: CHEAT ZONE ALERT! :skull:
 ---
 
-> Copying this code is not the best way to progress ! Dig your own way budd.
+> Copying this code is not the best way to progress unless you understand it by heart ! Dig your own way budd.
+
+> Codding is fun, so learn and enjoy the process of it, it is a much better alternative than cheating.
 
 </p>
 <p align="center">
@@ -30,7 +32,7 @@
 
 * The will to learn .
 
-* Simple manipulation of a mouse and keyboard .
+* Simple manipulation of a mouse and a keyboard .
 
 * [Link for music](https://www.youtube.com/watch?v=jo7f059kJ-A&list=PLc11zrc3DKEnLmW4jYv84KNC3Y9wk5oh-&index=1&ab_channel=BrownswoodRecordings) to relief you .
 
@@ -56,15 +58,14 @@
 
 This project is a programming bootcamp concerning 1337 school, it lasts roughly 
 4 weeks, working 7 days a week, day and night. (error 404 sleep will never be found)
-These bootcamp covers the basics of programming so there's no need to have any experience at
-all. People will try and will fail, over and over again. This trial-and-error
+This bootcamp covers the basics of programming so there's no need to have any experience at
+all before. just come as you are ;) People will try and will fail over and over again. This trial-and-error
 process is necessary in order to find solutions to different problems that 
-once thought impossible. People learn in groups with other
-students, without teachers. It can be done, and it works.
+once thought impossible. People learn in groups with other students, without teachers around. So yes it can be done, and it works as a charm.
 
 > If you're going through hell, keep going. ― Winston Churchill
 
-> keep this in mind!
+> Keep this in mind! 
 
 ---
 
@@ -88,6 +89,8 @@ students, without teachers. It can be done, and it works.
 <img src="http://memes.ucoz.com/_nw/41/85352863.jpg" width="600">
 </p>
 
+
+## These videos will help you all through this journey of Piscine.
 
 > :tv:[Piscine c ressources](https://www.youtube.com/watch?v=U7jUVw1-cew&list=PLJq0wyQXdXmXxjCHKe_N1MuG9gEGsXYXH&ab_channel=jyloup85)
 
@@ -124,7 +127,7 @@ students, without teachers. It can be done, and it works.
 
 ---
 
-> Take it easy and dont panic .
+> Take it easy and dont panic, this is not the end of the world.
 
 </p>
 <p align="center">
