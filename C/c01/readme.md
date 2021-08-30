@@ -568,31 +568,34 @@ int	ft_strlen(char *str)
 3. :wrench: :beetle: Test && Debug :
 
 ```c
+#include <stdlib.h>
+
 int	main(void)
 {
-	char *str;
+	char	str[] = "-------------------------\n";
+	char	str0[] = "0123456789";
+	char	str1[] = "\0";
+	char	str2[] = "aaaaAAA!";
+	char	str3[] = "";
+	char	str4[] = "\t\a\n";
 
-	str = "AA123456789"; /* len = 11 */
-	write(1, "-----\n", 6);
-		write(1, "len = ", 6);
-	ft_putnbr(ft_strlen(str));
-		write(1, "\n", 1);
-	write(1, "-----\n", 6);
-	char *str1;
-
-	str1 = "";
-	write(1,"len = ",6);
+		ft_putstr(str);
+	ft_putnbr(ft_strlen(str0));
+		ft_putchar('\n');
+		ft_putstr(str);
 	ft_putnbr(ft_strlen(str1));
-		write(1, "\n", 1);
-	write(1, "-----\n", 6);
-	char *str2;
-
-	str2 = "\t\n 42";
-	write(1,"len = ",6);
+		ft_putchar('\n');
+		ft_putstr(str);
 	ft_putnbr(ft_strlen(str2));
-		write(1, "\n", 1);
-	write(1, "-----\n", 6);
-	return(EXIT_SUCCESS);
+		ft_putchar('\n');
+		ft_putstr(str);
+	ft_putnbr(ft_strlen(str3));
+		ft_putchar('\n');
+		ft_putstr(str);
+	ft_putnbr(ft_strlen(str4));
+		ft_putchar('\n');
+		ft_putstr(str);
+	return (EXIT_SUCCESS);
 }
 ```
 
