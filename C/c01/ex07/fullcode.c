@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_rev_int_tab.c                                   :+:      :+:    :+:   */
+/*   fullcode.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: alaamimi <alaamimi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/21 17:47:25 by alaamimi          #+#    #+#             */
-/*   Updated: 2021/04/21 18:40:06 by alaamimi         ###   ########.fr       */
+/*   Updated: 2021/08/30 19:12:13 by alaamimi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,11 +18,19 @@ void	ft_putchar(char c)
 	write(1, &c, 1);
 }
 
+void	ft_putstr(char *str)
+{
+	while (*str)
+	{
+		write(1, str++, 1);
+	}
+}
+
 void	ft_putnbr(int nb)
 {
 	long nbr;
 
-	nbr = nb;
+	nbr = (long) nb;
 	if(nbr < 0)
 	{
 		nbr = -nb;
@@ -31,23 +39,21 @@ void	ft_putnbr(int nb)
 	if(nbr > 9)
 	{
 		ft_putnbr(nbr / 10);
-		ft_putnbr(nbr % 10);
 	}
-	if(nbr >= 0 && nbr < 10)
-		ft_putchar(nbr + 48);
+	ft_putchar(nbr % 10 + 48);
 }
 
 void	ft_rev_int_tab(int *tab, int size)
 {
-	int cmt;
-	int tmp;
+	int	cmt;
+	int	swap;
 
 	cmt = 0;
-	while(cmt < size)
+	while(cmt <= size - 1)
 	{
-		tmp = tab[cmt];
+		swap = tab[cmt];
 		tab[cmt] = tab[size - 1];
-		tab[size - 1] = tmp;
+		tab[size - 1] = swap;
 		cmt++;
 		size--;
 	}
@@ -55,14 +61,31 @@ void	ft_rev_int_tab(int *tab, int size)
 
 int	main(void)
 {
-	int tab[10] = {1, 4, 2, 3, 8, 5, 6, 7, 8, 0};
-	int cmt;
+	int	tab[10] = {1, 4, 2, 3, 8, 5, 6, 7, 8, 9};
+	int	cmt;
+	char	str[] = "----------------------------------------------------\n";
+	char	str1[] = "None-reversed tab : ";
+	char	str2[] = "Reversed tab : ";
 
 	cmt = 0;
+		ft_putstr(str);
+		ft_putstr(str1);
+		ft_putchar('{');
+	while (cmt < 10)
+	{
+		ft_putnbr(tab[cmt]);
+		if (cmt < 9)
+			write(1, ", ", 2);
+		cmt++;
+	}
+		ft_putchar('}');
+		ft_putchar('\n');
+		ft_putstr(str);
+		ft_putstr(str2);
+
 	ft_rev_int_tab(tab, 10);
-	write(1, "-----\n", 6);
-		write(1, "rev_int_tab values are : ", 25);
-	write(1, "{", 2);
+	write(1, "{", 1);
+	cmt = 0;
 	while(cmt < 10)
 	{
 		ft_putnbr(tab[cmt]);
@@ -72,6 +95,6 @@ int	main(void)
 	}
 		write(1,"}", 1);
 		write(1, "\n", 1);
-	write(1, "-----\n", 6);
+		ft_putstr(str);
 	return(EXIT_SUCCESS);
 }
