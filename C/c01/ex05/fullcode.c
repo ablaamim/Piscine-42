@@ -6,7 +6,7 @@
 /*   By: alaamimi <alaamimi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/03/03 19:01:53 by alaamimi          #+#    #+#             */
-/*   Updated: 2021/04/15 21:11:45 by alaamimi         ###   ########.fr       */
+/*   Updated: 2021/08/30 17:15:38 by alaamimi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,39 +17,34 @@ void	ft_putchar(char c)
 {
 	write(1, &c, 1);
 }
-
 void	ft_putstr(char *str)
 {
-	int i;
-
-	i = 0;
-	while (str[i] != '\0')
+	while (*str)
 	{
-		ft_putchar(str[i]);
-		i++;
+		ft_putchar(*str);
+		str++;
 	}
 }
 
 int	main(void)
 {
-	char *str;
+	char	str[] = "-----------------------------\n";
+	char	str0[] = "Future is loading\n";
+	char	str1[] = "";
+	char	str2[] = "0123456789\0aaaa";
+	char	str3[] = "ABCDabcd####123@!\0!!!!!";
 
-	str = "Future is loading, 1337!";
-	write(1,"-----\n", 6);
-	ft_putstr(str);
-		write(1, "\n", 1);
-	write(1, "-----\n",6);
-	ft_putstr(str);
-		write(1, "\n",1);
-	ft_putstr(str);
-		write(1, "\n", 1);
-	ft_putstr(str);
-		write(1, "\n", 1);
-	write(1, "-----\n", 6);
-	str="";
-	write(1,"should be empty :", 17);
-	ft_putstr(str);
-	write(1, "\n", 1);
-	write(1, "-----\n", 6);
+		ft_putstr(str);
+	ft_putstr(str0);
+		ft_putstr(str);
+	ft_putstr(str1);
+		ft_putchar('\n');
+		ft_putstr(str);
+	ft_putstr(str2);
+		ft_putchar('\n');
+			ft_putstr(str);
+	ft_putstr(str3);
+		ft_putchar('\n');
+		ft_putstr(str);
 	return(EXIT_SUCCESS);
 }

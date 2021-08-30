@@ -92,6 +92,7 @@ int	main(void)
 
 ```
 $>gcc -Wall -Wextra -Werror ft_ft.c -o ft_ft && ./ft_ft
+
 --------------------------------------------------
 nb = 1337
 --------------------------------------------------
@@ -179,6 +180,7 @@ int	main(void)
 
 ```
 $>gcc -Wall -Wextra -Werror ft_ultimate_ft.c -o ft_ultimate_fr && ./ft_ultimate_ft
+
 -----------------------------------------------------------
 n = 0
 -----------------------------------------------------------
@@ -261,6 +263,7 @@ int	main(void)
 
 ```
 $>gcc -Wall -Wextra -Werror ft_swap.c -o ft_swap && ./ft_swap
+
 ----------------------------------------
 Values before swap : 1337 42
 ----------------------------------------
@@ -352,6 +355,7 @@ int	main(void)
 
 ```
 $>gcc -Wall -Wextra -Werror ft_div_mod.c -o ft_div_mod && ./ft_div_mod
+
 ------------------------------------------
 a = 42
 b = 4
@@ -398,7 +402,7 @@ void	ft_ultimate_div_mod(int *a, int *b)
 
 ---
 
-3. :wrench: :beetle: Test && Debug :
+3. :wrench: :computer: Test && Debug :
 
 ```
 #include <stdio.h>
@@ -457,7 +461,7 @@ Memory adress : 0x7fffefa86ba0
 
 </p>
 <p align="center">
-<img src="" width="800">
+<img src="https://github.com/alaamimi/Piscine-42/blob/master/C/c01/Ressources/ex05.JPG" width="800">
 </p>
 
 ---

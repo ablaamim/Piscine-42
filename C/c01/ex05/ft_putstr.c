@@ -1,29 +1,21 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   putstr.c                                           :+:      :+:    :+:   */
+/*   ft_putstr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: alaamimi <alaamimi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/15 20:56:25 by alaamimi          #+#    #+#             */
-/*   Updated: 2021/04/15 21:03:41 by alaamimi         ###   ########.fr       */
+/*   Updated: 2021/08/30 17:16:37 by alaamimi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-
-void	ft_putchar(char c)
-{
-	write(1, &c, 1);
-}
+#include <unistd.h>
 
 void	ft_putstr(char *str)
 {
-	int i;
-
-	i = 0;
-	while(str[i] != '\0')
+	while (*str)
 	{
-		ft_putchar(str[i]);
-		i++;
+		write(1, str++, 1);
 	}
 }
