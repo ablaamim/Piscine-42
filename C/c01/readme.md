@@ -639,14 +639,14 @@ $>gcc -Wall -Wextra -Werror ft_strlen.c -o ft_strlen && ./ft_strlen
 void	ft_rev_int_tab(int *tab, int size)
 {
 	int cmt;
-	int tmp;
+	int swap;
 
 	cmt = 0;
-	while(cmt < size)
+	while(cmt <= size - 1)
 	{
-		tmp = tab[cmt];
+		swap = tab[cmt];
 		tab[cmt] = tab[size - 1];
-		tab[size - 1] = tmp;
+		tab[size - 1] = swap;
 		cmt++;
 		size--;
 	}
@@ -656,19 +656,37 @@ void	ft_rev_int_tab(int *tab, int size)
 
 ---
 
-3. :wrench: :beetle: Test && Debug :
+3. :wrench: :computer: Test && Debug :
 
 ```c
+#include <stdlib.h>
 int	main(void)
 {
-	int tab[10] = {1, 4, 2, 3, 8, 5, 6, 7, 8, 0};
-	int cmt;
+	int	tab[10] = {1, 4, 2, 3, 8, 5, 6, 7, 8, 9};
+	int	cmt;
+	char	str[] = "----------------------------------------------------\n";
+	char	str1[] = "None-reversed tab : ";
+	char	str2[] = "Reversed tab : ";
 
 	cmt = 0;
+		ft_putstr(str);
+		ft_putstr(str1);
+		ft_putchar('{');
+	while (cmt < 10)
+	{
+		ft_putnbr(tab[cmt]);
+		if (cmt < 9)
+			write(1, ", ", 2);
+		cmt++;
+	}
+		ft_putchar('}');
+		ft_putchar('\n');
+		ft_putstr(str);
+		ft_putstr(str2);
+
 	ft_rev_int_tab(tab, 10);
-	write(1, "-----\n", 6);
-		write(1, "rev_int_tab values are : ", 25);
-	write(1, "{", 2);
+	write(1, "{", 1);
+	cmt = 0;
 	while(cmt < 10)
 	{
 		ft_putnbr(tab[cmt]);
@@ -678,8 +696,9 @@ int	main(void)
 	}
 		write(1,"}", 1);
 		write(1, "\n", 1);
-	write(1, "-----\n", 6);
+		ft_putstr(str);
 	return(EXIT_SUCCESS);
+}
 }
 ```
 
@@ -687,8 +706,14 @@ int	main(void)
 
 4. :8ball: Expected output :
 
-```c
-$>gcc -Wall -Wextra -Werror
+```
+$>gcc -Wall -Wextra -Werror ft_reverse_int_tab.c -o ft_reverse_int_tab && ./ft_reverse_int_tab
+
+----------------------------------------------------
+None-reversed tab : {1, 4, 2, 3, 8, 5, 6, 7, 8, 9}
+----------------------------------------------------
+Reversed tab : {9, 8, 7, 6, 5, 8, 3, 2, 4, 1}
+----------------------------------------------------
 -----
 rev_int_tab values are : {0, 8, 7, 6, 5, 8, 3, 2, 4, 1}
 -----
