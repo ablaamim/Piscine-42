@@ -628,7 +628,7 @@ $>gcc -Wall -Wextra -Werror ft_strlen.c -o ft_strlen && ./ft_strlen
 
 </p>
 <p align="center">
-<img src="" width="800">
+<img src="https://github.com/alaamimi/Piscine-42/blob/master/C/c01/Ressources/ex07.JPG" width="800">
 </p>
 
 ---
@@ -728,12 +728,13 @@ rev_int_tab values are : {0, 8, 7, 6, 5, 8, 3, 2, 4, 1}
 
 </p>
 <p align="center">
-<img src="" width="800">
+<img src="https://github.com/alaamimi/Piscine-42/blob/master/C/c01/Ressources/ex08.JPG" width="800">
 </p>
 
 ---
 
 2. :dart: Function :
+
 ```c
 void	ft_sort_int_tab(int *tab, int size)
 {
@@ -792,7 +793,8 @@ int	main(void)
 4. :8ball: Expected output :
 
 ```
-$>gcc -Wall -Wextra -Werror
+$>gcc -Wall -Wextra -Werror ft_sort_int_tab.c -o ft_sort_int_tab && ./ft_sort_int_tab
+
 -----
 
 Sorted int tab : 0123456789
