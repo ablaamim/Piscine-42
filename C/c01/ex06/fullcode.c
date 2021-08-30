@@ -6,7 +6,7 @@
 /*   By: alaamimi <alaamimi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/21 17:12:49 by alaamimi          #+#    #+#             */
-/*   Updated: 2021/08/30 17:40:34 by alaamimi         ###   ########.fr       */
+/*   Updated: 2021/08/30 17:57:11 by alaamimi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,15 @@
 void	ft_putchar(char c)
 {
 	write(1, &c, 1);
+}
+
+void	ft_putstr(char *str)
+{
+	while (*str)
+	{
+		ft_putchar(*str);
+		str++;
+	}
 }
 
 void	ft_putnbr(int nb)
@@ -31,10 +40,8 @@ void	ft_putnbr(int nb)
 	if (nbr > 9 )
 	{
 		ft_putnbr(nbr / 10);
-		ft_putnbr(nbr % 10);
 	}
-	if (nbr >=0 && nbr < 10)
-		ft_putchar(nbr + 48);
+	ft_putchar(nbr % 10 + 48);
 }
 
 int	ft_strlen(char *str)
@@ -51,27 +58,28 @@ int	ft_strlen(char *str)
 
 int	main(void)
 {
-	char *str;
+	char	str[] = "-------------------------\n";
+	char	str0[] = "0123456789";
+	char	str1[] = "\0";
+	char	str2[] = "aaaaAAA!";
+	char	str3[] = "";
+	char	str4[] = "\t\a\n";
 
-	str = "AA123456789"; /* len = 11 */
-	write(1, "-----\n", 6);
-		write(1, "len = ", 6);
-	ft_putnbr(ft_strlen(str));
-		write(1, "\n", 1);
-	write(1, "-----\n", 6);
-	char *str1;
-
-	str1 = "";
-	write(1,"len = ",6);
+		ft_putstr(str);
+	ft_putnbr(ft_strlen(str0));
+		ft_putchar('\n');
+		ft_putstr(str);
 	ft_putnbr(ft_strlen(str1));
-		write(1, "\n", 1);
-	write(1, "-----\n", 6);
-	char *str2;
-
-	str2 = "\t\n 42";
-	write(1,"len = ",6);
+		ft_putchar('\n');
+		ft_putstr(str);
 	ft_putnbr(ft_strlen(str2));
-		write(1, "\n", 1);
-	write(1, "-----\n", 6);
-	return(EXIT_SUCCESS);
+		ft_putchar('\n');
+		ft_putstr(str);
+	ft_putnbr(ft_strlen(str3));
+		ft_putchar('\n');
+		ft_putstr(str);
+	ft_putnbr(ft_strlen(str4));
+		ft_putchar('\n');
+		ft_putstr(str);
+	return (EXIT_SUCCESS);
 }
