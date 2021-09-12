@@ -2,19 +2,19 @@
 
 | C01 | Problems | Fullcode |
 |--- |--- |--- |
-| ex00 | ft_strcpy | [fullcode.c]() |
-| ex01 | ft_strncpy | [fullcode.c]() |
-| ex02 | ft_str_is_alpha | [fullcode.c]() |
-| ex03 | ft_str_is_numeric | [fullcode.c]() |
-| ex04 | ft_str_is_lowercase | [fullcode.c]() |
-| ex05 | ft_is_uppercase | [fullcode.c]() |
-| ex06 | ft_str_is_printable | [fullcode.c]() |
-| ex07 | ft_strupcase | [fullcode.c]() |
-| ex08 | ft_strlowcase | [fullcode.c]() |
-| ex09 | ft_strcapitalize | [fullcode.c]() |
-| ex10 | ft_str_strlcpy | [fullcode.c]() |
-| ex11 | ft_putstr_non_printable | [fullcode.c]() |
-| ex12 | ft_print_memoery | [fullcode.c]() |
+| ex00 | [ft_strcpy](https://github.com/alaamimi/Piscine-42/blob/master/C/c02/ex00/ft_strcpy.c) | [fullcode](https://github.com/alaamimi/Piscine-42/blob/master/C/c02/ex00/fullcode.c) |
+| ex01 | [ft_strncpy]() | [fullcode]() |
+| ex02 | [ft_str_is_alpha]() | [fullcode]() |
+| ex03 | ft_str_is_numeric | [fullcode]() |
+| ex04 | ft_str_is_lowercase | [fullcode]() |
+| ex05 | ft_is_uppercase | [fullcode]() |
+| ex06 | ft_str_is_printable | [fullcode]() |
+| ex07 | ft_strupcase | [fullcode]() |
+| ex08 | ft_strlowcase | [fullcode]() |
+| ex09 | ft_strcapitalize | [fullcode]() |
+| ex10 | ft_str_strlcpy | [fullcode]() |
+| ex11 | ft_putstr_non_printable | [fullcode]() |
+| ex12 | ft_print_memoery | [fullcode]() |
 
 ---
 
