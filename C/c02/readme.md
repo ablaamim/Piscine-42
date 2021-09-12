@@ -1,3 +1,5 @@
+---
+
 ## :information_source: Table Content :
 
 | C01 | Problems | Fullcode |
@@ -15,6 +17,8 @@
 | ex10 | ft_str_strlcpy | [fullcode.c]() |
 | ex11 | ft_putstr_non_printable | [fullcode.c]() |
 | ex12 | ft_print_memoery | [fullcode.c]() |
+
+---
 
 ## MOAR !
 
@@ -34,6 +38,8 @@
 <img src="https://github.com/alaamimi/Piscine-42/blob/master/C/c02/src/ex00.JPG" width="800">
 </p>
 
+---
+
 2. :dart: Function :
 ```c
 char	*ft_strcpy(char *dest, char *src)
@@ -46,6 +52,8 @@ char	*ft_strcpy(char *dest, char *src)
 	return(dest);
 }
 ```
+
+---
 
 3. :wrench: :beetle: Test && Debug :
 ```c
@@ -78,6 +86,8 @@ int	main(void)
 }
 ```
 
+---
+
 4. :8ball: Expected output :
 ```
 gcc -Wall -Wextra -Werror ft_strcpy.c ft_strcpy && ./ft_strcpy
@@ -90,17 +100,19 @@ NULL TEST! NO DISPLAY IN STDOUT.
 Future is loading
 -----------------------------------------
 ```
+
 ---
 
 ## Exercise 01 : ft_strncpy :
 
 1. :dart: Task :
 
-
 </p>
 <p align="center">  
 <img src="https://github.com/alaamimi/Piscine-42/blob/master/C/c02/src/ex01.JPG" width="800">
 </p>
+
+---
 
 2. :dart: Function :
 
@@ -113,7 +125,10 @@ char	*ft_strncpy(char *dest, char *src, unsigned int n)
 	return (dest);
 }
 ```
-3. :wrench: :beetle: Test && Debug :
+---
+
+3. :wrench: :computer: Test && Debug :
+
 ```c
 int	main(void)
 {
@@ -134,8 +149,10 @@ int	main(void)
 }
 ```
 
+---
+
 4. :8ball: Expected output :
-```c
+```
 -----
 Text1.txt
 
@@ -144,7 +161,6 @@ Text1.txt
 
 -----
 ```
-
 ---
 
 ## Exercise 02 : ft_str_is_alpha :
@@ -170,7 +186,7 @@ int	ft_str_is_alpha(char *str)
 }
 ```
 
-3. :wrench: :beetle: Test && Debug :
+3. :wrench: :computer: Test && Debug :
 ```c
 int	main(void)
 {
