@@ -1,20 +1,20 @@
 ## :information_source: Table Content :
 
-| C01 | Problems |
-|--- |--- |
-| ex00 | ft_strcpy |
-| ex01 | ft_strncpy |
-| ex02 | ft_str_is_alpha |
-| ex03 | ft_str_is_numeric |
-| ex04 | ft_str_is_lowercase |
-| ex05 | ft_is_uppercase |
-| ex06 | ft_str_is_printable |
-| ex07 | ft_strupcase |
-| ex08 | ft_strlowcase |
-| ex09 | ft_strcapitalize |
-| ex10 | ft_str_strlcpy |
-| ex11 | ft_putstr_non_printable |
-| ex12 | ft_print_memoery |
+| C01 | Problems | Fullcode |
+|--- |--- |--- |
+| ex00 | ft_strcpy | [fullcode.c]() |
+| ex01 | ft_strncpy | [fullcode.c]() |
+| ex02 | ft_str_is_alpha | [fullcode.c]() |
+| ex03 | ft_str_is_numeric | [fullcode.c]() |
+| ex04 | ft_str_is_lowercase | [fullcode.c]() |
+| ex05 | ft_is_uppercase | [fullcode.c]() |
+| ex06 | ft_str_is_printable | [fullcode.c]() |
+| ex07 | ft_strupcase | [fullcode.c]() |
+| ex08 | ft_strlowcase | [fullcode.c]() |
+| ex09 | ft_strcapitalize | [fullcode.c]() |
+| ex10 | ft_str_strlcpy | [fullcode.c]() |
+| ex11 | ft_putstr_non_printable | [fullcode.c]() |
+| ex12 | ft_print_memoery | [fullcode.c]() |
 
 ## MOAR !
 
@@ -28,21 +28,20 @@
 ## Exercise 00 : ft_strcpy :
 
 1. :dart: Task :
-```c
-• Reproduce the behavior of the function strcpy (man strcpy).
-• Here’s how it should be prototyped :
-char *ft_strcpy(char *dest, char *src);
-```
+
+</p>
+<p align="center">  
+<img src="" width="800">
+</p>
 
 2. :dart: Function :
 ```c
 char	*ft_strcpy(char *dest, char *src)
 {
-
-	while(*src != '\0')
-	{
+	if ((src == NULL) || (dest == NULL))
+		return (NULL);
+	while(*src)
 		*dest++ = *src++;
-	}
 	*dest = '\0';
 	return(dest);
 }
@@ -50,57 +49,61 @@ char	*ft_strcpy(char *dest, char *src)
 
 3. :wrench: :beetle: Test && Debug :
 ```c
+#include <stdio.h>
+#include <stdlib.h>
+
 int	main(void)
 {
-	char src[] = "testing\n";
-	char dest[] = "qq   qqqq\n";
-		write(1, "-----\n", 6);
-		write(1, "Destination string is : ", 24);
-	ft_putstr(dest);
-		write(1, "-----\n", 6);
-	ft_strcpy(dest, src);
-		write(1, "The result is : ", 16);
-	ft_putstr(dest);
-		write(1, "-----\n", 6);
-	char src1[] = "";
-	char dest1[] = "42";
-		write(1, "Destination string is : ", 24);
-	ft_putstr(dest1);
-		write(1, "\n", 1);
-		write(1, "-----\n", 6);
+	char	str[] = "-----------------------------------------\n";
+	char	str1[] = "NULL TEST! NO DISPLAY IN STDOUT.\n";
+	char	src1[] = "Copy me\n";
+	char	dest1[256];
+	char	src2[] = "";
+	char	dest2[256];
+	char	src3[] = "Future is loading\n";
+	char	dest3[] = "\0";
+
 	ft_strcpy(dest1, src1);
-		write(1, "The result is : ", 16);
+		ft_putstr(str);
 	ft_putstr(dest1);
-		write(1, "\n", 1);
-		write(1, "-----\n", 6);
+		ft_putstr(str);
+	ft_strcpy(dest2, src2);
+	ft_putstr(dest2);
+		ft_putstr(str1);
+		ft_putstr(str);
+	ft_strcpy(dest3, src3);
+	ft_putstr(dest3);
+		ft_putstr(str);
 	return (EXIT_SUCCESS);
 }
 ```
 
 4. :8ball: Expected output :
-```c
------
-Destination string is : qq   qqqq
------
-The result is : testing
------
-Destination string is : 42
------
-The result is : 
------
+```
+gcc -Wall -Wextra -Werror ft_strcpy.c ft_strcpy && ./ft_strcpy
+
+-----------------------------------------
+Copy me
+-----------------------------------------
+NULL TEST! NO DISPLAY IN STDOUT.
+-----------------------------------------
+Future is loading
+-----------------------------------------
 ```
 ---
 
 ## Exercise 01 : ft_strncpy :
 
 1. :dart: Task :
-```c
-• Reproduce the behavior of the function strncpy (man strncpy).
-• Here’s how it should be prototyped :
-char *ft_strncpy(char *dest, char *src, unsigned int n);
-```
+
+
+</p>
+<p align="center">  
+<img src="" width="800">
+</p>
 
 2. :dart: Function :
+
 ```c
 char	*ft_strncpy(char *dest, char *src, unsigned int n)
 {
@@ -147,13 +150,11 @@ Text1.txt
 ## Exercise 02 : ft_str_is_alpha :
 
 1. :dart: Task :
-```c
-• Create a function that returns 1 if the string given as a parameter contains only
-alphabetical characters, and 0 if it contains any other character.
-• Here’s how it should be prototyped :
-int ft_str_is_alpha(char *str);
-• It should return 1 if str is empty
-```
+
+</p>
+<p align="center">  
+<img src="" width="800">
+</p>
 
 2. :dart: Function :
 ```c
@@ -231,13 +232,11 @@ Return :1
 ## Exercise 03 : ft_str_is_numeric :
 
 1. :dart: Task :
-```c
-• Create a function that returns 1 if the string given as a parameter contains only
-digits, and 0 if it contains any other character.
-• Here’s how it should be prototyped :
-int ft_str_is_numeric(char *str);
-• It should return 1 if str is empty.
-```
+
+</p>
+<p align="center">  
+<img src="" width="800">
+</p>
 
 2. :dart: Function :
 ```c
@@ -311,13 +310,12 @@ int	main(void)
 ## Exercise 04 : ft_str_is_lowercase :
 
 1. :dart: Task :
-```c
-• Create a function that returns 1 if the string given as a parameter contains only
-lowercase alphabetical characters, and 0 if it contains any other character.
-• Here’s how it should be prototyped :
-int ft_str_is_lowercase(char *str);
-• It should return 1 if str is empty.
-```
+
+</p>
+<p align="center">  
+<img src="" width="800">
+</p>
+
 2. :dart: Function :
 ```c
 int	ft_str_is_lowercase(char *str)
@@ -391,13 +389,11 @@ Return : 1
 ## Exercise 05 : ft_str_is_uppercase :
 
 1. :dart: Task :
-```c
-• Create a function that returns 1 if the string given as a parameter contains only
-uppercase alphabetical characters, and 0 if it contains any other character.
-• Here’s how it should be prototyped :
-int ft_str_is_uppercase(char *str);
-• It should return 1 if str is empty.
-```
+
+</p>
+<p align="center">  
+<img src="" width="800">
+</p>
 
 2. :dart: Function :
 ```c
@@ -473,13 +469,11 @@ Return : 1
 ## Exercise 06 : ft_str_is_printable :
 
 1. :dart: Task :
-```c
-• Create a function that returns 1 if the string given as a parameter contains only
-printable characters, and 0 if it contains any other character.
-• Here’s how it should be prototyped :
-int ft_str_is_printable(char *str);
-• It should return 1 if str is empty.
-```
+
+</p>
+<p align="center">  
+<img src="" width="800">
+</p>
 
 2. :dart: Function :
 ```c
@@ -496,12 +490,11 @@ int ft_str_is_printable(char *str);
 ## Exercise 07 : ft_strupcase :
 
 1. :dart: Task :
-```c
-• Create a function that transforms every letter to uppercase.
-• Here’s how it should be prototyped :
-char *ft_strupcase(char *str);
-• It should return str.
-```
+
+</p>
+<p align="center">  
+<img src="" width="800">
+</p>
 
 2. :dart: Function :
 ```c
@@ -522,12 +515,11 @@ char *ft_strupcase(char *str);
 ## Exercise 08 : ft_strlowcase :
 
 1. :dart: Task :
-```c
-• Create a function that transforms every letter to lowercase.
-• Here’s how it should be prototyped :
-char *ft_strlowcase(char *str);
-• It should return str.
-```
+
+</p>
+<p align="center">  
+<img src="" width="800">
+</p>
 
 2. :dart: Function :
 ```c
@@ -545,14 +537,11 @@ char *ft_strlowcase(char *str);
 ## Exercise 09 : ft_strcapitalize :
 
 1. :dart: Task :
-```c
-• Create a function that capitalizes the first letter of each word and transforms all
-other letters to lowercase.
-• A word is a string of alphanumeric characters.
-• Here’s how it should be prototyped :
-char *ft_strcapitalize(char *str);
-• It should return str.
-```
+
+</p>
+<p align="center">  
+<img src="" width="800">
+</p>
 
 2. :dart: Function :
 ```c
@@ -570,11 +559,11 @@ char *ft_strcapitalize(char *str);
 ## Exercise 10 : ft_strlcpy :
 
 1. :dart: Task :
-```c
-• Reproduce the behavior of the function strlcpy (man strlcpy).
-• Here’s how it should be prototyped :
-unsigned int ft_strlcpy(char *dest, char *src, unsigned int size);
-```
+
+</p>
+<p align="center">  
+<img src="" width="800">
+</p>
 
 2. :dart: Function :
 ```c
@@ -591,16 +580,11 @@ unsigned int ft_strlcpy(char *dest, char *src, unsigned int size);
 ## Exercise 11 : ft_putstr_non_printable :
 
 1. :dart: Task :
-```c
-• Create a function that displays a string of characters onscreen. If this string contains characters that aren’t printable, they’ll have to be displayed in the shape of
-hexadecimals (lowercase), preceeded by a "backslash".
-• For example :
-Coucou\ntu vas bien ?
-• The function should display :
-Coucou\0atu vas bien ?
-• Here’s how it should be prototyped :
-void ft_putstr_non_printable(char *str);
-```
+
+</p>
+<p align="center">  
+<img src="" width="800">
+</p>
 
 2. :dart: Function :
 ```c
@@ -617,18 +601,12 @@ void ft_putstr_non_printable(char *str);
 ## Exercise 12 : ft_print_memory :
 
 1. :dart: Task :
-```c
-• Create a function that displays the memory area onscreen.
-• The display of this memory area should be split into three "columns" separated by
-a space :
-? The hexadecimal address of the first line’s first character followed by a ’:’.
-? The content in hexadecimal with a space each 2 characters and should be
-padded with spaces if needed (see the example below).
-? The content in printable characters.
-• If a character is non-printable, it’ll be replaced by a dot.
-• Each line should handle sixteen characters.
-• If size equals to 0, nothing should be displayed.
-```
+
+</p>
+<p align="center">  
+<img src="" width="800">
+</p>
+
 2. :dart: Function :
 ```c
 ```
