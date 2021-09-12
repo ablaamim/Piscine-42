@@ -55,7 +55,7 @@ char	*ft_strcpy(char *dest, char *src)
 
 ---
 
-3. :wrench: :beetle: Test && Debug :
+3. :wrench: :computer: Test && Debug :
 ```c
 #include <stdio.h>
 #include <stdlib.h>
@@ -268,7 +268,7 @@ int ft_str_is_numeric(char *str)
 }
 ```
 
-3. :wrench: :beetle: Test && Debug :
+3. :wrench: :computer: Test && Debug :
 ```c
 int	main(void)
 {
@@ -346,7 +346,7 @@ int	ft_str_is_lowercase(char *str)
 }
 ```
 
-3. :wrench: :beetle: Test && Debug :
+3. :wrench: :computer: Test && Debug :
 ```c
 int	main(void)
 {
@@ -425,7 +425,7 @@ int	ft_str_is_uppercase(char *str)
 }
 ```
 
-3. :wrench: :beetle: Test && Debug :
+3. :wrench: :computer: Test && Debug :
 ```c
 int	main(void)
 {
@@ -495,7 +495,7 @@ Return : 1
 ```c
 ```
 
-3. :wrench: :beetle: Test && Debug :
+3. :wrench: :computer: Test && Debug :
 ```c
 ```
 
@@ -516,7 +516,7 @@ Return : 1
 ```c
 ```
 
-3. :wrench: :beetle: Test && Debug :
+3. :wrench: :computer: Test && Debug :
 ```c
 ```
 
@@ -541,7 +541,7 @@ Return : 1
 ```c
 ```
 
-3. :wrench: :beetle: Test && Debug :
+3. :wrench: :computer: Test && Debug :
 ```c
 ```
 
@@ -563,7 +563,7 @@ Return : 1
 ```c
 ```
 
-3. :wrench: :beetle: Test && Debug :
+3. :wrench: :computer: Test && Debug :
 ```c
 ```
 
@@ -585,7 +585,7 @@ Return : 1
 ```c
 ```
 
-3. :wrench: :beetle: Test && Debug :
+3. :wrench: :computer: Test && Debug :
 ```c
 ```
 
@@ -606,7 +606,7 @@ Return : 1
 ```c
 ```
 
-3. :wrench: :beetle: Test && Debug :
+3. :wrench: :computer: Test && Debug :
 ```c
 ```
 
@@ -627,7 +627,7 @@ Return : 1
 ```c
 ```
 
-3. :wrench: :beetle: Test && Debug :
+3. :wrench: :computer: Test && Debug :
 ```c
 ```
 
