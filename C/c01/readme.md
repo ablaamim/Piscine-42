@@ -815,7 +815,6 @@ int	main(void)
 ```
 $>gcc -Wall -Wextra -Werror ft_sort_int_tab.c -o ft_sort_int_tab && ./ft_sort_int_tab
 
-```
 -----------------------------------------------------------------
 Table of ints before sort : [-1 9 4 5 42 1 0 1337 2 6 101 11]
 -----------------------------------------------------------------
