@@ -1,5 +1,3 @@
----
-
 ## :information_source: Table Content :
 
 | C01 | Problems | Fullcode |
