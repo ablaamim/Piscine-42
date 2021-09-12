@@ -1,9 +1,0 @@
------
-Destination string is : qq   qqqq
------
-The result is : testing
------
-Destination string is : 42
------
-The result is : 
------
