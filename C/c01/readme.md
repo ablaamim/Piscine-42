@@ -1,4 +1,5 @@
 ﻿---
+
 ## :book: Subject :
 
 | PDF | Version |
@@ -404,7 +405,7 @@ void	ft_ultimate_div_mod(int *a, int *b)
 
 3. :wrench: :computer: Test && Debug :
 
-```
+```c
 #include <stdio.h>
 #include <unistd.h>
 #include <stdlib.h>
@@ -485,7 +486,8 @@ void	ft_putstr(char *str)
 
 ---
 
-3. :wrench: :beetle: Test && Debug :
+3. :wrench: :computer: Test && Debug :
+
 ```c
 #include <stdlib.h>
 
@@ -518,7 +520,7 @@ int	main(void)
 4. :8ball: Expected output :
 
 ```
-$>gcc -Wall -Wextra -Werror -ft_putstr.c -o ft_putstr && ./ft_pustr
+$>gcc -Wall -Wextra -Werror -ft_putstr.c -o ft_putstr && ./ft_putstr
 
 -----------------------------
 Future is loading
@@ -565,7 +567,7 @@ int	ft_strlen(char *str)
 
 ---
 
-3. :wrench: :beetle: Test && Debug :
+3. :wrench: :computer: Test && Debug :
 
 ```c
 #include <stdlib.h>
@@ -617,7 +619,6 @@ $>gcc -Wall -Wextra -Werror ft_strlen.c -o ft_strlen && ./ft_strlen
 -------------------------
 3
 -------------------------
------
 ```
 
 ---
@@ -714,9 +715,6 @@ None-reversed tab : {1, 4, 2, 3, 8, 5, 6, 7, 8, 9}
 ----------------------------------------------------
 Reversed tab : {9, 8, 7, 6, 5, 8, 3, 2, 4, 1}
 ----------------------------------------------------
------
-rev_int_tab values are : {0, 8, 7, 6, 5, 8, 3, 2, 4, 1}
------
 ```
 
 ---
@@ -738,15 +736,15 @@ rev_int_tab values are : {0, 8, 7, 6, 5, 8, 3, 2, 4, 1}
 ```c
 void	ft_sort_int_tab(int *tab, int size)
 {
-	int cmp1;
-	int cmp2;
-	int tmp;
+	int	cmp1;
+	int	cmp2;
+	int	tmp;
 
 	cmp1 = 0;
-	while(cmp1 < size)
+	while (cmp1 < size)
 	{
 		cmp2 = cmp1 + 1;
-		while(cmp2 < size)
+		while (cmp2 < size)
 		{
 			if (tab[cmp2] < tab[cmp1])
 			{
@@ -763,27 +761,49 @@ void	ft_sort_int_tab(int *tab, int size)
 
 ---
 
-3. :wrench: :beetle: Test && Debug :
+3. :wrench: :computer: Test && Debug :
 
 ```c
+#include <unistd.h>
+#include <stdlib.h>
+
 int	main(void)
 {
-	int tab[10]= {8, 9, 4, 5, 7, 1, 0, 3, 2, 6};
-	int cmp;
+	int	tab[12]= {-1, 9, 4, 5, 42, 1, 0, 1337, 2, 6, 101, -42};
+	char	str[] = "-----------------------------------------------------------------\n";
+	char	str1[] = "Sorted table of ints : ";
+	char	str2[] = "Table of ints before sort : ";
+	int	i;
+	int index;
 
-	ft_sort_int_tab(tab, 10);
-	cmp = 0;
-	write(1, "-----\n", 6);
-		write(1, "Sorted int tab : ", 17);
-	while(cmp < 10)
+	index = 0;
+	ft_putstr(str);
+	ft_putstr(str2);
+	ft_putchar('[');
+	while (i < 11)
 	{
-		{
-			ft_putnbr(tab[cmp]);
-			cmp++;
-		}
+		ft_putnbr(tab[i]);
+		ft_putchar(' ');
+		i++;
 	}
-		write(1, "\n", 1);
-	write(1, "-----\n", 6);
+	ft_putnbr(11);
+	ft_putchar(']');
+	ft_putchar('\n');
+	i = 0;
+	ft_putstr(str);
+	ft_putstr(str1);
+	ft_sort_int_tab(tab, 12);
+	ft_putchar('[');
+	while (i < 11)
+	{
+		ft_putnbr(tab[i]);
+		ft_putchar(' ');
+		i++;
+	}
+	ft_putnbr(tab[11]);
+	ft_putchar(']');
+	ft_putchar('\n');
+	ft_putstr(str);
 	return(EXIT_SUCCESS);
 }
 ```
@@ -795,12 +815,12 @@ int	main(void)
 ```
 $>gcc -Wall -Wextra -Werror ft_sort_int_tab.c -o ft_sort_int_tab && ./ft_sort_int_tab
 
------
-
-Sorted int tab : 0123456789
-
------
-
+```
+-----------------------------------------------------------------
+Table of ints before sort : [-1 9 4 5 42 1 0 1337 2 6 101 11]
+-----------------------------------------------------------------
+Sorted table of ints : [-42 -1 0 1 2 4 5 6 9 42 101 1337]
+-----------------------------------------------------------------
 ```
 ---
 

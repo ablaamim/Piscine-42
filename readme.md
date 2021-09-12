@@ -36,13 +36,6 @@
 
 * [Link for music](https://www.youtube.com/watch?v=jo7f059kJ-A&list=PLc11zrc3DKEnLmW4jYv84KNC3Y9wk5oh-&index=1&ab_channel=BrownswoodRecordings) to relief you .
 
----
-
-</p>
-<p align="center">
-<img src ="https://msmariapoppies.files.wordpress.com/2020/09/aye-aye-capitain.gif?w=498" width="600">
-</p>
-
 --- 
 
 ## :information_source: 1337 School (42 Network) :
@@ -85,9 +78,11 @@ once thought impossible. People learn in groups with other students, without tea
 ---
 
 </p>
-<p align="center">  
+<p align="center">
 <img src="http://memes.ucoz.com/_nw/41/85352863.jpg" width="600">
 </p>
+
+---
 
 
 ## These videos will help you all through this journey of Piscine.
