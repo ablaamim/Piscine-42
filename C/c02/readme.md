@@ -31,7 +31,7 @@
 
 </p>
 <p align="center">  
-<img src="" width="800">
+<img src="https://github.com/alaamimi/Piscine-42/blob/master/C/c02/src/ex00.JPG" width="800">
 </p>
 
 2. :dart: Function :
@@ -99,7 +99,7 @@ Future is loading
 
 </p>
 <p align="center">  
-<img src="" width="800">
+<img src="https://github.com/alaamimi/Piscine-42/blob/master/C/c02/src/ex01.JPG" width="800">
 </p>
 
 2. :dart: Function :
@@ -153,7 +153,7 @@ Text1.txt
 
 </p>
 <p align="center">  
-<img src="" width="800">
+<img src="https://github.com/alaamimi/Piscine-42/blob/master/C/c02/src/ex02.JPG" width="800">
 </p>
 
 2. :dart: Function :
