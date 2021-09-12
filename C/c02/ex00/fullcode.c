@@ -6,7 +6,7 @@
 /*   By: alaamimi <alaamimi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/21 22:18:37 by alaamimi          #+#    #+#             */
-/*   Updated: 2021/09/12 18:55:20 by alaamimi         ###   ########.fr       */
+/*   Updated: 2021/09/12 19:00:57 by alaamimi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,9 +38,9 @@ char	*ft_strcpy(char *dest, char *src)
 
 int	main(void)
 {
-	char	str[] = "-------------------------\n";
+	char	str[] = "-----------------------------------------\n";
 	char	str1[] = "NULL TEST! NO DISPLAY IN STDOUT.\n";
-	char	src1[] = "copy me\n";
+	char	src1[] = "Copy me\n";
 	char	dest1[256];
 	char	src2[] = "";
 	char	dest2[256];
