@@ -241,6 +241,7 @@ sed --file=myscript.sed input.txt > output.txt
 ### GREP :
 
 6) grep
+
 grep used with -v (--invert-match) is going to select the lines that ARE NOT matching with a specific pattern => -v
 
 ---
