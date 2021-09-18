@@ -15,7 +15,9 @@ Files to turn in : git_ignore.sh
 
 The command that needs to be executed:
 
+```
 $> git ls-files -o -i --exclude-standard
+```
 
 Here is what the manual page says about this:
 
