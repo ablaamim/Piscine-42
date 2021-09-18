@@ -19,9 +19,13 @@
 
 ---
 
+### rmdir :
+
 rmdir => Remove Directory.
 
 ---
+
+### chmod :
 
 chmod : Change Mode
 
@@ -41,7 +45,7 @@ rwx rw- r-- => 427 420 400 => 764
 
 ---
 
-Shell variable :
+### Shell variable :
 
 $var=value
 echo $var => value
@@ -50,10 +54,13 @@ If you create an under shell with sh, it doesn't know the variable => You need t
 
 ---
 
+### WC :
+
 wc => Count the number of lines / words & bytes of file.
 
 ---
-Widlcard :
+
+### Widlcard :
 
 * => matching char  substitution
 t??? -> replace with any char
@@ -73,6 +80,8 @@ Use more instead of cat => pagination , space allows to jump to next page
 
 ---
 
+### Head / Tail :
+
 head => Only display the beginning of the file
 head -n 2 => Only displays the first two lines
 head -c 9 => Only the first 9 chars
@@ -81,16 +90,20 @@ tail is the reverse of head
 
 ---
 
+### CAT :
+
 cat -e => Shows all the returned values untill new line.
 
 ---
+
+### GREP :
 
 grep -v => Reversed search => all line that doesn't contain a certain char / word
 grep -i => Case insensitive.
 
 ---
 
-Streams :
+### Streams :
 
 Every program has stdin, stdout (standard output) and stderr, {0, 1, 2}.
 
@@ -98,7 +111,7 @@ Pipe operator '|' => Branchs stdout of previous program to stdin of other progra
 
 ---
 
-Ls :
+### Ls :
 
 ls > res.txt => Output of ls inside this file
 
@@ -111,14 +124,14 @@ ls hello test* 2> error.log | grep test.txt => this is writing any error in erro
 
 ---
 
-Grep :
+### Grep :
 
 grep Joker < batman.txt => We modify the standard entry for the batman.txt file
 it basically does cat batman.txt | grep Joker
 
 ---
 
-Echo :
+### Echo :
 
 echo hello > res.txt 
 echo yeay > res.txt => it will replace the content
@@ -140,7 +153,7 @@ https://unix.stackexchange.com/questions/27428/what-does-backquote-backtick-mean
 
 ---
 
-Advanced shell functions / utilitaries
+### Advanced shell functions :
 
 1) find = looking for files
 find . -name hello.txt => find any file in the current directory where the name is hello.txt
@@ -151,7 +164,7 @@ e.g. find . -name .gitignore
 
 ---
 
-WC :
+### WC :
 
 2) wc = wordcount
 -l => line
@@ -160,21 +173,21 @@ WC :
 
 ---
 
-BC :
+### BC :
 
 3) bc = calculation function
 to go out quit
 
 ---
 
-PATCH :
+### PATCH :
 
 4) patch
 patch takes a patch file containing a difference listing produced by the diff program and applies those differences to one or more original files, producing patched versions.
 
 ---
 
-SED :
+### SED :
 
 5) sed
 Normally sed is invoked like this:
@@ -215,20 +228,22 @@ sed --file=myscript.sed input.txt > output.txt
 
 ---
 
+### GREP :
+
 6) grep
 grep used with -v (--invert-match) is going to select the lines that ARE NOT matching with a specific pattern => -v
 
 ---
 
-interrupt
+### Interrupt :
+
 when shell is expecting input => ctrl + d to finish but need to be on a new line
 ctrl + c to interrupt
 ctrl + \ => quit as well
 
 ---
 
-git :
-
+### Git :
 
 git log --pretty=format:"%H" => will return the list of commit hashes
 you can pick your own format for your commits
@@ -239,7 +254,8 @@ git checkout -b => creates a new branch and goes in there
 
 ---
 
-magic files
+### Magic files :
+
 use to determine the type of files (and can be used with the file shell command then)
 
 
