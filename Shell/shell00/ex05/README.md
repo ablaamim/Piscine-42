@@ -19,6 +19,12 @@ The command that needs to be executed:
 $> git ls-files -o -i --exclude-standard
 ```
 
+##### or :
+
+```
+$> git ls-files --ignored --others --exclude-standard
+```
+
 Here is what the manual page says about this:
 
 -i : Show only ignored files in the output. When showing files in the index, 

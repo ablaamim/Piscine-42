@@ -1,8 +1,5 @@
-### [back](https://github.com/alaamimi/Piscine-42/tree/master/Shell/shell00)
+#### If we RTFM!(`man diff`) we will see that :
 
----
-
-#### If we RTFM!(`man diff`) we will see that:
 ```
 DESCRIPTION
 		Compare FILES line by line.
