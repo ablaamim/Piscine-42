@@ -19,18 +19,19 @@
 
 ---
 
-rmdir => remove directory
+rmdir => Remove Directory.
 
 ---
 
-chmod : change mode
+chmod : Change Mode
 
-Utilisateur | groupe | all users
-rwx         | rwx    | rwx
+| Utilisateur | groupe | all users |
+|--- |--- |--- |
+|rwx | rwx | rwx |
 
-u => user
-g => group
-o => others
+u => User
+g => Group
+o => Others
 
 chmod o+r => add reading rights 
 chmod a-x => remove all executing rights for everyone (all)
@@ -40,80 +41,88 @@ rwx rw- r-- => 427 420 400 => 764
 
 ---
 
-shell => delete beginning of line ctrl + d
+Shell variable :
+
+$var=value
+echo $var => value
+
+If you create an under shell with sh, it doesn't know the variable => You need to export it to the environment.
 
 ---
 
-echo
-
-ls -l
-shell variable
-$avar=avalue
-echo $avar => avalue
-
-if you create an under shell with sh, it doesn't know the variable => You need to export it to my environment
+wc => Count the number of lines / words & bytes of file.
 
 ---
-
-wc => count the number of lines / words & bytes of file
-
----
+Widlcard :
 
 * => matching char  substitution
 t??? -> replace with any char
-~ => root directory
+
+Home :
+
+~ => Home directory
 
 ---
 
-to escape wild char => echo '*' or echo \*
+To escape wildcard characterster => echo '*' or echo \*
 
 ---
 
-use more instead of cat => pagination , space allows to jump to nxt page
+Use more instead of cat => pagination , space allows to jump to next page
 / => to do search
 
 ---
 
-head => only display the beginning of the file
-head -n 2 => only displays the first two lines
-head -c 9 => only the first 9 chars
+head => Only display the beginning of the file
+head -n 2 => Only displays the first two lines
+head -c 9 => Only the first 9 chars
 return to line is a char
 tail is the reverse of head
 
 ---
 
-cat -e => shows all the returned values untill new line
+cat -e => Shows all the returned values untill new line.
 
 ---
 
-grep -v => reversed search => all line that doesn't contain a certain char / word
-grep -i => case insensitive
+grep -v => Reversed search => all line that doesn't contain a certain char / word
+grep -i => Case insensitive.
 
 ---
 
-every program has stdin, stdout (standard output) and stderr (standard error output?)
+Streams :
 
-pipe operator => branch stdout of previous program to stdin of other program
+Every program has stdin, stdout (standard output) and stderr, {0, 1, 2}.
+
+Pipe operator '|' => Branchs stdout of previous program to stdin of other program
 
 ---
 
-ls > res.txt => output of ls inside this file
+Ls :
 
-ls hello 2> error.log will write the rror message inside error.log (usage of the 2)
+ls > res.txt => Output of ls inside this file
+
+ls hello 2> error.log will write the error message inside error.log (usage of the 2)
 
 ls can take several args and you can redirect to both stdin and stderr
 e.g. file hello is not existing in our directory and we want to search for a specific test file with the grep after having listed all the "test" files
 
 ls hello test* 2> error.log | grep test.txt => this is writing any error in error.log file and searching in normal stdin for test files.
 
+---
 
-grep Joker < batman.txt => we modify the standard entry for the batman.txt file
+Grep :
+
+grep Joker < batman.txt => We modify the standard entry for the batman.txt file
 it basically does cat batman.txt | grep Joker
+
+---
+
+Echo :
 
 echo hello > res.txt 
 echo yeay > res.txt => it will replace the content
 but with `>>` it will append it at the end
-
 
 << you append text until the matching keyword after the double arrows
 e.g.
@@ -131,7 +140,7 @@ https://unix.stackexchange.com/questions/27428/what-does-backquote-backtick-mean
 
 ---
 
-advanced shell functions / utilitaries
+Advanced shell functions / utilitaries
 
 1) find = looking for files
 find . -name hello.txt => find any file in the current directory where the name is hello.txt
@@ -142,6 +151,8 @@ e.g. find . -name .gitignore
 
 ---
 
+WC :
+
 2) wc = wordcount
 -l => line
 -w => words
@@ -149,15 +160,21 @@ e.g. find . -name .gitignore
 
 ---
 
+BC :
+
 3) bc = calculation function
 to go out quit
 
 ---
 
+PATCH :
+
 4) patch
-patch takes a patch file patchfile containing a difference listing produced by the diff program and applies those differences to one or more original files, producing patched versions.
+patch takes a patch file containing a difference listing produced by the diff program and applies those differences to one or more original files, producing patched versions.
 
 ---
+
+SED :
 
 5) sed
 Normally sed is invoked like this:
@@ -210,13 +227,14 @@ ctrl + \ => quit as well
 
 ---
 
-git
+git :
 
 
 git log --pretty=format:"%H" => will return the list of commit hashes
 you can pick your own format for your commits
 
 git branch => creates a new branch but doesn't go in there
+
 git checkout -b => creates a new branch and goes in there
 
 ---
