@@ -1,10 +1,6 @@
 ---
 
-### [back](https://github.com/alaamimi/Piscine-42/tree/master/Shell/shell00)
-
----
-
-#### If you RTFM!(`man ls`) we will see that:
+### If you RTFM!(`man ls`) we will see that :
 
 -t:	sort by modification time, newest first
 
@@ -25,9 +21,6 @@ truly sort the results by creation date, so we need to create a script or use
 other methods to ensure we display the results in the desired manner. This is
 given because most UNIXes do not have a concept of file creation time, so we
 can't make `ls` print it because the information is not recorded.
-
-For those looking for more go to my [sources](https://unix.stackexchange.com/questions/91197/how-to-find-creation-date-of-file)
-here.
 
 ---
 
