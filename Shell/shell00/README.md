@@ -16,10 +16,14 @@
 | 10 | Illusions, not tricks, Michael... | ex10/ | ft_magic |
 
 
+---
+
 </p>
 <p align="center">
-<img src="https://techglimpse.com/wp-content/uploads/2013/11/auto-complete-bash-shell.gif" width="800">
+<img src="https://techglimpse.com/wp-content/uploads/2013/11/auto-complete-bash-shell.gif" width="500">
 <p/>
+
+---
 
 ## :information_source: Notes :
 
