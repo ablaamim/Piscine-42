@@ -1,7 +1,5 @@
-### [back](https://github.com/alaamimi/Piscine-42/tree/master/Shell/shell01)
+#### If we search `man groups` we will see that :
 
-------------------------------------------
-#### If we search `man groups` we will see that:
 ```
 NAME:
 	groups - print the groups a user is in
@@ -15,7 +13,8 @@ $ groups $FT_USER
 > The result of the command `$ groups $FT_USER` is only displaying the list,
 but we need to separate it into a comma-separated list.
 
-#### Next to make it a comma-separated list we need `man tr` and:
+#### Next to make it a comma-separated list we need `man tr` and :
+
 ```
 NAME:
 	tr - translate or delete characters
@@ -62,5 +61,4 @@ We can now use this past three elements to create the solution as follows:
 $ groups $FT_USER | tr ' ' ',' | tr -d '\n'
 ```
 
-------------------------------------------
-### [back](https://github.com/alaamimi/Piscine-42/tree/master/Shell/shell01)
+---
