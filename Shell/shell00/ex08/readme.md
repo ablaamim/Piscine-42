@@ -1,10 +1,5 @@
----
 
-### [back](https://github.com/alaamimi/Piscine-42/tree/master/Shell/shell00)
-
----
-
-#### If we STFI!(Search the Fuc***g internet) we will see that:
+#### If we STFI!(Search the Fucking internet) we will see that :
 
 * `find` is the command that can address all the requirements.
 * so next we can `man find` and we can with the next solution:
