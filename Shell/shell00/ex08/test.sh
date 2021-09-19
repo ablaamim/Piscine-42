@@ -1,15 +1,17 @@
 # **************************************************************************** #
 #                                                                              #
 #                                                         :::      ::::::::    #
-#    clean                                              :+:      :+:    :+:    #
+#    test.sh                                            :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: alaamimi <alaamimi@student.1337.ma>        +#+  +:+       +#+         #
+#    By: ablaamim <ablaamim@student.1337.ma>        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2021/06/17 01:39:37 by alaamimi          #+#    #+#              #
-#    Updated: 2021/09/19 15:10:53 by ablaamim         ###   ########.fr        #
+#    Created: 2021/09/19 15:12:41 by ablaamim          #+#    #+#              #
+#    Updated: 2021/09/19 15:14:26 by ablaamim         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 #!/bin/bash
 
-find . -type f \( -name "*~" -o -name "#*#" \) -print -delete
+touch \#test0\# test1\~ \#test3\#
+
+sh clean

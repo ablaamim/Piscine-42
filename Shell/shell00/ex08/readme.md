@@ -7,6 +7,9 @@
 ```
 $ find . -name "*~" -print -delete -o -name "*#" -print -delete -o -name "#*" -print -delete
 
+-type f
+		type files to filter from current folder and subfolders.
+
 -name [pattern]
 		Base of file name (the path with the leading directories removed)
 		matches shell pattern.
