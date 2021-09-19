@@ -1,5 +1,5 @@
 
-#### If we STFI!(Search the Fucking internet) we will see that :
+#### if we read the manual we will see that :
 
 * `find` is the command that can address all the requirements.
 * so next we can `man find` and we can with the next solution:
