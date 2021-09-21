@@ -1,1 +1,1 @@
-ls -ump
+ls -Utmp

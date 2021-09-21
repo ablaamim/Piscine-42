@@ -6,10 +6,11 @@
 #    By: ablaamim <ablaamim@student.1337.ma>        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/09/18 17:52:14 by ablaamim          #+#    #+#              #
-#    Updated: 2021/09/18 17:54:14 by ablaamim         ###   ########.fr        #
+#    Updated: 2021/09/21 07:24:07 by ablaamim         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 #!/bin/bash
 
-git log --formar="%H" | head -n 5
+git log --format="%H" | head -n 5
+
