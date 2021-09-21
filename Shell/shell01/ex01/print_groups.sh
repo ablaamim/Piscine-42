@@ -6,9 +6,10 @@
 #    By: alaamimi <alaamimi@student.1337.ma>        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/06/17 02:03:20 by alaamimi          #+#    #+#              #
-#    Updated: 2021/06/17 02:05:34 by alaamimi         ###   ########.fr        #
+#    Updated: 2021/09/21 06:12:18 by ablaamim         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 #!/bin/sh
+
 groups $FT_USER | tr ' ' ',' | tr -d '\n'

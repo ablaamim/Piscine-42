@@ -13,6 +13,8 @@ $ groups $FT_USER
 > The result of the command `$ groups $FT_USER` is only displaying the list,
 but we need to separate it into a comma-separated list.
 
+---
+
 #### Next to make it a comma-separated list we need `man tr` and :
 
 ```
@@ -55,7 +57,10 @@ example.png
 $
 ```
 
-#### End result:
+---
+
+#### Final result:
+
 We can now use this past three elements to create the solution as follows:
 ```
 $ groups $FT_USER | tr ' ' ',' | tr -d '\n'
