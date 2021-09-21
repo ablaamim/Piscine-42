@@ -1,10 +1,5 @@
----
+#### First lets see the options for IFCONFIG on `man ifconfig` :
 
-### [back](https://github.com/alaamimi/Piscine-42/tree/master/Shell/shell01)
-
----
-
-#### First lets see the options for IFCONFIG on `man ifconfig`
 * Due to the present requirements we can see that we need the flag[OPTION] `-a`
 because that one `display all interfaces which are currently available,
 even if down`
@@ -66,12 +61,8 @@ doing this on a linux machine like me:
 ```
 ifconfig -a | grep ether | awk '{print $2}'
 ```
-I chose this option since my MAC addresses are next to the word "ether" so the
+I use this option since my MAC addresses are next to the word "ether" so the
 option grep gives me back the line where this word happens, and next with awk
 I can select the second group of word per line, which are the MACs.
-
----
-
-### [back](https://github.com/alaamimi/Piscine-42/tree/master/Shell/shell01)
 
 ---
