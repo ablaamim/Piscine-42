@@ -6,11 +6,11 @@
 #    By: alaamimi <alaamimi@student.1337.ma>        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/06/17 02:14:53 by alaamimi          #+#    #+#              #
-#    Updated: 2021/09/21 06:15:04 by ablaamim         ###   ########.fr        #
+#    Updated: 2021/09/22 06:51:19 by ablaamim         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 #!/bin/bash
 
-find . -name "*.sh" | rev | cut -c4- | cut -d '/' -f1 | rev
+find . -type f -name "*.sh" | rev | cut -c4- | cut -d '/' -f1 | rev
 
