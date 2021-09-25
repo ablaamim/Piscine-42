@@ -6,7 +6,7 @@
 /*   By: ablaamim <ablaamim@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/25 06:47:02 by ablaamim          #+#    #+#             */
-/*   Updated: 2021/09/25 22:59:04 by ablaamim         ###   ########.fr       */
+/*   Updated: 2021/09/25 23:48:49 by ablaamim         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,20 +21,20 @@ void  ft_putchar(char c)
 int	ft_atoi(char *str)
 {
 	int	sign;
-	int	num;
+	unsigned long int	num;
 
 	sign = 1;
 	num = 0;
-	while ((*str == 32) || (*str >= 7 && *str <=13))
-		*str++;
+	while ((*str == 32) || (*str >= 7 && *str <= 13))
+		str++;
 	if (*str == '-')
 		sign *= -1;
 	if (*str == '+' || *str == '-')
-		*str++;
+		str++;
 	while (*str >= 48 && *str <= 57)
 	{
-		num = num * 10 + *str - 48;
-		*str++;
+		num = (num * 10) + (*str - 48);
+		str++;
 	}
 	return (sign * num);
 }
@@ -93,5 +93,5 @@ int	main(int ac, char **av)
 {
 	if (ac == 3)
 		rush04(ft_atoi(av[1]), ft_atoi(av[2]));
-	return (EXIT_SUCCESS);
+	return (0);
 }
