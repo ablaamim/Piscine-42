@@ -6,10 +6,10 @@
 #    By: ablaamim <ablaamim@student.1337.ma>        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/09/21 06:17:28 by ablaamim          #+#    #+#              #
-#    Updated: 2021/09/21 06:17:38 by ablaamim         ###   ########.fr        #
+#    Updated: 2021/09/22 07:01:04 by ablaamim         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 #!/bin/bash
 
-find . -type f -o -type d | wc -l
+find . \( -type f -o -type d \) | wc -l | tr -d ' '
