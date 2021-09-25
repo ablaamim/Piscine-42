@@ -6,19 +6,40 @@
 /*   By: ablaamim <ablaamim@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/25 06:47:02 by ablaamim          #+#    #+#             */
-/*   Updated: 2021/09/25 07:38:27 by ablaamim         ###   ########.fr       */
+/*   Updated: 2021/09/25 22:59:04 by ablaamim         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
-#include <stdlib.h>
 
 void  ft_putchar(char c)
 {
   write(1, &c, 1);
 }
 
-void	print_matr(int line, int col, int max_l, int max_col)
+
+int	ft_atoi(char *str)
+{
+	int	sign;
+	int	num;
+
+	sign = 1;
+	num = 0;
+	while ((*str == 32) || (*str >= 7 && *str <=13))
+		*str++;
+	if (*str == '-')
+		sign *= -1;
+	if (*str == '+' || *str == '-')
+		*str++;
+	while (*str >= 48 && *str <= 57)
+	{
+		num = num * 10 + *str - 48;
+		*str++;
+	}
+	return (sign * num);
+}
+
+void	print_matrix(int line, int col, int max_l, int max_col)
 {
 	if (line == 0)
 	{
@@ -52,7 +73,7 @@ void	rush04(int x, int y)
 	int	line;
 	int	col;
 
-	if (x < 0 || y < 0)
+	if (x <= 0 || y <= 0)
 		return ;
 	line = 0;
 	while (line < y)
@@ -60,7 +81,7 @@ void	rush04(int x, int y)
 		col = 0;
 		while (col < x)
 		{
-			print_matr(line, col, y - 1, x - 1);
+			print_matrix(line, col, y - 1, x - 1);
 			col++;
 		}
 		ft_putchar('\n');
@@ -70,7 +91,7 @@ void	rush04(int x, int y)
 
 int	main(int ac, char **av)
 {
-	if (ac ==3)
-		rush04(atoi(av[1]), atoi(av[2]));
-	return EXIT_SUCCESS;
+	if (ac == 3)
+		rush04(ft_atoi(av[1]), ft_atoi(av[2]));
+	return (EXIT_SUCCESS);
 }
