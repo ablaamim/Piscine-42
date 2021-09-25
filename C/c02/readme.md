@@ -54,6 +54,7 @@ char	*ft_strcpy(char *dest, char *src)
 ---
 
 3. :wrench: :computer: Test && Debug :
+
 ```c
 #include <stdio.h>
 #include <stdlib.h>
@@ -117,9 +118,20 @@ Future is loading
 ```c
 char	*ft_strncpy(char *dest, char *src, unsigned int n)
 {
-	while (*src != '\0' && n--)
-		*dest++ = *src++;
-	*dest = '\0';
+	unsigned int i;
+
+	if (dest == NULL)
+		return (NULL);
+	i = 0;
+	while (i < n)
+	{
+		dest[i] = src[i];
+		i++;
+	}
+	while (i < n)
+	{
+		dest[i] = '\0';
+	}
 	return (dest);
 }
 ```
@@ -130,36 +142,29 @@ char	*ft_strncpy(char *dest, char *src, unsigned int n)
 ```c
 int	main(void)
 {
-	char	dest[] = "";
+	char	dest[256];
 	char	src[]= "Text1.txt\n";
+	char	str0[] = "----------------------------------------------\n";
 	unsigned int	n;
 
-	n = 10;
-	write(1, "-----\n", 6);
-	ft_putstr(src);
-	write(1, "\n", 1);
-	write(1, "-----\n", 6);
+	n = 5;
+	ft_putstr(str0);
 	ft_strncpy(dest, src, n);
 	ft_putstr(dest);
-	write(1, "\n", 1);
-	write(1, "-----\n", 6);
+	ft_putchar('\n');
+	ft_putstr(str0);
 	return (EXIT_SUCCESS);
 }
+
 ```
 
 ---
 
 4. :8ball: Expected output :
 ```
------
-Text1.txt
-
------
-Text1.txt
-
------
-```
----
+----------------------------------------------
+Text1
+----------------------------------------------
 
 ## Exercise 02 : ft_str_is_alpha :
 
