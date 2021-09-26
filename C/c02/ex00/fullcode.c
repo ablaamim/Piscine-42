@@ -6,7 +6,7 @@
 /*   By: alaamimi <alaamimi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/21 22:18:37 by alaamimi          #+#    #+#             */
-/*   Updated: 2021/09/12 19:00:57 by alaamimi         ###   ########.fr       */
+/*   Updated: 2021/09/26 17:47:26 by ablaamim         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,12 +28,7 @@ void	ft_putstr(char *str)
 
 char	*ft_strcpy(char *dest, char *src)
 {
-	if ((dest == NULL) || (src == NULL))
-		return (NULL);
-	while (*src)
-		*dest++ = *src++;
-	*dest = '\0';
-	return (dest);
+	while (*dest++ = *src++);
 }
 
 int	main(void)

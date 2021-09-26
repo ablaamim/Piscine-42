@@ -6,12 +6,13 @@
 /*   By: alaamimi <alaamimi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/25 22:24:44 by alaamimi          #+#    #+#             */
-/*   Updated: 2021/09/25 06:37:33 by root             ###   ########.fr       */
+/*   Updated: 2021/09/25 21:56:32 by ablaamim         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 #include <stdlib.h>
+#include <stdio.h>
 
 void	ft_putchar(char c)
 {
@@ -44,10 +45,7 @@ int	main(void)
 {
 	/*TEST 1 : */
 	char	str[] = "";
-		write(1, "-----\n", 6);
-	ft_putstr(str);
-		write(1, "\n", 1);
-		write(1, "-----\n", 6);
+	printf("-----------------------------------------------\n")
 	ft_str_is_numeric(str);
 	ft_putnbr(ft_str_is_numeric(str));
 		write(1, "\n", 1);

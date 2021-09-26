@@ -6,7 +6,7 @@
 /*   By: ablaamim <ablaamim@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/25 06:47:02 by ablaamim          #+#    #+#             */
-/*   Updated: 2021/09/25 23:48:49 by ablaamim         ###   ########.fr       */
+/*   Updated: 2021/09/26 18:21:37 by ablaamim         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,6 +39,7 @@ int	ft_atoi(char *str)
 	return (sign * num);
 }
 
+
 void	print_matrix(int line, int col, int max_l, int max_col)
 {
 	if (line == 0)
@@ -68,7 +69,7 @@ void	print_matrix(int line, int col, int max_l, int max_col)
 	}
 }
 
-void	rush04(int x, int y)
+void	rush(int x, int y)
 {
 	int	line;
 	int	col;

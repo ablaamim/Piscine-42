@@ -6,7 +6,7 @@
 /*   By: alaamimi <alaamimi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/26 05:13:08 by alaamimi          #+#    #+#             */
-/*   Updated: 2021/04/26 05:57:20 by alaamimi         ###   ########.fr       */
+/*   Updated: 2021/09/26 15:36:22 by root             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,17 +15,17 @@
 
 void	ft_putstr(char *str)
 {
-	while (*str != '\0')
+	while (*str)
 		write(1, &(*str++),1);
 }
 
 char *ft_strupcase(char *str)
 {
-	while (*str != '\0')
+	while (*str)
 	{
 		if(*str >= 'a' && *str <= 'z')
 			*str = *str - 32;
-		*str++;
+		str++;
 	}
 	return (str);
 }

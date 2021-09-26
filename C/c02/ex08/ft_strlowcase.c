@@ -3,20 +3,21 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlowcase.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: alaamimi <alaamimi@student.42.fr>          +#+  +:+       +#+        */
+/*   By: root </var/mail/root>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/04/26 05:48:37 by alaamimi          #+#    #+#             */
-/*   Updated: 2021/04/26 05:49:27 by alaamimi         ###   ########.fr       */
+/*   Created: 2021/09/26 11:34:13 by root              #+#    #+#             */
+/*   Updated: 2021/09/26 11:34:20 by root             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <unistd.h>
+
 char	*ft_strlowcase(char *str)
 {
-	while (*str != '\0')
+	while (*str++)
 	{
 		if (*str >= 'A' && *str <= 'Z')
 			*str = *str + 32;
-		*str++;
 	}
 	return (str);
 }
