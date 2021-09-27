@@ -6,7 +6,7 @@
 /*   By: alaamimi <alaamimi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/25 22:24:44 by alaamimi          #+#    #+#             */
-/*   Updated: 2021/09/25 21:56:32 by ablaamim         ###   ########.fr       */
+/*   Updated: 2021/09/27 23:34:04 by root             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,11 +32,14 @@ void	ft_putnbr(int nb)
 }
 int ft_str_is_numeric(char *str)
 {
+	unsigned int i;
+
+	i = 0;
 	while (*str != '\0')
 	{
-		if (!(*str >= '0' && *str <= '9'))
+		if (str[i] < '0' || str[i] > '9')
 			return (0);
-		*str++;
+		i++;
 	}
 	return (1);
 }
@@ -45,7 +48,7 @@ int	main(void)
 {
 	/*TEST 1 : */
 	char	str[] = "";
-	printf("-----------------------------------------------\n")
+	printf("-----------------------------------------------\n");
 	ft_str_is_numeric(str);
 	ft_putnbr(ft_str_is_numeric(str));
 		write(1, "\n", 1);
