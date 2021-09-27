@@ -6,17 +6,22 @@
 /*   By: alaamimi <alaamimi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/25 20:34:06 by alaamimi          #+#    #+#             */
-/*   Updated: 2021/04/25 20:41:18 by alaamimi         ###   ########.fr       */
+/*   Updated: 2021/09/27 23:29:34 by root             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <unistd.h>
+
 int	ft_str_is_alpha(char *str)
 {
-	while (*str != '\0')
+	unsigned int	i;
+
+	i = 0;
+	while (str[i] != '\0')
 	{
-		if (!((*str >= 'a' && *str <= 'z') || (*str >= 'A' && *str <= 'Z')))
+		if ((str[i] < 'a' || str[i] > 'z') && (str[i] < 'A' || str[i] > 'Z')))
 			return (0);
-		*str++;
+		i++;
 	}
 	return (1);
 }

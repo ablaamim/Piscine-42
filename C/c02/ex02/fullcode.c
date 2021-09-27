@@ -6,7 +6,7 @@
 /*   By: alaamimi <alaamimi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/23 02:13:51 by alaamimi          #+#    #+#             */
-/*   Updated: 2021/09/25 21:36:22 by ablaamim         ###   ########.fr       */
+/*   Updated: 2021/09/27 23:31:36 by root             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include <unistd.h>
@@ -15,11 +15,13 @@
 
 int	ft_str_is_alpha(char *str)
 {
-	while (*str != '\0')
+	unsigned int	i;
+	i = 0;
+	while (str[i] != '\0')
 	{
-		if (!((*str >= 'A' && *str <= 'Z') || (*str >= 'a' && *str <= 'z')))
+		if ((str[i] < 'A' || str[i] > 'Z') && (str[i] < 'a' || str[i] > 'z'))
 			return (0);
-		*str++;
+		i++;
 	}
 	return (1);
 }
