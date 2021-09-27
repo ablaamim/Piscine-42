@@ -6,17 +6,20 @@
 /*   By: alaamimi <alaamimi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/25 23:13:46 by alaamimi          #+#    #+#             */
-/*   Updated: 2021/04/25 23:14:58 by alaamimi         ###   ########.fr       */
+/*   Updated: 2021/09/27 23:35:19 by root             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 int	ft_str_is_lowercase(char *str)
 {
-	while (*str != '\0')
+	unsigned int i;
+
+	i = 0;
+	while (str[i] != '\0')
 	{
-		if (!(*str >= 'a' && *str <= 'z'))
+		if (str < 'a' || str > 'z')
 			return (0);
-		*str++;
+		i++;
 	}
 	return (1);
 }
