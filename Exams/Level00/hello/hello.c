@@ -1,32 +1,30 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   aff_a.c                                            :+:      :+:    :+:   */
+/*   hello.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ablaamim <ablaamim@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/09/24 06:37:02 by ablaamim          #+#    #+#             */
-/*   Updated: 2021/09/24 06:45:39 by ablaamim         ###   ########.fr       */
+/*   Created: 2021/09/30 21:04:29 by ablaamim          #+#    #+#             */
+/*   Updated: 2021/09/30 21:06:36 by ablaamim         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-int	main(int argc, char **argv)
+void	ft_putstr(char *str)
 {
-	if (argc <= 1)
-		write(1, "a", 1);
-	else
+	while (*str)
 	{
-		while (*argv[1])
-		{
-			if (*argv[1]++ == 'a')
-			{
-				write(1, "a", 1);
-				break;
-			}
-		}
+		write(1, str, 1);
+		str++;
 	}
-	write(1, "\n", 1);
+}
+
+int	main(void)
+{
+	char str[] = "Hello World!\n";
+
+	ft_putstr(str);
 	return (0);
 }

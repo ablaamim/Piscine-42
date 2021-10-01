@@ -6,7 +6,7 @@
 /*   By: ablaamim <ablaamim@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/25 06:47:02 by ablaamim          #+#    #+#             */
-/*   Updated: 2021/09/26 18:21:37 by ablaamim         ###   ########.fr       */
+/*   Updated: 2021/09/27 21:36:06 by root             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -93,6 +93,6 @@ void	rush(int x, int y)
 int	main(int ac, char **av)
 {
 	if (ac == 3)
-		rush04(ft_atoi(av[1]), ft_atoi(av[2]));
+		rush(ft_atoi(av[1]), ft_atoi(av[2]));
 	return (0);
 }
