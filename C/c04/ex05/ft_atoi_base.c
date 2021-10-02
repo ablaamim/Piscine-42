@@ -1,94 +1,61 @@
-/*-----------------------------------------------------
--                               __                    -
--                             .d$$b                   -
--                           .' TO$;\                  -
--                          /  : TP._;                 -
--                         / _.;  :Tb|                 -
--                        /   /   ;j$j                 -
--                    _.-"       d$$$$                 -
--                  .' ..       d$$$$;                 -
--                 /  /P'      d$$$$P. |\              -
--                /   "      .d$$$P' |\^"l             -
--              .'           `T$P^"""""  :             -
--          ._.'      _.'                ;             -
--       `-.-".-'-' ._.       _.-"    .-"              -
--     `.-" _____  ._              .-"                 -
--    -(.g$$$$$$$b.              .'                    -
--      ""^^T$$$P^)            .(:                     -
--        _/  -"  /.'         /:/;                     -
--     ._.'-'`-'  ")/         /;/;                     -
-------------------------------------------------------*/
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_atoi_base.c                                     :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: ablaamim <ablaamim@student.1337.ma>        +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/10/02 09:19:28 by ablaamim          #+#    #+#             */
+/*   Updated: 2021/10/02 10:07:39 by ablaamim         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-
-int		is_space(unsigned char c)
-{
-	if (c == '\t' || c == '\n' || c == '\v'
-		|| c == '\f' || c == '\r' || c == ' ')
-		return (1);
-	return (0);
-}
-
-int		is_base(char *str)
-{
-	int i;
-	int j;
-
-	i = 0;
-	while (str[i])
-	{
-		j = i + 1;
-		if (str[i] == '+' || str[i] == '-' || str[i] < '!'
-			|| str[i] > '~' || is_space(str[i]))
-			return (0);
-		while (str[j])
-		{
-			if (str[i] == str[j])
-				return (0);
-			j++;
-		}
-		i++;
-	}
-	if (i <= 1)
-		return (0);
-	return (i);
-}
-
-int		index_of(unsigned char c, char *str)
+int		ft_in_base(char c, char *base)
 {
 	int i;
 
-	i = 0;
-	while (str[i])
-	{
-		if (c == str[i])
+	i = -1;
+	while (base[++i])
+		if (c == base[i])
 			return (i);
-		i++;
-	}
 	return (-1);
+}
+
+int		ft_baselen(char *base)
+{
+	int size;
+
+	size = -1;
+	while (base[++size])
+		if (base[size] == '+' || base[size] == '-' || base[size] == ' '
+			|| ft_in_base(base[size], base + size + 1) >= 0
+			|| (base[size] >= 9 && base[size] <= 13))
+			return (0);
+	return (size);
 }
 
 int		ft_atoi_base(char *str, char *base)
 {
-	long	n;
-	int		sign;
-	int		base_size;
+	int i;
+	int n;
+	int negative;
+	int size;
 
-	sign = 1;
-	n = 0;
-	if (!(base_size = is_base(base)))
+	if ((size = ft_baselen(base)) < 2)
 		return (0);
-	while (*str && is_space(*str))
+	while ((*str >= 9 && *str <= 13) || *str == ' ')
 		str++;
-	while (*str && (*str == '+' || *str == '-'))
+	negative = 0;
+	while (*str == '-' || *str == '+')
+		if (*str++ == '-')
+			negative = 1 - negative;
+	n = 0;
+	while ((i = ft_in_base(*str, base)) >= 0)
 	{
-		if (*str == '-')
-			sign = -sign;
+		n = n * size + i;
 		str++;
 	}
-	while (*str && index_of(*str, base) != -1)
-	{
-		n = n * base_size + index_of(*str, base);
-		str++;
-	}
-	return ((int)(sign * n));
+	if (negative)
+		n *= -1;
+	return (n);
 }
