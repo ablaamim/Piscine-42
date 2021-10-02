@@ -1,71 +1,65 @@
-/*-----------------------------------------------------
--                               __                    -
--                             .d$$b                   -
--                           .' TO$;\                  -
--                          /  : TP._;                 -
--                         / _.;  :Tb|                 -
--                        /   /   ;j$j                 -
--                    _.-"       d$$$$                 -
--                  .' ..       d$$$$;                 -
--                 /  /P'      d$$$$P. |\              -
--                /   "      .d$$$P' |\^"l             -
--              .'           `T$P^"""""  :             -
--          ._.'      _.'                ;             -
--       `-.-".-'-' ._.       _.-"    .-"              -
--     `.-" _____  ._              .-"                 -
--    -(.g$$$$$$$b.              .'                    -
--      ""^^T$$$P^)            .(:                     -
--        _/  -"  /.'         /:/;                     -
--     ._.'-'`-'  ")/         /;/;                     -
-------------------------------------------------------*/
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_putnbr_base.c                                   :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: ablaamim <ablaamim@student.1337.ma>        +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/10/02 07:13:21 by ablaamim          #+#    #+#             */
+/*   Updated: 2021/10/02 08:21:20 by ablaamim         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include <unistd.h>
 
-int		is_base(char *str)
+void	ft_putchar(char c)
 {
-	int i;
-	int j;
-
-	i = 0;
-	while (str[i])
-	{
-		j = i + 1;
-		if (str[i] == '+' || str[i] == '-' || str[i] < '!' || str[i] > '~')
-			return (0);
-		while (str[j])
-		{
-			if (str[i] == str[j])
-				return (0);
-			j++;
-		}
-		i++;
-	}
-	if (i <= 1)
-		return (0);
-	return (i);
+	write(1, &c, 1);
 }
 
-void	convert_base(long nbr, char *base, int size)
+void	ft_print(unsigned int n, char *base, unsigned int size)
 {
-	if (nbr >= size)
-		convert_base(nbr / size, base, size);
-	write(1, &base[nbr % size], 1);
+	if (n > size - 1)
+	{
+		ft_print(n / size, base, size);
+		n %= size;
+	}
+	ft_putchar(base[n]);
+}
+
+int	ft_in_base(char c, char *base)
+{
+	while (*base)
+		if (c == *base++)
+			return (1);
+	return (0);
 }
 
 void	ft_putnbr_base(int nbr, char *base)
 {
-	long	nbr2;
-	int		base_size;
+	int	size;
 
-	nbr2 = nbr;
-	base_size = is_base(base);
-	if (base_size)
+	size = -1;
+	while (base[++size])
+		if (base[size] == '+' || base[size] == '-' || base[size] == ' '
+			|| ft_in_base(base[size], base + size + 1)
+			|| base[size] >= 7 && base[size] <= 13)
+			return ;
+	if (size < 2)
+		return ;
+	if (nbr < 0)
 	{
-		if (nbr2 < 0)
-		{
-			write(1, "-", 1);
-			nbr2 = -nbr2;
-		}
-		convert_base(nbr2, base, base_size);
+		ft_putchar('-');
+		ft_print(-nbr, base, size);
 	}
+	else
+		ft_print(nbr, base, size);
+}
+
+int	main(void)
+{
+	char	base[] = "0123456789ABCDEF";
+
+	int nbr = 32;
+	ft_putnbr_base(nbr, base);
 }
