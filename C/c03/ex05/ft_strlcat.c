@@ -12,39 +12,30 @@
 
 #include <unistd.h>
 
-unsigned int	ft_strlen(char *str)
+int				ft_strlen(char *str)
 {
-	unsigned int	i;
+	int n;
 
-	i = 0;
-	while (str[i])
-		i++;
-	return (i);
+	n = 0;
+	while (str[n])
+		n++;
+	return (n);
 }
 
 unsigned int	ft_strlcat(char *dest, char *src, unsigned int size)
 {
-	int				i;
-	int				limit;
-	unsigned int	dest_size;
-	unsigned int	src_size;
+	unsigned int	i;
+	unsigned int	j;
 
-	if (dest && src)
-	{
-		src_size = ft_strlen(src);
-		dest_size = ft_strlen(dest);
-		if (dest_size >= size || !size)
-			return (size + src_size);
-		i = 0;
-		limit = size - dest_size - 1;
-		while (src[i] && i < limit)
-		{
-			dest[dest_size + i] = src[i];
-			i++;
-		}
-		dest[dest_size + i] = '\0';
-		return (dest_size + src_size);
-	}
-	else
-		return (0);
+	i = -1;
+	while (++i < size && *dest)
+		dest++;
+	if (i == size)
+		return (i + (unsigned int)ft_strlen(src));
+	j = -1;
+	while (src[++j])
+		if (j < size - i - 1)
+			*dest++ = src[j];
+	*dest = '\0';
+	return (i + j);
 }
