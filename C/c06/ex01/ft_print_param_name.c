@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_print_program_name.c                            :+:      :+:    :+:   */
+/*   ft_print_param_name.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ablaamim <ablaamim@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/10/03 07:22:12 by ablaamim          #+#    #+#             */
-/*   Updated: 2021/10/03 07:43:57 by ablaamim         ###   ########.fr       */
+/*   Created: 2021/10/03 07:45:48 by ablaamim          #+#    #+#             */
+/*   Updated: 2021/10/03 07:50:43 by ablaamim         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,10 +25,17 @@ void	ft_putstr(char *str)
 
 int	main(int argc, char **argv)
 {
-	if (argc > 0)
+	int	i;
+
+	i = 1;
+	if (argc > 1)
 	{
-		ft_putstr(argv[0]);
-		ft_putchar('\n');
+		while (i < argc)
+		{
+			ft_putstr(argv[i]);
+			ft_putchar('\n');
+			i++;
+		}
 	}
 	return (0);
 }
