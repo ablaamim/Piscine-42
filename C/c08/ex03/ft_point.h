@@ -1,29 +1,24 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_sqrt.c                                          :+:      :+:    :+:   */
+/*   ft_point.h                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ablaamim <ablaamim@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/10/04 08:17:19 by ablaamim          #+#    #+#             */
-/*   Updated: 2021/10/04 08:29:41 by ablaamim         ###   ########.fr       */
+/*   Created: 2021/10/10 00:23:49 by ablaamim          #+#    #+#             */
+/*   Updated: 2021/10/10 00:31:26 by ablaamim         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+#ifndef FT_POINT_H
+# define FT_POINT_H
 
-int	ft_sqrt(int nb)
+typedef struct s_point
 {
-	int sqrt;
+	int	x;
+	int	y;
+}	t_point;
 
-	if (nb == 1)
-		return (1);
-	sqrt = 2;
-	while ((sqrt * sqrt) <= nb && sqrt <= 46340)
-	{
-		if ((sqrt * sqrt) == nb)
-			return (sqrt);
-		sqrt++;
-	}
-	return (0);
-}
+void	set_point(t_point *point);
+
+#endif

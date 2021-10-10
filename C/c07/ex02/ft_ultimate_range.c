@@ -5,71 +5,54 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: ablaamim <ablaamim@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/10/07 13:14:38 by ablaamim          #+#    #+#             */
-/*   Updated: 2021/10/07 14:25:50 by ablaamim         ###   ########.fr       */
+/*   Created: 2021/10/10 16:22:49 by ablaamim          #+#    #+#             */
+/*   Updated: 2021/10/10 16:37:25 by ablaamim         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
-#include <stdio.h>
 #include <unistd.h>
+#include <stdio.h>
+#include <stdlib.h>
 
-void	ft_putchar(char c)
+void	intarray_debug(int *tab, int size)
 {
-	write(1, &c, 1);
-}
+	int	i;
 
-void	ft_putnbr(int nb)
-{
-	if (nb < 0)
+	i = 0;
+	printf("[");
+	while (i < size - 1)
 	{
-		ft_putchar('-');
-		nb = -nb;
+		printf("%d, ", tab[i]);
+		i++;
 	}
-	if (nb > 9)
-	{
-		ft_putnbr(nb / 10);
-	}
-	ft_putchar(nb % 10 + 48);
-}
-
-void	ft_putnbr_array(int *tab, int size)
-{
-	ft_putchar('[');
-	ft_putchar(' ');
-	while (size-- > 0)
-	{
-		ft_putnbr(*tab++);
-		ft_putchar(' ');
-	}
-	ft_putchar(']');
+	printf("%d", tab[size - 1]);
+	printf("]");
 }
 
 int	ft_ultimate_range(int **range, int min, int max)
 {
-	int	*tab;
 	int	i;
 
 	if (min >= max)
-		return (0);
-	tab = (int *)malloc((max - min) * sizeof(int));
-	if (!tab)
 	{
 		*range = NULL;
-		return (-1);
+		return (0);
 	}
-	i = 0;
-	while (min < max)
-		tab[i++] = min++;
-	*range = tab;
-	return (i);
+	max -= min;
+	*range = malloc(max * sizeof(int));
+	if (*range == NULL)
+		return (-1);
+	i = -1;
+	while (++i < max)
+		(*range)[i] = min + i;
+	return (max);
 }
 
 int	main(void)
 {
-	int *tab;
+	int	*tab;
 
-	ft_putnbr_array(tab, ft_ultimate_range(&tab, 20, 50));
-	ft_putchar('\n');
+	intarray_debug(tab, ft_ultimate_range(&tab, 10, 20));
+	printf("\n");
 	return (0);
 }

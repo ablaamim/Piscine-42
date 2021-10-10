@@ -1,49 +1,54 @@
-/*-----------------------------------------------------
--                               __                    -
--                             .d$$b                   -
--                           .' TO$;\                  -
--                          /  : TP._;                 -
--                         / _.;  :Tb|                 -
--                        /   /   ;j$j                 -
--                    _.-"       d$$$$                 -
--                  .' ..       d$$$$;                 -
--                 /  /P'      d$$$$P. |\              -
--                /   "      .d$$$P' |\^"l             -
--              .'           `T$P^"""""  :             -
--          ._.'      _.'                ;             -
--       `-.-".-'-' ._.       _.-"    .-"              -
--     `.-" _____  ._              .-"                 -
--    -(.g$$$$$$$b.              .'                    -
--      ""^^T$$$P^)            .(:                     -
--        _/  -"  /.'         /:/;                     -
--     ._.'-'`-'  ")/         /;/;                     -
-------------------------------------------------------*/
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_strdup.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: ablaamim <ablaamim@student.1337.ma>        +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/10/09 10:18:16 by ablaamim          #+#    #+#             */
+/*   Updated: 2021/10/09 10:30:06 by ablaamim         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include <stdlib.h>
+#include <stdio.h>
 
-int		ft_strlen(char *str)
+unsigned int	ft_strlen(char *str)
 {
-	int	i;
+	int	len;
 
-	i = 0;
-	while (str[i])
-		i++;
-	return (i);
+	len = 0;
+	while (*str++)
+	{
+		len++;
+	}
+	return (len);
 }
 
 char	*ft_strdup(char *src)
 {
-	int		i;
-	int		size;
-	char	*ptr;
+	char	*dup;
+	int		index;
 
-	size = ft_strlen(src);
-	ptr = malloc(sizeof(char) * (size + 1));
-	if (ptr)
+	index = 0;
+	if (src == NULL)
+		return (NULL);
+	dup = malloc(sizeof (char) * (ft_strlen(src) + 1));
+	if (dup == NULL)
+		return (NULL);
+	while (src[index])
 	{
-		i = -1;
-		while (++i < size)
-			ptr[i] = src[i];
-		ptr[i] = '\0';
+		dup[index] = src[index];
+		index++;
 	}
-	return (ptr);
+	dup[index] = '\0';
+	return (dup);
+}
+
+int	main(void)
+{
+	char	src[] = "DUPLICATE THIS OUT NIGGA !";
+
+	printf("|%s|\n", ft_strdup(src));
+	return (0);
 }
