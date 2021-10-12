@@ -6,12 +6,13 @@
 /*   By: ablaamim <ablaamim@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/09 10:18:16 by ablaamim          #+#    #+#             */
-/*   Updated: 2021/10/09 10:30:06 by ablaamim         ###   ########.fr       */
+/*   Updated: 2021/10/11 22:23:17 by ablaamim         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdlib.h>
 #include <stdio.h>
+#include <string.h>
 
 unsigned int	ft_strlen(char *str)
 {
@@ -31,8 +32,6 @@ char	*ft_strdup(char *src)
 	int		index;
 
 	index = 0;
-	if (src == NULL)
-		return (NULL);
 	dup = malloc(sizeof (char) * (ft_strlen(src) + 1));
 	if (dup == NULL)
 		return (NULL);
@@ -50,5 +49,6 @@ int	main(void)
 	char	src[] = "DUPLICATE THIS OUT NIGGA !";
 
 	printf("|%s|\n", ft_strdup(src));
+	printf("|%s|\n", strdup(src));
 	return (0);
 }
