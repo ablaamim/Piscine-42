@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_print_memory.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: root </var/mail/root>                      +#+  +:+       +#+        */
+/*   By: ablaamim <ablaamim@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/09/26 17:45:35 by root              #+#    #+#             */
-/*   Updated: 2021/09/26 17:45:39 by root             ###   ########.fr       */
+/*   Created: 2021/10/14 01:39:07 by ablaamim          #+#    #+#             */
+/*   Updated: 2021/10/14 01:39:58 by ablaamim         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-int		char_is_printable(char c)
+int	char_is_printable(char c)
 {
 	if (c < ' ' || c > '~')
 		return (0);
@@ -27,7 +27,7 @@ void	convert_hexa(unsigned char c)
 
 void	print_content_hexa(char *str)
 {
-	int i;
+	int	i;
 
 	i = 0;
 	while (str[i] && i < 16)
@@ -41,9 +41,9 @@ void	print_content_hexa(char *str)
 
 void	print_content_printable(char *str)
 {
-	int i;
-	int size;
-	int n_spaces;
+	int	i;
+	int	size;
+	int	n_spaces;
 
 	size = 0;
 	while (str[size])

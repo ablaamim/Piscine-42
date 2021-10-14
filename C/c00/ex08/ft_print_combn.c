@@ -6,43 +6,40 @@
 /*   By: ablaamim <ablaamim@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/23 06:33:04 by ablaamim          #+#    #+#             */
-/*   Updated: 2021/09/23 06:42:45 by ablaamim         ###   ########.fr       */
+/*   Updated: 2021/10/14 01:45:30 by ablaamim         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void	ft_print_combn(int n)
+void	print_combn(char	*num, int	num_size,	int	index,	char	digit)
 {
-	char	max[9];
-	char	num[9];
-	int		counter;
-
-	counter = -1;
-	while (++counter < n)
+	if (index == num_size)
 	{
-		max[counter] = 57 - (n - 1) + counter;
-		num[counter] = 48 + counter;
-	}
-	write(1, num, --counter + 1);
-	while (counter >= 0)
-	{
-		if (num[counter] == max[counter])
-			--counter;
-		else if (++counter != n)
-			num[counter] = num[counter - 1];
-		else
-			--counter;
-		if (++num[counter] == max[counter] || counter == n  - 1)
-		{
+		write(1, num, num_size);
+		if (num[0] - '0' < 10 - num_size)
 			write(1, ", ", 2);
-			write(1, num, n);
+	}
+	else
+	{
+		while (digit - '0' <= (10 - num_size) + index)
+		{
+			num[index] = digit;
+			print_combn(num, num_size, index + 1, digit + 1);
+			digit++;
 		}
 	}
 }
 
+void	ft_print_combn(int	n)
+{
+	char	num[9];
+
+	if (n > 0 && n < 10)
+		print_combn(num, n, 0, '0');
+}
+
 int	main(void)
 {
-	ft_print_combn(2);
-	return (0);
+	ft_print_combn(5);
 }
